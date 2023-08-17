@@ -6,7 +6,7 @@ const AboutUs = () => {
         <div className='aboutUs-bgimg'>
             <h1>ABOUT US</h1>
             
-     <p> Mowdministries it a non-profit organization where the members preaches the love of Jesus Christ.
+     <p> Mowdministries is a non-profit organization where the members preaches the love of Jesus Christ.
 
     </p>
         </div>
