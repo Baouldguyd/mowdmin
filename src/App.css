@@ -1,38 +1,248 @@
-.App {
-  text-align: center;
-}
+@media only screen and (max-width: 500px) {
+  .head{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .headline p {
+    text-align: center;
+    color: white;
   }
-  to {
-    transform: rotate(360deg);
+  .options{
+    width: 47px;
+    height: 10px;
+    flex-shrink: 0;
   }
+  .options img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo{
+  width: 3rem;
+  height: 3rem;
+
+  stroke-width: 2px;
+  stroke: #FFF;
+  filter: drop-shadow(0px 4px 6px rgba(255, 0, 54, 0.30));
+  }
+
+  .logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .aboutUs{
+    height: 20vh;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .aboutUs-bgimg{
+    height: 100%;
+    border-radius: 13px;
+    background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+              url('./Assets/coverImg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    /* align-items: end; */
+
+  }
+
+  .aboutUs-bgimg h1{
+    
+    color: white;
+  }
+
+  .events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+    .eventsHeadline h1 {
+      text-align: center;
+      color: white;
+    }
+
+    .line {
+      height: 5px;
+      background-color: white;
+      width: 20vw;
+    }
+    .carousel-item {
+      
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+      .event{
+        margin-top: 1.5rem;
+      }
+    .eventsContent {
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .events-img{
+      width: 50vw;
+      height: 15rem;
+    }
+
+    .eventsContent div {
+      padding: 1rem;
+    }
+
+    .eventsContent div p {
+      color: white;
+    }
+
+    .events-img img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .news{
+      height: auto;
+    }
+
+    .newsButtonDiv {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .newsButtonDiv button {
+      height: 5rem;
+      width: 70vw;
+      border-radius: 10px;
+      display: block;
+      margin: auto;
+      color: #FFF;
+      background-color: #55399D;
+      font-family: DM Sans;
+      font-size: 20px;
+      border: 3px solid white;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+    }
+
+    .newsButtonDiv button:hover, .playDiv:hover, .audioFile:hover{
+      transform: scale(1.1);
+    }
+  
+    .audio {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      
+
+    }
+    p,h1,h2{
+      color: white;
+    }
+
+    .audioFile {
+      height: 7rem;
+      
+      width: 80vw;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      color: #FFF;
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.24) 100%),
+      url('./Assets/biblecross.jpg');
+      background-position: center;
+      font-family: DM Sans;
+      font-size: 20px;
+      gap: 1rem;
+      padding: 0.5rem;
+      border: 3px solid white;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .playDiv {
+      width: 3rem;
+      height: 3rem;
+      display: block;
+      margin: auto;
+      
+    }
+
+    .playDiv button {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: none;
+      background-color: #55399D;
+    }
+
+    .playIcon {
+      color: white;
+      width: auto;
+      height: auto;
+    }
+    .video{
+      
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .videoFile{
+      width: 80vw;
+      height: auto;
+      display: block;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+    }
+
+    .videoFile div {
+      border: 3px solid #55399D;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    
+
+    .socials{
+      height: auto;
+      
+    }
+
+    .socialIcons {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      gap: 0.8rem;
+    }
+
+    
+
+
+    
+
 }

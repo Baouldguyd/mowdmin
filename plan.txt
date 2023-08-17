@@ -1,0 +1,41 @@
+src/
+|-- components/
+|   |-- Media/
+|   |   |-- SermonLibrary.js
+|   |   |-- LiveStreaming.js
+|   |   |-- MediaGallery.js
+|   |   |-- PodcastIntegration.js
+|
+|-- events/
+|   |-- EventCalendar.js
+|   |-- OnlineGiving.js
+|
+|-- community/
+|   |-- PrayerRequests.js
+|   |-- NewsAnnouncements.js
+|   |-- CommunityEngagement.js
+|   |-- MinistriesGroups.js
+|   |-- VolunteerOpportunities.js
+|
+|-- resources/
+|   |-- BibleStudyResources.js
+|   |-- DailyDevotionals.js
+|
+|-- contact/
+|   |-- ContactInformation.js
+|   |-- MapsDirections.js
+|
+|-- store/
+|   |-- OnlineStore.js (if applicable)
+|
+|-- language/
+|   |-- LanguageTranslation.js (if applicable)
+|
+|-- social/
+|   |-- SocialIntegration.js
+|
+|-- profile/
+|   |-- UserProfile.js
+|
+|-- App.js
+|-- index.js
