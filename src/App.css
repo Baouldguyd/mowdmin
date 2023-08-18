@@ -117,6 +117,7 @@
     }
 
     .news{
+      margin-top: 1.5rem;
       height: auto;
     }
 
@@ -250,7 +251,7 @@
     }
     
     .fade-in {
-      animation: fade-in s ease-in-out; /* Adjust the duration and easing as needed */
+      animation: fade-in 5s ease-in-out; /* Adjust the duration and easing as needed */
     }
     
     
