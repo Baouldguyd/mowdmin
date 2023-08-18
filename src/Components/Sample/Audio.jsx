@@ -3,7 +3,7 @@ import {  FaFileAudio, FaPlay } from 'react-icons/fa';
 
 const Audio = () => {
   return (
-    <div className='audio'>
+    <div className='audio fade-in appear'>
         <div className='events'>
             <div className='line'></div>
         

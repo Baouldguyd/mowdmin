@@ -10,7 +10,7 @@ import SocialMedia from './Components/Sample/SocialMedia';
 const Home = () => {
   return (
     <div>
-        <Header/>
+        <Header />
         <AboutUs/>
         {/* <EventsApp /> */}
         <News/>

@@ -1,9 +1,14 @@
 import React from 'react'
 import { FaVideo } from 'react-icons/fa';
 
+
 const Video = () => {
+  
+ 
+  
+  
   return (
-    <div className='video'>
+    <div className='video fade-in' >
         <div className='events'>
             <div className='line'></div>
         

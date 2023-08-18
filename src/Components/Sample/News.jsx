@@ -3,7 +3,7 @@ import { FaChurch, FaComment, FaNewspaper } from 'react-icons/fa';
 
 const News = () => {
   return (
-    <div className='news'>
+    <div className='news fade-in appear'>
         
         <div className='events'>
             <div className='line'></div>

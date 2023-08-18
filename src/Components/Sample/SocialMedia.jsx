@@ -16,12 +16,13 @@ const SocialMedia = () => {
         </div>
 
         <div className='socialIcons'>
-            <div className='playDiv'><button><FaEnvelope  className='playIcon'/></button></div>
-            <div className='playDiv'><button><FaFacebook className='playIcon'/></button></div>
+            
+            <div className='playDiv'><a href="mailto:info@mowdministries.org"><button><FaEnvelope  className='playIcon'/></button></a></div>
+            <div className='playDiv'><a href="https://web.facebook.com/GospleofSalvation"><button><FaFacebook className='playIcon'/></button></a></div>
             <div className='playDiv'><button><FaTwitter className='playIcon'/></button></div>
             <div className='playDiv'><button><FaYoutube className='playIcon'/></button></div>
             <div className='playDiv'><button><FaTiktok className='playIcon'/></button></div>
-            <div className='playDiv'><button><FaPhone className='playIcon'/></button></div>
+            <div className='playDiv'><a href="tel:+491744370644"><button><FaPhone className='playIcon'/></button></a></div>
             
             
             
@@ -30,14 +31,14 @@ const SocialMedia = () => {
             
         </div>
 
-        <div className='events'>
+        {/* <div className='events'>
             <div className='line'></div>
         
             <div className='eventsHeadline'>
                 <h1> Donate </h1>
             </div>
             <div className='line'></div>
-        </div>
+        </div> */}
 
         
         
