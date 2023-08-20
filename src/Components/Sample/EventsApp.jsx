@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Carousel } from 'antd';
 
@@ -13,8 +11,6 @@ const contentStyle = {
   fontFamily : 'sava-pro-semibold, sans-serif'
   
 };
-
-
 
 
 const onChange = (currentSlide) => {
