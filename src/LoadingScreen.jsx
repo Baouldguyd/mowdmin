@@ -1,30 +1,43 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function LoadingScreen() {
-  const [showLoading, setShowLoading] = useState(true);
+import cross from './Assets/cross.png'
+
+const LoadingScreen = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowLoading(false);
-      navigate.push('/'); // Redirect to the home page after 6 seconds
-    }, 6000);
+    const timer = setTimeout(() => {
+      navigate('/home'); // Redirect to the homepage after 7 seconds
+    }, 7000);
 
-    return () => clearTimeout(timeout);
+    return () => clearTimeout(timer);
   }, [navigate]);
 
-  if (showLoading) {
-    return (
-      <div className="loading-screen">
-        {/* You can customize the loading screen content here */}
-        <p>Loading...</p>
-        <h1>Loading</h1>
-      </div>
-    );
-  }
+  return (
+    <div className="loading-screen">
 
-  return null;
-}
+      <div className='screen'>
+          <div className='cross-logo'>
+            <img src={cross} alt=""  />
+          </div>
+
+          <div className='churchText'>
+            <h3>Evangelium der Erlösung</h3>
+            <h3> Gospel of salvation</h3>
+            <h3>Évangile du Salut.</h3>
+
+        </div>
+      </div>
+
+      
+
+      <div className='pastor'>
+
+      </div>
+
+    </div>
+  );
+};
 
 export default LoadingScreen;
