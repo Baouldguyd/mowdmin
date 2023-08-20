@@ -1,6 +1,10 @@
 @media only screen and (max-width: 500px) {
-  *{
-    font-family: 'sava-pro-semibold, sans-serif';
+  @font-face {
+    font-family: 'sava-pro-semibold'; 
+    /* / Replace with the desired font name */
+    src: url('./Assets/Fonts/SavaPro-Semibold.otf') format('truetype');
+    
+    
   }
   .head{
     height: auto;
