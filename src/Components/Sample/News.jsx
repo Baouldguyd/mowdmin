@@ -9,12 +9,13 @@ const News = () => {
             <div className='line'></div>
         
             <div className='eventsHeadline'>
-                <h1><FaNewspaper/> News</h1>
+                <h1> News</h1>
             </div>
             <div className='line'></div>
         </div>
         <div className='newsButtonDiv'>
-            <button><FaNewspaper/>  NEWS</button>
+            <button className='pixels'><FaNewspaper/>  NEWS</button>
+    
             <button><FaChurch/> MINISTRY SCHEDULE</button>
             <button><FaComment/> QUESTIONS & ANSWER</button>
         </div>

@@ -13,6 +13,7 @@
     gap: 3px;
 
   }
+  
 
   .headline p {
     text-align: center;
@@ -45,15 +46,15 @@
 
   .aboutUs{
     height: 20vh;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
     margin-top: 0.5rem;
   }
 
   .aboutUs-bgimg{
     height: 100%;
-    border-radius: 13px;
+    
     background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/coverImg.jpg');
+              url('./Assets/about.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,13 +62,16 @@
     display: flex;
     justify-content: center;
     padding: 1rem;
-    flex-direction: column;
-    /* align-items: end; */
+    align-items: flex-end;
+
+    
 
   }
 
   .aboutUs-bgimg h1{
-    
+
+    font-size: 1.5rem;
+    text-align: center;
     color: white;
   }
 
@@ -84,9 +88,9 @@
     }
 
     .line {
-      height: 5px;
+      height: 1.5px;
       background-color: white;
-      width: 20vw;
+      width: 50vw;
     }
     .carousel-item {
       
@@ -103,6 +107,10 @@
       display: flex;
       justify-content: space-between;
 
+    }
+
+    .eventsHeadline h1 {
+      font-weight: lighter;
     }
 
     .events-img{
@@ -136,17 +144,18 @@
 
     .newsButtonDiv button {
       height: 5rem;
-      width: 70vw;
-      border-radius: 10px;
+      width: 90vw;
+      border: 1px solid rgb(223,233,236);
       display: block;
       margin: auto;
       color: #FFF;
-      background-color: #55399D;
-      font-family: DM Sans;
-      font-size: 20px;
+      background-color: rgb(123,148,160);
+      font-family: 'sava-pro-semibold', sans-serif;
+      font-size: 1.2rem;
       border: 3px solid white;
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
+      padding: 1rem;
+      font-weight: 1px;
+      box-shadow: 0px 4px 4px 0px rgba(28,58,76,1),
 
     }
 
@@ -162,6 +171,32 @@
       
 
     }
+
+    .audioList{
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .torah{
+      width: 40vw;
+      height: 7rem;
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+              url('./Assets/bible.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      
+
+    }
+    .torah p {
+      text-align: center;
+    }
+
     p,h1,h2{
       color: white;
     }
@@ -261,6 +296,73 @@
       animation: fade-in 5s ease-in-out; /* Adjust the duration and easing as needed */
     }
     
+    .scripture {
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+              url('./Assets/scripture.jpg');
+              background-size: auto;
+              background-size: contain;
+              background-repeat: no-repeat;
+              display: flex;
+              align-items: flex-end;
+              justify-content: center;
+    }
+
+    .charity{
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+              url('./Assets/charity.jpg');
+              
+              background-size: contain;
+              background-repeat: no-repeat;
+              display: flex;
+              align-items: flex-end;
+              justify-content: center;
+    }
+
+    .convention{
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+      url('./Assets/scripture.jpg');
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .supper {
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+      url('./Assets/scripture.jpg');
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .baptism {
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+      url('./Assets/baptism.jpg');
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .h3text{
+      font-size: 1.5rem;
+    }
+
+
+
+    
+    
+    
+    
+    
+
     
 
     

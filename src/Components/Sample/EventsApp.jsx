@@ -1,29 +1,50 @@
-import React from 'react'
-import { FaCalendar } from 'react-icons/fa';
-import MyCarousel from './MyCarousel';
 
 
-const EventsApp = () => {
-  return (
-    <div className='event'>
-        <div className='events'>
-            <div className='line'></div>
+import React from 'react';
+import { Carousel } from 'antd';
+
+
+const contentStyle = {
+  height: '160px',
+  color: '#fff',
+  lineHeight: '160px',
+  textAlign: 'center',
+  marginTop : '2rem',
+  fontFamily : 'sava-pro-semibold, sans-serif'
+  
+};
+
+
+
+
+
+
+const EventsApp = () => (
+  <Carousel autoplay>
+    <div className='scripture'>
+
+      <h3 className='h3text' style={contentStyle
         
-            <div className='eventsHeadline'>
-                <h1><FaCalendar/> Events </h1>
-            </div>
-            <div className='line'></div>
-        </div>
-
-        <div>
-            <MyCarousel/>
-        </div>
-
-        
-
+      }>Scripture Reading</h3>
     </div>
-    
-  )
-}
+    <div className='charity'>
 
+      <h3 className='h3text' style={contentStyle}> Charitable Deeds</h3>
+    </div>
+    <div className='baptism'>
+
+      <h3 className='h3text' style={contentStyle}>Water Baptism</h3>
+    </div>
+    <div className='supper'>
+      <h3 className='h3text' style={contentStyle}>Lord Supper</h3>
+    </div>
+
+    <div  className='convention'>
+      <h3 className='h3text' style={contentStyle}>Holy Spirit Convention</h3>
+    </div>
+
+    
+  </Carousel>
+);
 export default EventsApp;
+

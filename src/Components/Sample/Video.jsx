@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaVideo } from 'react-icons/fa';
+
 
 
 const Video = () => {
@@ -13,12 +13,15 @@ const Video = () => {
             <div className='line'></div>
         
             <div className='eventsHeadline'>
-                <h1><FaVideo/> Videos</h1>
+                <h1> Videos</h1>
             </div>
             <div className='line'></div>
         </div>
 
-        <div className='videoFile'>
+        <div className="videoContainer">
+          div
+        </div>
+        {/* <div className='videoFile'>
             <div>
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VsVqgUOo7ks" title="Fruit Bearing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -37,7 +40,7 @@ const Video = () => {
             </div>
             
 
-        </div>
+        </div> */}
 
 
     </div>

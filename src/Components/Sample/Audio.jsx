@@ -1,5 +1,5 @@
 import React from 'react'
-import {  FaFileAudio, FaPlay } from 'react-icons/fa';
+// import { FaPlay } from 'react-icons/fa';
 
 const Audio = () => {
   return (
@@ -8,21 +8,40 @@ const Audio = () => {
             <div className='line'></div>
         
             <div className='eventsHeadline'>
-                <h1><FaFileAudio/> Audio</h1>
+                <h1> Audio</h1>
             </div>
             <div className='line'></div>
         </div>
         <div className="audioList">
-            <div className="audioFile">
-                <p>The Power in the Word of God</p>
-              <div className="playDiv">
-              <button> <FaPlay className='playIcon'/>  </button>
-            </div>
+        
+          <div className='torah'>
+            <p>TORAH</p>
+          </div>
+        <div className='torah'>
+            <p>GOSPEL MUSIC</p>
+          </div>
+        
+          <div className='torah'>
+            <p>SERMON</p>
+    
+          </div>
+
+          <div className='torah'>
+            <p>TESTIMONIES</p>
+          </div>
+
+          <div className='torah'>
+            <p>LECTURE</p>
+          </div>
+
+          <div className='torah'>
+            <p>BOOKS</p>
           </div>
           
+
         </div>
 
-        <div className="audioList">
+        {/* <div className="audioList">
             <div className="audioFile">
                 <p>The Power in the blood of Jesus</p>
               <div className="playDiv">
@@ -60,7 +79,7 @@ const Audio = () => {
             </div>
           </div>
           
-        </div>
+        </div> */}
     </div>
   )
 }
