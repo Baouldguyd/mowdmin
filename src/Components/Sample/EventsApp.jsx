@@ -17,10 +17,16 @@ const contentStyle = {
 
 
 
-
+const onChange = (currentSlide) => {
+  console.log(currentSlide);
+}
 
 const EventsApp = () => (
-  <Carousel autoplay>
+
+  
+  
+
+  <Carousel afterChange={onChange}>
     <div className='scripture'>
 
       <h3 className='h3text' style={contentStyle

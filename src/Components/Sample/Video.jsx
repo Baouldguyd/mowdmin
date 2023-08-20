@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { FaPlay } from 'react-icons/fa';
+// import fotoImg from '../../Assets/foto.jpg'
 
 
 const Video = () => {
@@ -19,8 +20,14 @@ const Video = () => {
         </div>
 
         <div className="videoContainer">
-          div
+          <div className='vid-box'    
+          >
+            <div className="playDiv">
+              <button> <FaPlay className='playIcon'/>  </button>
+            </div>
+          </div>
         </div>
+
         {/* <div className='videoFile'>
             <div>
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VsVqgUOo7ks" title="Fruit Bearing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

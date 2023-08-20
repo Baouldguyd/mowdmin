@@ -223,8 +223,8 @@
     }
 
     .playDiv {
-      width: 3rem;
-      height: 3rem;
+      width: 4rem;
+      height: 4rem;
       display: block;
       margin: auto;
       
@@ -240,8 +240,8 @@
 
     .playIcon {
       color: white;
-      width: auto;
-      height: auto;
+      width: 2rem;
+      height: 2rem;
     }
     .video{
       
@@ -353,6 +353,23 @@
 
     .h3text{
       font-size: 1.5rem;
+    }
+    .videoContainer {
+      display: block;
+      margin: auto;
+    }
+    .vid-box {
+      width: 90vw;
+      height: 12rem;
+      
+      display: flex;
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+      url('./Assets/foto.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      justify-content: flex-start;
+      align-items: flex-start;
     }
 
 
