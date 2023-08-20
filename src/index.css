@@ -1,12 +1,8 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: 'Roboto', sans-serif;
+@font-face {
+  font-family: 'sava-pro-semibold'; 
+  /* / Replace with the desired font name */
+  src: url('./Assets/Fonts/SavaPro-Semibold.otf') format('truetype');
+  
+  /* // Replace with the correct file path */
+  /* Add additional font formats (woff, woff2, etc.) with corresponding src properties */
 }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'sava-pro-semibold'; 
+    /* / Replace with the desired font name */
+    src: url('./Assets/Fonts/SavaPro-Semibold.otf') format('truetype');
+    
+    /* // Replace with the correct file path */
+    /* Add additional font formats (woff, woff2, etc.) with corresponding src properties */
+  }
+  
