@@ -1,4 +1,7 @@
 @media only screen and (max-width: 500px) {
+  *{
+    font-family: 'sava-pro-semibold, sans-serif';
+  }
   .head{
     height: auto;
     display: flex;
