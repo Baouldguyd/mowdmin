@@ -19,9 +19,9 @@ const SocialMedia = () => {
             
             <div className='playDiv'><a href="mailto:info@mowdministries.org"><button><FaEnvelope  className='playIcon'/></button></a></div>
             <div className='playDiv'><a href="https://web.facebook.com/GospleofSalvation"><button><FaFacebook className='playIcon'/></button></a></div>
-            <div className='playDiv'><button><FaTwitter className='playIcon'/></button></div>
-            <div className='playDiv'><button><FaYoutube className='playIcon'/></button></div>
-            <div className='playDiv'><button><FaTiktok className='playIcon'/></button></div>
+            <div className='playDiv'><a href="https://twitter.com/Mowdministries"><button><FaTwitter className='playIcon'/></button></a></div>
+            <div className='playDiv'><a href="https://twitter.com/Mowdministries"></a><button><FaYoutube className='playIcon'/></button></div>
+            <div className='playDiv'><a href="https://www.tiktok.com/@mowdministries"><button><FaTiktok className='playIcon'/></button></a></div>
             <div className='playDiv'><a href="tel:+491744370644"><button><FaPhone className='playIcon'/></button></a></div>
             
             
