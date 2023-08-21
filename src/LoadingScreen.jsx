@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import cross from './Assets/cross.png'
+import cross from './Assets/crosslogo.png'
 
 const LoadingScreen = () => {
   const navigate = useNavigate();
