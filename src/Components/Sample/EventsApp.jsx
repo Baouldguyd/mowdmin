@@ -45,7 +45,14 @@ const EventsApp = () => (
       <h3 className='h3text' style={contentStyle}>Holy Spirit Convention</h3>
     </div>
 
+    <div  className='convention'>
+      <h3 className='h3text' style={contentStyle}>Conference</h3>
+    </div>
     
+    <div  className='convention'>
+      <h3 className='h3text' style={contentStyle}>Concert</h3>
+    </div>
+
   </Carousel>
 );
 export default EventsApp;

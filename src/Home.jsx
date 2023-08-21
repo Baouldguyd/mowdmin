@@ -11,7 +11,9 @@ import Ourcontact from './Components/Sample/Ourcontact';
 
 const Home = () => {
   return (
-    <div>
+    <div style={{
+      padding: '3px'
+    }}>
         
         <AboutUs/>
         <Eventsdetails/>
