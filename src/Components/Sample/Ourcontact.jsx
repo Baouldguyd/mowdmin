@@ -28,7 +28,7 @@ const textStyle = {
         </div>
         
             <div style={{display : 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <a href="https://youtube.com/Mowdministries" ><h3 style={textStyle}> <FaYoutube/> YOUTUBE </h3></a>
+            <a href="https://www.youtube.com/channel/UCLEcq4XDtqcWSDys7_fmvYw" ><h3 style={textStyle}> <FaYoutube/> YOUTUBE </h3></a>
             </div>
             
         <div style={{
