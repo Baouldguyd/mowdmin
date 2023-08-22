@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaPlay } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 // import fotoImg from '../../Assets/foto.jpg'
 
 
@@ -10,6 +11,8 @@ const Video = () => {
   
   return (
     <div className='video fade-in' >
+
+      <Link to='/video' >
         <div className='events'>
             <div className='line'></div>
         
@@ -48,7 +51,7 @@ const Video = () => {
             
 
         </div> */}
-
+</Link>
 
     </div>
   )
