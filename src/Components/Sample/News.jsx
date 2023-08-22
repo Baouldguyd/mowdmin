@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaChurch, FaComment, FaNewspaper } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const News = () => {
   return (
@@ -14,10 +15,17 @@ const News = () => {
             <div className='line'></div>
         </div>
         <div className='newsButtonDiv'>
+
+          <Link to='/newspage' >
             <button className='pixels'><FaNewspaper/>  NEWS</button>
-    
+            </Link>
+            <Link to='/ministryschedule' >
             <button><FaChurch/> MINISTRY SCHEDULE</button>
+            </Link>
+
+            <Link to='/questions' >
             <button><FaComment/> QUESTIONS & ANSWER</button>
+            </Link>
         </div>
     </div>
   )

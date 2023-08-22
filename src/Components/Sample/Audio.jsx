@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 // import { FaPlay } from 'react-icons/fa';
 
 const Audio = () => {
@@ -14,30 +15,41 @@ const Audio = () => {
         </div>
         <div className="audioList">
         
-          <div className='torah'>
+        <Link to='/audio/torah' >
+            <div className='torah'>
             <p>TORAH</p>
-          </div>
-        <div className='torah'>
+            </div>
+          </Link>
+          
+          <Link to='/audio/gospel' >
+           <div className='torah'>
             <p>GOSPEL MUSIC</p>
           </div>
+          </Link>
         
+          <Link to='/audio/sermon' >
           <div className='torah'>
             <p>SERMON</p>
     
           </div>
-
+          </Link>
+          <Link to='/audio/testimonies' >
           <div className='torah'>
             <p>TESTIMONIES</p>
           </div>
-
+          </Link>
+          
+          <Link to='/audio/lectures' >
           <div className='torah'>
             <p>LECTURE</p>
           </div>
+          </Link>
 
+          <Link to='/audio/books' >
           <div className='torah'>
             <p>BOOKS</p>
           </div>
-          
+          </Link>
 
         </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Ourcontact = () => {
 const textStyle = {
@@ -43,13 +44,13 @@ const textStyle = {
             <a href="https://www.tiktok.com/@mowdministries"><h3 style={textStyle}> <FaTiktok/> TIKTOK </h3></a>
         </div>
         
-        <div className='newsButtonDiv'>
-
-            
-    
+        <Link to='/contactus'>
+        <div className='newsButtonDiv'>    
             <button> OUR CONTACTS</button>
             
         </div>
+        </Link>
+        
     </div>
   )
 }

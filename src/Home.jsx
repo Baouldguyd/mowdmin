@@ -5,9 +5,10 @@ import AboutUs from './Components/Sample/AboutUs';
 import News from './Components/Sample/News';
 import Audio from './Components/Sample/Audio';
 import Video from './Components/Sample/Video';
-// import SocialMedia from './Components/Sample/SocialMedia';
 import Eventsdetails from './Components/Sample/EventDetails';
 import Ourcontact from './Components/Sample/Ourcontact';
+import Gift from './Components/Sample/Gift';
+
 
 const Home = () => {
   return (
@@ -22,8 +23,13 @@ const Home = () => {
         <Video/>
         {/* <SocialMedia/> */}
         <Ourcontact/>
+        <Gift/>
 
     </div>
+
+
+
+
   )
 }
 
