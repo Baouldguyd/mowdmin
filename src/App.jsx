@@ -25,6 +25,7 @@ import NewsPage from './Components/News/NewsPage';
 import Questions from './Components/News/Questions';
 import GiftPage from './Components/Pages/GiftPage';
 import VideoPage from './Components/Media/Video/VideoPage';
+import Convention from './Components/Events/Convention';
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
         <Route path='/events/conference' element={<Conference/>} />
         <Route path = '/events/scripture' element={<Scripture/>} />
         <Route path='/events/supper' element={<Supper/>} />
+        <Route path='/events/convention' element={<Convention/>} />
 
         {/* Audio Pages */}
         <Route path='/audio/books' element={<Books/>} />
