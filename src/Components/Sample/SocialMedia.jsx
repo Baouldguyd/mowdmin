@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaFacebook, FaInstagram, FaPhone, FaTiktok, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaInstagram, FaPhone, FaTiktok, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 
 const SocialMedia = () => {
@@ -38,6 +38,13 @@ const SocialMedia = () => {
                 
             </div>
 
+            <div>
+            <div className='playDiv'>
+                <a href="https://facebook.com/GospleofSalvation"><button><FaYoutube  className='playIcon'/></button></a>
+                
+            </div>
+            </div>
+
             <div className='playDiv'>
                 <a href="https://www.tiktok.com/@mowdministries"><button><FaTiktok  className='playIcon'/></button></a>
                 
@@ -47,6 +54,8 @@ const SocialMedia = () => {
                 <a href="tel:+491744370644"><button><FaPhone  className='playIcon'/></button></a>
                 
             </div>
+
+            <h1>my name</h1>
             
             
             
@@ -58,7 +67,6 @@ const SocialMedia = () => {
         
 
         
-
         
         
 
