@@ -3,7 +3,7 @@ import mowdlogo from '../../Assets/mowdlogo.jpg'
 
 const AboutPage = () => {
   return (
-    <div className='aboutpg'>
+    <div className='aboutpg abtpg'>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
       </style>
@@ -18,9 +18,32 @@ const AboutPage = () => {
       <div>
           <div className='aboutText'>
             <h3>About Us</h3>                
-            <p>Mowdministries e.V is a non-profit organization where the members preaches the love of Jesus Christ.</p>
+            <p>The organization called MOWDMINISTRIES (The Gospel of Salvation) is an international ministry and preaches the gospel of Christ worldwide. We are not a denominational church, but inter-denominational and non-profit organization that preaches the love of Jesus Christ.
 
-            <p>For the Lord So love the world and gave us His only begotten son. John 3:16</p>
+            </p>
+
+            <p>
+            The organization does not preach any denomination or a church. It is an independent ministry not affiliated with any church doctrine, but preaches the LOVE of CHRIST, this is defined in the Gospel of John Chapter 3 verse 16
+            </p>
+
+            <p>
+            For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+            And Romans chapter 5 verse 8. Romans, Chapter 10 verse 13. 
+            </p>
+
+            <p>
+              With partners, friends, ministers and all, men and women of God, we preach this Good News around the world.
+              The Ministry pursues exclusively and directly charitable, and religious purposes within the meaning of the tax code.
+
+            </p>
+
+            <p>
+            The organization encourages PRAYER, Evangelisation, Seminary SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus Christ
+            </p>
+
+            
+          
+          
           </div>
       </div>
 
