@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className='aboutUs-bgimg'>
              <h1>ABOUT US</h1>               
         </div>
-        </Link>
+      </Link>
       
     </div>
   )

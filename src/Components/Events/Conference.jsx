@@ -6,4 +6,4 @@ const Conference = () => {
   )
 }
 
-export default Conference
+export default Conference;

@@ -55,7 +55,7 @@ const SocialMedia = () => {
                 
             </div>
 
-            <h1>my name</h1>
+            
             
             
             

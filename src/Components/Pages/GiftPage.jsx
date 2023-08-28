@@ -6,4 +6,4 @@ const GiftPage = () => {
   )
 }
 
-export default GiftPage
+export default GiftPage;
