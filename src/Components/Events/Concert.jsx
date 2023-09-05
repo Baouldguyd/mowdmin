@@ -1,4 +1,5 @@
 import React from 'react'
+import concert from '../../Assets/convention.jpg'
 
 const Concert = () => {
   return (
@@ -9,10 +10,20 @@ const Concert = () => {
 
     <div className='abouthead'>
         <div className="aboutheadimg">
-          <img src='' alt="" />
+          <img src={concert} alt="" />
         </div>
      
     </div>
+
+    <div className='charityDeeds'>
+        <h2>Concert</h2>
+        <p>Our Holy spirit filled Concert which involves deep worship and praise sessions.
+        </p>
+
+        <p>Invite someone and be blessed</p>
+       
+      
+      </div>
     </div>
   )
 }
