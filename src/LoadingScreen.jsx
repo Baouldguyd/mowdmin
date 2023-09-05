@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 import cross from './Assets/crosslogo.png'
 
@@ -9,7 +9,7 @@ const LoadingScreen = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigate('/home'); // Redirect to the homepage after 7 seconds
-    }, 7000);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, [navigate]);
@@ -17,6 +17,7 @@ const LoadingScreen = () => {
   return (
     <div className="loading-screen">
 
+      <Link to='/home'>
       <div className='screen'>
           <div className='cross-logo'>
             <img src={cross} alt=""  />
@@ -35,7 +36,7 @@ const LoadingScreen = () => {
       <div className='pastor'>
 
       </div>
-
+      </Link>
     </div>
   );
 };
