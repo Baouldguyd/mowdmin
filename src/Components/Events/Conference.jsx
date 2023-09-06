@@ -16,7 +16,7 @@ const Conference = () => {
       </div>
 
       <div className='charityDeeds'>
-        <h2>Our Conventions</h2>
+        <h2>Our Conference</h2>
         <p>This service brings all together: men, women, youth and children under the divine anointing. God visits his people, reveals himself to them and speaks to them. He (God) works out His plan in everyone's life.
         </p>
         
