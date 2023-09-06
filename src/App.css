@@ -371,6 +371,18 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
               justify-content: center;
     }
 
+    .prayer{
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+              url('./Assets/biblecross.jpg');
+              
+              background-size: contain;
+              background-repeat: no-repeat;
+              display: flex;
+              align-items: flex-end;
+              justify-content: center;
+    }
+
+
     .convention{
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/convention.jpg');
@@ -396,6 +408,17 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     .baptism {
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/baptism.jpg');
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .action{
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+      url('./Assets/action.jpg');
       
       background-size: contain;
       background-repeat: no-repeat;
@@ -530,6 +553,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
     .charityDeeds{
       padding: 7px;
+      height: auto;
+      background-color: inherit;
     }
     .contactPg{
       display: flex;
@@ -586,6 +611,15 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         height: 100%;
       }
 
+      .symposium, .actionPlan{
+        padding: 7px;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+
+    
 
 
 

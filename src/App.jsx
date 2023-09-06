@@ -26,6 +26,9 @@ import Questions from './Components/News/Questions';
 import GiftPage from './Components/Pages/GiftPage';
 import VideoPage from './Components/Media/Video/VideoPage';
 import Convention from './Components/Events/Convention';
+import Prayer from './Components/Events/Prayer';
+import Symposium from './Components/Events/Symposium';
+import ActionPlan from './Components/Events/ActionPlan';
 
 
 const App = () => {
@@ -38,6 +41,7 @@ const App = () => {
         
         <Route path='/aboutus' element={<AboutPage/>} />
         <Route path='/contactus' element={<ContactPage/>} />
+        
         {/* Events pages */}
         <Route path='/events/baptism' element={<Baptism/>} />
         <Route path='events/charity' element= {<Charity/>} />
@@ -46,7 +50,9 @@ const App = () => {
         <Route path = '/events/scripture' element={<Scripture/>} />
         <Route path='/events/supper' element={<Supper/>} />
         <Route path='/events/convention' element={<Convention/>} />
-
+        <Route path='/events/prayer' element={ <Prayer/> } />
+        <Route path='/events/sympossium' element={ <Symposium/> } />
+        <Route path='/events/actionPlan' element={ <ActionPlan/> } />
 
         {/* Audio Pages */}
         <Route path='/audio/books' element={<Books/>} />

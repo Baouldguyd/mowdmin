@@ -23,15 +23,8 @@ const EventsApp = () => (
   
   
 
-  <Carousel afterChange={onChange}>
-
-    
-    
-    
-    
-    
+  <Carousel afterChange={onChange}>  
    
-
     <Link to='/events/scripture'> 
     <div className='scripture'>
 
@@ -41,9 +34,22 @@ const EventsApp = () => (
     </div>
     </Link>
 
+
+    <Link to='/events/prayer'>    
+    <div  className='prayer'>
+      <h3 className='h3text' style={contentStyle}>Prayer - Intercession</h3>
+    </div>
+    </Link>
+
+    <Link to='/events/actionPlan'>    
+    <div  className='action'>
+      <h3 className='h3text' style={contentStyle}>Action Plan</h3>
+    </div>
+    </Link>
+
+
     <Link to='/events/charity'> 
     <div className='charity'>
-
       <h3 className='h3text' style={contentStyle}> Charitable Deeds</h3>
     </div>
     </Link>
@@ -70,6 +76,12 @@ const EventsApp = () => (
     <Link to='/events/conference'> 
     <div  className='convention'>
       <h3 className='h3text' style={contentStyle}>Conference</h3>
+    </div>
+    </Link>
+
+    <Link to='/events/sympossium'>    
+    <div  className='convention sympossium'>
+      <h3 className='h3text' style={contentStyle}>Sympossium/Colloque </h3>
     </div>
     </Link>
     
