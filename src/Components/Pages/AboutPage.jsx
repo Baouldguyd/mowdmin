@@ -33,13 +33,26 @@ const AboutPage = () => {
 
             <p>
               With partners, friends, ministers and all, men and women of God, we preach this Good News around the world.
+
               The Ministry pursues exclusively and directly charitable, and religious purposes within the meaning of the tax code.
+
+            </p>
+            <p>
+            You are welcome to join us and make the community grow in the relationship with the Lord Jesus and to discover the call for your life.
+            </p>
+
+            
+
+            <p>ACTION AND PLAN:</p>
+
+            <p>Through the evangelistic crusades, GOD is manifested to heal and deliver His people. For it is written, "WHEN THE SON DELIVERS YOU, YOU WILL REALLY BE FREE." (JOHN 8vs36).
 
             </p>
 
             <p>
             The organization encourages PRAYER, Evangelisation, Seminary SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus Christ
             </p>
+
 
             
           
