@@ -63,8 +63,7 @@ const ContactPage = () => {
           </p>
 
           <p>
-            Responsible:
-            Mowdministries eV (The Gospel of Redemption)
+          Responsible: Mowdministries e.V ( Gospel of Salvation)
           </p>
 
         </div>
