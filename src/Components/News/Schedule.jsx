@@ -14,9 +14,9 @@ const Schedule = () => {
             
             <iframe
             src="https://calendar.google.com/calendar/embed?src=ec38d9607a869f008514b4fc083dcaffc0cbb6514b9ae064a8e744906b35d3e2%40group.calendar.google.com&ctz=Europe%2FAmsterdam"
-            style={{ border: '0', display: 'block', margin: "auto" }}
+            style={{ border: '0', display: 'block', margin: "auto", padding: '5p' }}
             width="100%"
-            height="100%"
+            height="90%"
             frameborder="0"
             scrolling ="no"
             title='calendar'

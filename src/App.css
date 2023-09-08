@@ -353,7 +353,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
               url('./Assets/scripture.jpg');
               background-size: auto;
-              background-size: contain;
+              background-size: cover;
               background-repeat: no-repeat;
               display: flex;
               align-items: flex-end;
@@ -364,7 +364,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
               url('./Assets/charity.jpg');
               
-              background-size: contain;
+              background-size: cover;
               background-repeat: no-repeat;
               display: flex;
               align-items: flex-end;
@@ -375,7 +375,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
               url('./Assets/biblecross.jpg');
               
-              background-size: contain;
+              background-size: cover;
               background-repeat: no-repeat;
               display: flex;
               align-items: flex-end;
@@ -387,7 +387,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/convention.jpg');
       
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       align-items: flex-end;
@@ -398,7 +398,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/supper.jpg');
       
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       align-items: flex-end;
@@ -409,7 +409,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/baptism.jpg');
       
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       align-items: flex-end;
@@ -420,17 +420,18 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/action.jpg');
       
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       align-items: flex-end;
       justify-content: center;
     }
+
     .crusade{
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/crusade.jpg');
       
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       align-items: flex-end;
