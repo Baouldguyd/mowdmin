@@ -16,6 +16,11 @@ const Prayer = () => {
 
     <div className='symposium'>
         <h2>Prayer</h2>
+
+        <p>
+        The organization encourages PRAYER, Evangelisation, Seminary SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus Christ
+        </p>
+        
         <p>
         
         Prayer meeting, prayer vigil, intercessory prayer. Prayer of deliverance, Souls counselling and other payers support:

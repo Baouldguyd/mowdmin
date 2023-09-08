@@ -5,7 +5,7 @@ import AboutUs from './Components/Sample/AboutUs';
 import News from './Components/Sample/News';
 import Audio from './Components/Sample/Audio';
 import Video from './Components/Sample/Video';
-import Eventsdetails from './Components/Sample/EventDetails';
+import ActionDetails from './Components/Sample/ActionDetails';
 import Ourcontact from './Components/Sample/Ourcontact';
 import Gift from './Components/Sample/Gift';
 
@@ -17,7 +17,8 @@ const Home = () => {
     }}>
         
         <AboutUs/>
-        <Eventsdetails/>
+        <ActionDetails/>
+        {/* <Eventsdetails/> */}
         <News/>
         <Audio/>
         <Video/>

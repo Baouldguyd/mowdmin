@@ -41,9 +41,9 @@ const EventsApp = () => (
     </div>
     </Link>
 
-    <Link to='/events/actionPlan'>    
-    <div  className='action'>
-      <h3 className='h3text' style={contentStyle}>Action Plan</h3>
+    <Link to='/events/crusade'>    
+    <div  className='crusade'>
+      <h3 className='h3text' style={contentStyle}>Open Air Crusade</h3>
     </div>
     </Link>
 

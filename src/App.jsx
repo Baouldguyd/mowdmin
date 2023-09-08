@@ -28,7 +28,10 @@ import VideoPage from './Components/Media/Video/VideoPage';
 import Convention from './Components/Events/Convention';
 import Prayer from './Components/Events/Prayer';
 import Symposium from './Components/Events/Symposium';
-import ActionPlan from './Components/Events/ActionPlan';
+import CrusadeDetails from './Components/Events/CrusadeDetails';
+import EventDetails from './Components/Sample/EventDetails';
+
+
 
 
 const App = () => {
@@ -43,6 +46,8 @@ const App = () => {
         <Route path='/contactus' element={<ContactPage/>} />
         
         {/* Events pages */}
+        <Route path='/events' element={ <EventDetails/> } />
+        
         <Route path='/events/baptism' element={<Baptism/>} />
         <Route path='events/charity' element= {<Charity/>} />
         <Route path='/events/concert' element={<Concert/>} />
@@ -52,7 +57,7 @@ const App = () => {
         <Route path='/events/convention' element={<Convention/>} />
         <Route path='/events/prayer' element={ <Prayer/> } />
         <Route path='/events/sympossium' element={ <Symposium/> } />
-        <Route path='/events/actionPlan' element={ <ActionPlan/> } />
+        <Route path='/events/crusade' element={ <CrusadeDetails/> } />
 
         {/* Audio Pages */}
         <Route path='/audio/books' element={<Books/>} />
