@@ -42,19 +42,7 @@ const AboutPage = () => {
             </p>
 
             
-
-            <p>ACTION AND PLAN:</p>
-
-            <p>Through the evangelistic crusades, GOD is manifested to heal and deliver His people. For it is written, "WHEN THE SON DELIVERS YOU, YOU WILL REALLY BE FREE." (JOHN 8vs36).
-
-            </p>
-
-            <p>
-            The organization encourages PRAYER, Evangelisation, Seminary SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus Christ
-            </p>
-
-
-            
+         
           
           
           </div>
