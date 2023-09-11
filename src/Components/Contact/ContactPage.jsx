@@ -6,6 +6,9 @@ import crossChurch from '../../Assets/crossChurch.jpeg'
 const ContactPage = () => {
   return (
     <div className='contactPg'>
+      <style>
+                @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+            </style>
       <div className='contactImg'>
         <img src={crossChurch} alt="" />
       </div>

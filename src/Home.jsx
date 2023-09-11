@@ -12,9 +12,7 @@ import Gift from './Components/Sample/Gift';
 
 const Home = () => {
   return (
-    <div style={{
-      padding: '3px',
-    }}>
+    <div >
         
         <AboutUs/>
         <ActionDetails/>

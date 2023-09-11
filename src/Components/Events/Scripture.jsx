@@ -33,7 +33,7 @@ const Scripture = () => {
 
           <div className='newTestament'>
             <h2>NEW TESTAMENT</h2>
-        </div>
+          </div>
       </div>
 
 

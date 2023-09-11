@@ -6,3 +6,9 @@
   /* // Replace with the correct file path */
   /* Add additional font formats (woff, woff2, etc.) with corresponding src properties */
 }
+
+body{
+  display: block;
+  margin: 0px;
+  background: rgb(26,56,74); 
+}
