@@ -11,8 +11,7 @@ const textStyle = {
     <div style={{
         marginTop: '2rem',
         height: 'auto',
-        fontSize: '1.1rem'
-
+        fontSize: '1.1rem',
     }}>
         <div style={{
             display: 'flex',
@@ -45,7 +44,7 @@ const textStyle = {
         </div>
         
         <Link to='/contactus'>
-        <div className='newsButtonDiv'>    
+        <div className='newsButtonDiv' >    
             <button> OUR CONTACTS</button>
             
         </div>
