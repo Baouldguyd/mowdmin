@@ -22,7 +22,7 @@ const ContactPage = () => {
           </div>
 
           <div className='contactWeb'>
-            <a href="https://mowdministries.org"><p><FaGlobe />  Visit Our Website </p></a>
+            <a href="https://wwww.mowdministries.org" ><p><FaGlobe />  Visit Our Website </p></a>
           </div>
 
           <div className="contactLocation">
