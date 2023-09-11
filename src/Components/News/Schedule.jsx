@@ -33,9 +33,11 @@ const Schedule = () => {
           <p>Hour of the Truth. </p>
           <p>L´heure de la vérité</p>
 
+          <a href="https://www.facebook.com/GospleofSalvation">
           <p>
           Follow Apostle Maurille Osse on, Facebook : maurille.osse, or Facebook : Das Evangelium der Erlösung - Mowdministries e.V, or Osse Maurille Bamigbola , or Facebook: Ephphatha Apôtre Maurille Mowdministries. 
           </p>
+          </a>
 
           <a href="https://twitter.com/Mowdministries /">
           <p>
@@ -49,9 +51,11 @@ const Schedule = () => {
           </p>
           </a>
           
+          <a href="https://www.youtube.com/channel/UCLEcq4XDtqcWSDys7_fmvYw">
           <p>
           On YouTube: Bamigbola Maurille Osse. Or on YouTube: Gospel of Salvation Ministries. Or Mowdministries e.V
           </p>
+          </a>
 
           <a href="https://www.tiktok.com/@mowdministries">
           <p>

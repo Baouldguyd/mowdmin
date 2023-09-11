@@ -6,6 +6,7 @@
     
     
   }
+
   .loading-screen{
     width: auto;
     height: auto;
@@ -442,8 +443,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       font-size: 1.5rem;
     }
     .videoContainer {
-      display: block;
-      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .vid-box {
       width: 90vw;

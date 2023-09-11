@@ -23,11 +23,14 @@ const Video = () => {
         </div>
 
         <div className="videoContainer">
+          <div>
           <div className='vid-box'    
           >
             <div className="playDiv">
               <button> <FaPlay className='playIcon'/>  </button>
             </div>
+            
+          </div>
           </div>
         </div>
 
