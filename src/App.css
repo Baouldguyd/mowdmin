@@ -413,6 +413,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
               justify-content: center;
     }
 
+    
+
 
     .convention{
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
@@ -671,11 +673,80 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-left: 7px;
       }
 
+    .view-btn{
+      border-radius: 5px;
+    }
+
+    .view-btn:hover{
+      background-color: greenyellow;
+    }
+
+
+    /* CryBook Carousel Style */
+
+    .crybookCarousel div {
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              align-items: flex-end;
+              justify-content: center;
+    }
+
+    .crybook1{
+      background: 
+              url('./Assets/cry.jpg');
+              
+    }
+
+    .crybook2{
+      background: url('./Assets/Books/crycover.jpg');
+
+    }
+
+    .crybook3{
+      background: url('./Assets/Books/crycover3.jpg');
+    }
+
+    .crybook4{
+      background: url('./Assets/Books/crycoverfrench.jpg');
+    }
+
+    .crybook5{
+      background: url('./Assets/Books/cryfrench2.jpg');
+    }
+
+    .probook1{
+      background: url('./Assets/Books/procover.jpg');
+      
+    }
+
+    .probook2{
+      background: url('./Assets/Books/prophecy\ french.jpg');
+      background-size: contain;
+    }
+
+    .probook3{
+      background: url('./Assets/Books/prophecy2.jpg');
+      background-size: auto;
+    }
+
+    .seedbook1{
+      background: url('./Assets/Books/seedfrench.jpg');
+      background-size: contain;
+    }
+
+    .seedbook2{
+      background: url('./Assets/seed.jpg');
+      background-size: contain;
+    }
+
+    .bookword{
+      padding: 7px;
+    }
+
     
-
-
-
-
+    
+  
 
 
 

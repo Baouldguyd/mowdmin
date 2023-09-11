@@ -20,9 +20,6 @@ const onChange = (currentSlide) => {
 
 const EventsApp = () => (
 
-  
-  
-
   <Carousel afterChange={onChange}>  
    
     <Link to='/events/scripture'> 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-// import { FaPlay } from 'react-icons/fa';
+
 
 const Audio = () => {
   return (
@@ -13,6 +13,7 @@ const Audio = () => {
             </div>
             <div className='line'></div>
         </div>
+
         <div className="audioList">
         
         <Link to='/audio/torah' >

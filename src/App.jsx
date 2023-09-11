@@ -30,6 +30,9 @@ import Prayer from './Components/Events/Prayer';
 import Symposium from './Components/Events/Symposium';
 import CrusadeDetails from './Components/Events/CrusadeDetails';
 import EventDetails from './Components/Sample/EventDetails';
+import CryBook from './Components/Media/Books/CryBook';
+import SeedBook from './Components/Media/Books/SeedBook';
+import ProphecyBook from './Components/Media/Books/ProphecyBook';
 
 
 
@@ -66,6 +69,12 @@ const App = () => {
         <Route path='/audio/sermon' element={<Sermon/>} />
         <Route path='/audio/testimonies' element={<Testimonies/>} />
         <Route path='/audio/torah' element={<Torah/>} />
+
+        {/* Books Pages */}
+        <Route path='/books/crybook' element={ <CryBook/> } />
+        <Route path='/books/seedbook' element={ <SeedBook/> } />
+        <Route path='/books/prophecybook' element={ <ProphecyBook/> } />
+
 
         {/* Videos Page */}
         <Route path='/video' element={<VideoPage/>} />
