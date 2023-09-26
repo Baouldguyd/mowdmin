@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 
+
 const Audio = () => {
   return (
     <div className='audio fade-in appear'>
@@ -22,11 +23,12 @@ const Audio = () => {
             </div>
           </Link>
           
-          <Link to='/audio/gospel' >
-           <div className='torah'>
+          <a href="https://audiomack.com/apostle-maurille/album/leternel-est-bon">
+           <div className='audiogospel'>
             <p>GOSPEL MUSIC</p>
           </div>
-          </Link>
+          </a>
+          
         
           <Link to='/audio/sermon' >
           <div className='torah'>
