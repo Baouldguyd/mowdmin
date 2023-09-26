@@ -1,6 +1,6 @@
 import React from 'react'
 import optionsImg from '../../Assets/options.png'
-import ministryLogo from '../../Assets/mowdlogo.jpg'
+import ministryLogo from '../../Assets/newmowdlogo.png'
 
 const Header = () => {
   return (

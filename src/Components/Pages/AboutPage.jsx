@@ -1,5 +1,5 @@
 import React from 'react';
-import mowdlogo from '../../Assets/mowdlogo.jpg'
+import mowdlogo from '../../Assets/newmowdlogo.png'
 
 const AboutPage = () => {
   return (

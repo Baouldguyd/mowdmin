@@ -63,10 +63,11 @@ const Schedule = () => {
           </p>
           </a>
           
-
+          <a href="https://t.me/mowdministriesev">
           <p>
           On telegram: Mowdministries e V
           </p>
+          </a>
 
           <a href="https://www.mowdministries.org">
           <p>
