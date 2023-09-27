@@ -7,6 +7,12 @@ import { FaBookOpen, } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
+const bookStyle={
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between'
+}
+
 const Books = () => {
   return (
     <div className='aboutpg'>
@@ -33,7 +39,7 @@ const Books = () => {
         <div className='books' >
           <img src={prophecy} alt="" className='bookImg' style={{ backgroundColor: 'white' }} />
 
-          <div>
+          <div style={bookStyle}>
             <h2>Title: PROPHECY And your RESPONSBILITY In its ACCOMPLISHMENTS</h2>
             <Link to='/books/prophecybook'>
             <button className='view-btn'> <FaBookOpen/> View </button>
@@ -44,7 +50,7 @@ const Books = () => {
 
         <div className='books' >
           <img src={cryImg} alt="" className='bookImg' />
-          <div>
+          <div style={bookStyle}>
             <h2>Title: The cry of the image of God.</h2>
             <Link to='/books/crybook'>
             <button className='view-btn'> <FaBookOpen/> View </button>
@@ -54,7 +60,7 @@ const Books = () => {
 
         <div className='books' >
           <img src={seedImg} alt="" className='bookImg' />
-          <div>
+          <div style={bookStyle}>
             <h2>Title: The Seed of the Blessing </h2>
             <Link to='/books/seedbook'>
             <button className='view-btn'> <FaBookOpen/> View </button>

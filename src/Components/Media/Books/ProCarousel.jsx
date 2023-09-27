@@ -29,7 +29,11 @@ const ProCarousel = () => {
                     <h3 className='h3text' style={contentStyle}>.</h3>
                 </div>
             
+                <div className='probook4'>
 
+                    <h3 className='h3text' style={contentStyle}>.</h3>
+                </div>
+            
 
                 <div className='probook2'>
                     <h3 className='h3text' style={contentStyle}> .</h3>
