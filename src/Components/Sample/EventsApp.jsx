@@ -25,9 +25,12 @@ const EventsApp = () => (
     <Link to='/events/scripture'> 
     <div className='scripture'>
 
+        
       <h3 className='h3text' style={contentStyle
         
       }>Scripture Reading</h3>
+
+      
     </div>
     </Link>
 

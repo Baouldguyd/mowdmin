@@ -17,6 +17,7 @@ const Eventsdetails = () => {
 
         <div>
             <EventsApp/>
+            
         </div>
 
         
