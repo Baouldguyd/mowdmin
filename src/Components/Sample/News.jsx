@@ -17,7 +17,7 @@ const News = () => {
         <div className='newsButtonDiv'>
 
           <Link to='/newspage' >
-            <button className='pixels'><FaNewspaper/>  Announcements </button>
+            <button className='pixels'><FaNewspaper/>  AEvents </button>
             </Link>
             <Link to='/ministryschedule' >
             <button><FaChurch/> MINISTRY SCHEDULE</button>
