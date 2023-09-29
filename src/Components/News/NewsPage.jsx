@@ -10,8 +10,8 @@ const NewsPage = () => {
       <div className='video'>
       <iframe
   className='videoplay'
-  src="https://www.youtube.com/embed/7P7opwNKIow?autoplay=1&loop=1"
-  title="Announcement"
+  src="https://www.youtube.com/embed/hIqhXWY0zVE?autoplay=1&loop=1"
+  title="Announcement Video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
