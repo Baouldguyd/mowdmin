@@ -22,7 +22,7 @@ const NewsPage = () => {
   autoPlay
   loop
   className="videoplay"
-  // Add this line if you want to display video controls (play, pause, volume, etc.)
+  controls // Add this line if you want to display video controls (play, pause, volume, etc.)
 ></video>
 
       </div>
