@@ -1,5 +1,5 @@
 import React from 'react'
-// import annVideo from '../../Assets/video/annVideo.mp4'
+import annVideo from '../../Assets/video/annvideo1.mp4'
 
 const NewsPage = () => {
   return (
@@ -8,16 +8,16 @@ const NewsPage = () => {
         @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
       </style>
       <div className='video'>
-      <iframe
+      {/* <iframe
   className='videoplay'
   src="https://www.youtube.com/embed/hIqhXWY0zVE?autoplay=1&loop=1"
   title="Announcement Video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
-></iframe>
+></iframe> */}
 
-        {/* <video src={annVideo} autoPlay className='videoplay'></video> */}
+        <video src={annVideo} autoPlay className='videoplay'></video>
       </div>
 
       <div>
