@@ -17,7 +17,7 @@ const NewsPage = () => {
   allowfullscreen
 ></iframe> */}
 
-        <video src={annVideo} autoPlay className='videoplay'></video>
+        <video src={annVideo} autoPlay loop className='videoplay'></video>
       </div>
 
       <div>
