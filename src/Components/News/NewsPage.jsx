@@ -1,5 +1,5 @@
 import React from 'react'
-import annVideo from '../../Assets/video/annvideo1.mp4'
+// import annVideo from '../../Assets/video/annvideo1.mp4'
 
 const NewsPage = () => {
   return (
@@ -17,7 +17,14 @@ const NewsPage = () => {
   allowfullscreen
 ></iframe> */}
 
-        <video src={annVideo} autoPlay loop className='videoplay'></video>
+<video
+  src="https://res.cloudinary.com/dxjjjt3zt/video/upload/v1695990681/annvideo1_dt8klu.mp4"
+  autoPlay
+  loop
+  className="videoplay"
+  controls // Add this line if you want to display video controls (play, pause, volume, etc.)
+></video>
+
       </div>
 
       <div>
