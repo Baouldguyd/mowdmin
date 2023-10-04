@@ -10,7 +10,7 @@ const News = () => {
             <div className='line'></div>
         
             <div className='eventsHeadline'>
-                <h1> News</h1>
+                <h1> Plan </h1>
             </div>
             <div className='line'></div>
         </div>
