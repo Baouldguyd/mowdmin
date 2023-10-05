@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "antd";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const contentStyle = {
   height: "160px",
@@ -17,11 +17,13 @@ const onChange = (currentSlide) => {
 
 const EventsApp = () => (
   <Carousel afterChange={onChange}>
-    <Link to="/events/scripture">
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column'
-      }}>
+    {/* <Link to="/events/scripture"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
         <div className="scripture">
           {/* <h3 className='h3text' style={contentStyle
         
@@ -36,103 +38,257 @@ const EventsApp = () => (
         <div>
           <p></p>
           <p>In Luke chapter 10 vs 26 Jesus Christ asked a Dr. of Law:</p>
+          <p>“ What is written in the law? how readest thou?” (Luke 10vs26)</p>
+
           <p>
-        “ What is written in the law? how readest thou?”
-(Luke 10vs26)
-        </p>
-        
-        <p>
-        The time is near and true readers should commence reading, not for satisfying own greed.
-        </p>
+            The time is near and true readers should commence reading, not for
+            satisfying own greed.
+          </p>
 
-        <p>
-        For real readers, he says:
-        </p>
+          <p>For real readers, he says:</p>
 
-        <p>
-        “Blessed is he that readeth, and they that hear the words of this prophecy, and keep those things which are written therein: for the time is at hand.”
-(Revelation 1vs 3)
-        </p>
-        <p>
-            Blessed are you as you are reading to seize the revelation of God's word.
-
-        </p>
+          <p>
+            “Blessed is he that readeth, and they that hear the words of this
+            prophecy, and keep those things which are written therein: for the
+            time is at hand.” (Revelation 1vs 3)
+          </p>
+          <p>
+            Blessed are you as you are reading to seize the
+            revelation of God's word.
+          </p>
         </div>
       </div>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/events/prayer">
-      <div className="prayer">
-        <h3 className="h3text" style={contentStyle}>
-          Prayer - Intercession
-        </h3>
+    {/* <Link to="/events/prayer"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="prayer">
+          <div className="h3text" style={contentStyle}>
+            Prayer - Intercession
+          </div>
+        </div>
+
+        <div>
+          <p>
+            The organization encourages PRAYER, Evangelisation, Seminary
+            SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus
+            Christ
+          </p>
+
+          <p>
+            Prayer meeting, prayer vigil, intercessory prayer. Prayer of
+            deliverance, Souls counselling and other payers support:
+          </p>
+          <p>
+            <a href="tel:+491744370644"> Call +49(0)1744370644 </a>
+            or email your prayer requests:{" "}
+          </p>
+          <a href="mailto:prayer@mowdministries.org">
+            {" "}
+            prayer@mowdministries.org
+          </a>
+        </div>
       </div>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/events/crusade">
-      <div className="crusade">
-        <h3 className="h3text" style={contentStyle}>
-          Open Air Crusade
-        </h3>
+    {/* <Link to="/events/crusade"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="crusade">
+          <div className="h3text" style={contentStyle}>
+            Open Air Crusade
+          </div>
+        </div>
+
+        <div>
+          <p>
+            Through the evangelistic crusades, GOD is manifested to heal and
+            deliver His people. For it is written, "WHEN THE SON DELIVERS YOU,
+            YOU WILL REALLY BE FREE." (JOHN 8vs36).
+          </p>
+        </div>
       </div>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/events/charity">
-      <div className="charity">
-        <h3 className="h3text" style={contentStyle}>
-          {" "}
-          Charitable Deeds
-        </h3>
+    {/* <Link to="/events/charity"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="charity">
+          <div className="h3text" style={contentStyle}>
+            {" "}
+            Charitable Deeds
+          </div>
+        </div>
+        <p>
+          This involves reaching out to the needy amongst us by showing love and
+          spreading the goodnews of Jesus Christ and His Salvation.
+        </p>
+        <p>
+          We support people with social and psychological problems. (2
+          Corinthians 9v9)
+        </p>
+
+        <p>
+          No one comes to Christ and goes as He was! (For everyone who calls on
+          the name of God will be saved "Romans 10:13").
+        </p>
+
+        <p>Sow a seed of love today.</p>
+
+        <div></div>
       </div>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/events/baptism">
-      <div className="baptism">
-        <h3 className="h3text" style={contentStyle}>
+    {/* <Link to="/events/baptism"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="baptism">
+          <div className="h3text" style={contentStyle}>
+            Water Baptism
+          </div>
+        </div>
+
+        <div></div>
+        <p>Get Baptized by immersion at Mowd Ministries.</p>
+        <p>
+          Feel free to{" "}
+          <a href="mailto:info@mowdministries.org">Contact Us Here</a> for your
           Water Baptism
-        </h3>
-      </div>
-    </Link>
+        </p>
 
-    <Link to="/events/supper">
-      <div className="supper">
-        <h3 className="h3text" style={contentStyle}>
-          Lord Supper
-        </h3>
+        <p>
+          for all of you who were baptized into Christ have clothed yourselves
+          with Christ. - Gal 3:27
+        </p>
       </div>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/events/convention">
-      <div className="convention">
-        <h3 className="h3text" style={contentStyle}>
-          Holy Spirit Convention
-        </h3>
-      </div>
-    </Link>
+    {/* <Link to="/events/supper"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="supper">
+          <div className="h3text" style={contentStyle}>
+            Lord Supper
+          </div>
+        </div>
 
-    <Link to="/events/conference">
-      <div className="convention">
-        <h3 className="h3text" style={contentStyle}>
-          Conference
-        </h3>
+        <div>
+          <p>
+            This involves taking the communion by eating the flesh and blood of
+            Jesus for sanctification
+          </p>
+        </div>
       </div>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/events/sympossium">
-      <div className="convention sympossium">
-        <h3 className="h3text" style={contentStyle}>
-          Sympossium/Colloque{" "}
-        </h3>
-      </div>
-    </Link>
+    {/* <Link to="/events/convention"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="convention">
+          <div className="h3text" style={contentStyle}>
+            Holy Spirit Convention
+          </div>
+        </div>
 
-    <Link to="/events/concert">
-      <div className="convention">
-        <h3 className="h3text" style={contentStyle}>
-          Concert
-        </h3>
+        <div>
+          <p>Come join us at our Annual Convention at Hamm, Germany. </p>
+          <p>Dont come alone, Invite someone and be blessed.</p>
+        </div>
       </div>
-    </Link>
+    {/* </Link> */}
+
+    {/* <Link to="/events/conference"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="convention">
+          <div className="h3text" style={contentStyle}>
+            Conference
+          </div>
+        </div>
+
+        <div>
+          <p>
+            This service brings all together: men, women, youth and children
+            under the divine anointing. God visits his people, reveals himself
+            to them and speaks to them. He (God) works out His plan in
+            everyone's life.
+          </p>
+        </div>
+      </div>
+    {/* </Link> */}
+
+    {/* <Link to="/events/sympossium"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="convention sympossium">
+          <div className="h3text" style={contentStyle}>
+            Sympossium/Colloque{" "}
+          </div>
+        </div>
+
+        <div>
+          <p>
+            This service brings together businessmen and politicians under the
+            fire of the Holy Spirit to revitalize his people and lead them on
+            the path of righteousness to make them a holy people of able men and
+            women.
+          </p>
+        </div>
+      </div>
+    {/* </Link> */}
+
+    {/* <Link to="/events/concert"> */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div className="convention">
+          <h3 className="h3text" style={contentStyle}>
+            Concert
+          </h3>
+        </div>
+
+        <div>
+          <p>Come join us at our Annual Convention at Hamm, Germany. </p>
+          <p>Dont come alone, Invite someone and be blessed.</p>
+        </div>
+      </div>
+    {/* </Link> */}
   </Carousel>
 );
 export default EventsApp;

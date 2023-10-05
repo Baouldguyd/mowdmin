@@ -13,8 +13,6 @@ const contentStyle = {
 };
 
 
-
-
 const onChange = (currentSlide) => {
     console.log(currentSlide);
 }
