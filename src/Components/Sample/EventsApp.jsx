@@ -22,7 +22,7 @@ const EventsApp = () => (
 
   <Carousel afterChange={onChange}>  
    
-    <Link to='/events/scripture'> 
+    <Link to='/scripturetext'> 
     <div className='scripture'>
 
         

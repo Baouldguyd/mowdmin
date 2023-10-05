@@ -33,7 +33,7 @@ import EventDetails from './Components/Sample/EventDetails';
 import CryBook from './Components/Media/Books/CryBook';
 import SeedBook from './Components/Media/Books/SeedBook';
 import ProphecyBook from './Components/Media/Books/ProphecyBook';
-
+import ScriptureText from './Components/Pages/ScriptureText'
 
 
 
@@ -61,6 +61,11 @@ const App = () => {
         <Route path='/events/prayer' element={ <Prayer/> } />
         <Route path='/events/sympossium' element={ <Symposium/> } />
         <Route path='/events/crusade' element={ <CrusadeDetails/> } />
+        <Route path='/scripturetext' element={ <ScriptureText/> } />        
+        
+
+
+
 
         {/* Audio Pages */}
         <Route path='/audio/books' element={<Books/>} />
