@@ -38,9 +38,10 @@ const SeedBook = () => {
                     blessing is.
 
                 </p>
-
+                
+                <a href="https://buy.stripe.com/test_6oEbMf1jC0g93VC3ce">
                 <button> <FaCartPlus /> Order Now</button>
-
+                </a>
             </div>
         </div>
     )

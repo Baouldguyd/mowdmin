@@ -8,6 +8,7 @@ const CryBook = () => {
     return (
         <div className='aboutpg'>
             <CryBookCarousel />
+        
         <div className='bookword'>
                 <h2>The cry of the image of God.
                 </h2>
@@ -25,8 +26,9 @@ const CryBook = () => {
                     This book is a teaching to enlighten the ways of the children of God on this subject.
 
                 </p>
-
+                <a href="https://buy.stripe.com/test_4gw6rV1jC1kdbo43cd">
                 <button> <FaCartPlus /> Order Now</button>
+                </a>
             </div>
         </div>
     )

@@ -31,7 +31,9 @@ const ProphecyBook = () => {
 
                 </p>
 
+                <a href="https://buy.stripe.com/test_dR64jNgew2ohgIoaEE">
                 <button> <FaCartPlus/> Order Now</button>
+                </a>
             </div>
         </div>
     )
