@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "antd";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const contentStyle = {
   height: "160px",
@@ -17,7 +17,7 @@ const onChange = (currentSlide) => {
 
 const EventsApp = () => (
   <Carousel afterChange={onChange}>
-    {/* <Link to="/events/scripture"> */}
+    <Link to="/events/scripture">
       <div
         style={{
           display: "flex",
@@ -58,9 +58,9 @@ const EventsApp = () => (
           </p>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/prayer"> */}
+    <Link to="/events/prayer">
       <div
         style={{
           display: "flex",
@@ -94,9 +94,9 @@ const EventsApp = () => (
           </a>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/crusade"> */}
+    <Link to="/events/crusade">
       <div
         style={{
           display: "flex",
@@ -117,9 +117,9 @@ const EventsApp = () => (
           </p>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/charity"> */}
+    <Link to="/events/charity">
       <div
         style={{
           display: "flex",
@@ -150,9 +150,9 @@ const EventsApp = () => (
 
         <div></div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/baptism"> */}
+    <Link to="/events/baptism">
       <div
         style={{
           display: "flex",
@@ -178,9 +178,9 @@ const EventsApp = () => (
           with Christ. - Gal 3:27
         </p>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/supper"> */}
+    <Link to="/events/supper">
       <div
         style={{
           display: "flex",
@@ -200,9 +200,9 @@ const EventsApp = () => (
           </p>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/convention"> */}
+    <Link to="/events/convention">
       <div
         style={{
           display: "flex",
@@ -220,9 +220,9 @@ const EventsApp = () => (
           <p>Dont come alone, Invite someone and be blessed.</p>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/conference"> */}
+    <Link to="/events/conference">
       <div
         style={{
           display: "flex",
@@ -244,9 +244,9 @@ const EventsApp = () => (
           </p>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/sympossium"> */}
+    <Link to="/events/sympossium">
       <div
         style={{
           display: "flex",
@@ -268,9 +268,9 @@ const EventsApp = () => (
           </p>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
 
-    {/* <Link to="/events/concert"> */}
+    <Link to="/events/concert">
       <div
         style={{
           display: "flex",
@@ -288,7 +288,7 @@ const EventsApp = () => (
           <p>Dont come alone, Invite someone and be blessed.</p>
         </div>
       </div>
-    {/* </Link> */}
+    </Link>
   </Carousel>
 );
 export default EventsApp;
