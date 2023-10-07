@@ -60,7 +60,7 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    <Link to="/events/prayer">
+    <Link to="/intercession">
       <div
         style={{
           display: "flex",

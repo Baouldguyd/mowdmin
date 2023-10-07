@@ -26,7 +26,7 @@ const CryBook = () => {
                     This book is a teaching to enlighten the ways of the children of God on this subject.
 
                 </p>
-                <a href="https://buy.stripe.com/test_4gw6rV1jC1kdbo43cd">
+                <a href="https://buy.stripe.com/fZe7uKdZJfU3b2UcMO">
                 <button> <FaCartPlus /> Order Now</button>
                 </a>
             </div>
