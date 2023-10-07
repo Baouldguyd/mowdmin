@@ -12,6 +12,7 @@ const CryBook = () => {
         <div className='bookword'>
                 <h2>The cry of the image of God.
                 </h2>
+                
                 <p>
                     Beneath the effect of the harmful consequences of his actions,
                     man, created in the image of God, is forced to cry out the cry of despair.
