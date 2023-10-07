@@ -39,8 +39,8 @@ const SeedBook = () => {
 
                 </p>
                 
-                <a href="https://buy.stripe.com/test_6oEbMf1jC0g93VC3ce">
-                <button className='button-with-loader'> <FaCartPlus /> Order Now</button>
+                <a href="https://buy.stripe.com/3cs2aq6xh37h8UM9AA">
+                <button> <FaCartPlus /> Order Now</button>
                 </a>
             </div>
         </div>
