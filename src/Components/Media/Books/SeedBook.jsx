@@ -35,7 +35,7 @@ const SeedBook = () => {
                     areas. But for the Christian of today, it
                     seems that the way of blessing is hidden
                     from him. Discover in this book what true
-                    blessing is.
+                    blessing i
 
                 </p>
                 

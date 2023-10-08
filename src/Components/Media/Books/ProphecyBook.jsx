@@ -27,7 +27,7 @@ const ProphecyBook = () => {
                     to destroy and to kill. This book is a
                     projector to enlighten the children of God
                     in their worship hoping to obtain what is
-                    promised.
+                    promised from above.
 
                 </p>
 
