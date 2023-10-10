@@ -7,7 +7,7 @@ const Requests = () => {
         <div 
         style={{
             width: '100%',
-            height: '110vh'
+            height: '100vh'
         }}
         >
             <iframe 
