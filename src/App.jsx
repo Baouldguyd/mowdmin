@@ -32,6 +32,7 @@ import SeedBook from './Components/Media/Books/SeedBook';
 import ProphecyBook from './Components/Media/Books/ProphecyBook';
 import ScriptureText from './Components/Pages/ScriptureText'
 import Intercession from './Components/Events/Intercession';
+import Requests from './Components/Events/Requests';
 
 
 
@@ -62,7 +63,7 @@ const App = () => {
         <Route path='/events/crusade' element={ <CrusadeDetails/> } />
         <Route path='/scripturetext' element={ <ScriptureText/> } />        
         <Route path='/intercession' element={ <Intercession/> } />
-
+        <Route path='/request' element={ <Requests/> } />
 
 
 

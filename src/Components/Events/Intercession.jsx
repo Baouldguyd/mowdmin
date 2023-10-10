@@ -1,6 +1,6 @@
 import React from 'react'
 import biblecross from '../../Assets/biblecross.jpg'
-
+import { Link } from 'react-router-dom';
 
 // const apiUrl = ''
 
@@ -26,10 +26,12 @@ const Intercession = () => {
       </div>
 
       <div className='scriptureDiv'>
+          <Link to='/request' >
           <div className='oldTestament'>
-            <h2>PRAYER</h2>
+            <h2>PRAYER REQUEST</h2>
      
           </div>
+          </Link>
 
           <div className='newTestament'>
             <h2>INTERCESSION</h2>
