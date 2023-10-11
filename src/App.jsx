@@ -33,6 +33,7 @@ import ProphecyBook from './Components/Media/Books/ProphecyBook';
 import ScriptureText from './Components/Pages/ScriptureText'
 import Intercession from './Components/Events/Intercession';
 import Requests from './Components/Events/Requests';
+import IntercessionList from './Components/Events/IntercessionList';
 
 
 
@@ -62,9 +63,11 @@ const App = () => {
         <Route path='/events/sympossium' element={ <Symposium/> } />
         <Route path='/events/crusade' element={ <CrusadeDetails/> } />
         <Route path='/scripturetext' element={ <ScriptureText/> } />        
+        
+        {/* Prayers & Request */}
         <Route path='/intercession' element={ <Intercession/> } />
         <Route path='/request' element={ <Requests/> } />
-
+        <Route path='prayerlist' element={<IntercessionList/>} />
 
 
         {/* Audio Pages */}
