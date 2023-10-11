@@ -18,7 +18,7 @@ const IntercessionList = () => {
 
       <div>
         <h3 style={{textAlign: 'center'}}>Choose one Prayer request amongst the list and Pray for at least 30mins or more if you can</h3>
-        <h3 style={{textAlign: 'center'}}>Pray for</h3>
+        <h3 style={{textAlign: 'center', textDecoration: 'underline', fontSize: '2rem'}}>Pray for :</h3>
 
         <p>
           ° Pray for the peace of Israel. “Pray for the peace of Jerusalem: they
