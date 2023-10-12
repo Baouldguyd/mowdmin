@@ -16,7 +16,7 @@ const onChange = (currentSlide) => {
 };
 
 const EventsApp = () => (
-  <Carousel afterChange={onChange}>
+  <Carousel afterChange={onChange} className='fade-in appear'>
     <Link to="/events/scripture">
       <div
         style={{

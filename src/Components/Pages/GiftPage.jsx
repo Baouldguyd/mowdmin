@@ -17,7 +17,7 @@ const giftStyle = {
 
 const GiftPage = () => {
   return (
-    <div className='aboutpg'>
+    <div className='aboutpg fade-in appear'>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
       </style>
@@ -42,6 +42,7 @@ const GiftPage = () => {
         <a href="https://donate.stripe.com/bIY2aqg7R0Z9c6YaEH">
         <img style={giftStyle} src={stripe} alt="" />
         </a>
+
         <img style={giftStyle} src={paypal} alt="" />
       </div>
 

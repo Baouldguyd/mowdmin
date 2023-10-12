@@ -12,7 +12,9 @@ const textStyle = {
         marginTop: '2rem',
         height: 'auto',
         fontSize: '1.1rem',
-    }}>
+    }}
+    className=''
+    >
         <div style={{
             display: 'flex',
             flexWrap: 'wrap',
