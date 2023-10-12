@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaVideo } from 'react-icons/fa';
 import supper from '../../Assets/supper.jpg'
 
 const Supper = () => {
@@ -17,9 +18,22 @@ const Supper = () => {
 
       <div className='charityDeeds'>
         <h2>The Lord Supper</h2>
-        <p>This involves taking the communion by eating the flesh and blood of Jesus for sanctification
+        <p>To begin the new month and of course follow by the program " The voice of the presence of God ", on the first Sunday of the month we gather to break the bread and take the cup as our Lord Jesus Christ commanded us to do in His remembrance in Luke 22vs 19.
         </p>
        
+       <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
+        <button> <FaVideo/> 
+         Join Zoom Meeting Link
+        </button>
+       </a>
+
+       <p>
+       Meeting ID: 891 2138 4589
+      </p>
+
+      <p>
+      Passcode: twfHq8
+      </p>
       
       </div>
 
@@ -27,4 +41,4 @@ const Supper = () => {
   )
 }
 
-export default Supper
+export default Supper;
