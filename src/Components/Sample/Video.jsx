@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaPlay } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import fotoImg from '../../Assets/foto.jpg'
 
 
@@ -12,7 +12,7 @@ const Video = () => {
   return (
     <div className='video fade-in' >
 
-      <Link to='/video' >
+    
         <div className='events'>
             <div className='line'></div>
         
@@ -27,7 +27,10 @@ const Video = () => {
           <div className='vid-box'    
           >
             <div className="playDiv">
+              <a href="https://www.youtube.com/@mowdministries.e.vgospelofsalv/videos">
               <button> <FaPlay className='playIcon'/>  </button>
+              </a>
+              
             </div>
             
           </div>
@@ -35,7 +38,7 @@ const Video = () => {
         </div>
 
         
-</Link>
+
 
     </div>
   )
