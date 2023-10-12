@@ -1,30 +1,47 @@
-import React from 'react'
+import React from "react";
+import {  FaYoutube } from "react-icons/fa";
 
 const VideoPage = () => {
   return (
-    <div>
-        <div className='videoFile'>
-            <div>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VsVqgUOo7ks" title="Fruit Bearing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div className="aboutpg">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+      </style>
+
+      <div className=""
+      style={{
+        display: 'flex',
+        flexDirection: 'column'
+      }}
+      >
+        <h2>Watch our Live Programmes</h2>
+        <div className="videoContainer">
+          
+            <div className="vid-box2">
+              <div className="playDiv">
+                <a href="https://m.youtube.com/@mowdministries.e.vgospelofsalv/streams">
+                  <FaYoutube className="playIcon live" />
+                  
+                </a>
+              </div>
             </div>
-
-            <div>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9D2Y0Q5InmE" title="Event" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-
-
-           <div>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/t4ZSWMLjE7U" title="Morning Glory" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-
-            <div>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tN8UW6dwE_4" title="JESUS LOVES YOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            
-
         </div>
+
+        <h2>Watch Videos on our  Gallery</h2>
+        <div className="videoContainer">
+          
+            <div className="vid-box">
+              <div className="playDiv">
+                <a href="https://m.youtube.com/@mowdministries.e.vgospelofsalv/videos?app=mobile">
+                  <FaYoutube className="playIcon" />
+                </a>
+              </div>
+            </div>
+        </div>
+
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default VideoPage;

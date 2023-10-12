@@ -39,7 +39,9 @@ const GiftPage = () => {
         display: 'flex'
         
       }}>
+        <a href="https://donate.stripe.com/bIY2aqg7R0Z9c6YaEH">
         <img style={giftStyle} src={stripe} alt="" />
+        </a>
         <img style={giftStyle} src={paypal} alt="" />
       </div>
 
