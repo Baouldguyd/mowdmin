@@ -31,7 +31,8 @@ const GiftPage = () => {
 
       <div>
         <h2>Make a Gift</h2>
-        <p style={{ textAlign: 'center' }}>Use any of our payment methods below</p>
+        <p style={{ textAlign: 'center' }}>
+        Please Choose one of the methods below to make a donation..</p>
       </div>
 
       <div style={{
