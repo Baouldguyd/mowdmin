@@ -26,15 +26,16 @@ const Crusade = () => {
           praise God the Almighty. There is always inspired gospel music, by
           different gospel singers who support the event.
         </p>
-
       </div>
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap:'1rem',
-        width: '75vw',
-        margin: '0 auto',
-      }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "1rem",
+          width: "75vw",
+          margin: "0 auto",
+        }}
+      >
         <button> Past Open Air Evangelisation </button>
         <button>Coming Open Air Evangelisation</button>
       </div>
