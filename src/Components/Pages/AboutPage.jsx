@@ -3,7 +3,7 @@ import mowdlogo from '../../Assets/newmowdlogo.png'
 
 const AboutPage = () => {
   return (
-    <div className='aboutpg abtpg'>
+    <div className='aboutpg abtpg fade-in appear'>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
       </style>

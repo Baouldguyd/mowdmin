@@ -4,7 +4,7 @@ import biblecross from "../../Assets/biblecross.jpg";
 
 const IntercessionList = () => {
   return (
-    <div className="aboutpg">
+    <div className="aboutpg fade-in appear">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
@@ -17,7 +17,7 @@ const IntercessionList = () => {
       </div>
 
       <div>
-        <h3 style={{textAlign: 'center'}}>Choose one Prayer request amongst the list and Pray for at least 30mins or more if you can</h3>
+        <h3 style={{textAlign: 'center'}}>Please choose prayer request as many amongst the list and Pray for at least 30mins or more if you. The Lord bless you as you do so.</h3>
         <h3 style={{textAlign: 'center', textDecoration: 'underline', fontSize: '2rem'}}>Pray for :</h3>
 
         <p>

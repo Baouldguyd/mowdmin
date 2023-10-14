@@ -2,10 +2,9 @@ import React from 'react'
 
 const Schedule = () => {
   return (
-    <div className='schedule'>
+    <div className='schedule fade-in appear'>
         <h2>Check calendar for Events</h2>
-
-        
+      
 
         <div className='scheduleText'>
           <h2>Every Monday</h2>

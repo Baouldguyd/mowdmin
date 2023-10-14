@@ -3,7 +3,7 @@ import React from 'react'
 
 const NewsPage = () => {
   return (
-    <div className='newsPage'>
+    <div className='newsPage fade-in appear'>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
       </style>
@@ -15,7 +15,7 @@ const NewsPage = () => {
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
-></iframe> */}
+></iframe> */}                
 
 <video
   src="https://res.cloudinary.com/dxjjjt3zt/video/upload/v1695990681/annvideo1_dt8klu.mp4"

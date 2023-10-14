@@ -4,7 +4,7 @@ import supper from '../../Assets/supper.jpg'
 
 const Supper = () => {
   return (
-    <div className='aboutpg'>
+    <div className='aboutpg fade-in appear'>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
       </style>
@@ -22,7 +22,7 @@ const Supper = () => {
         </p>
        
        <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
-        <button> <FaVideo/> 
+        <button>  <FaVideo/>  
          Join Zoom Meeting Link
         </button>
        </a>

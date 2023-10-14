@@ -2,7 +2,7 @@ import React from 'react'
 
 const QuestionForm = () => {
   return (
-    <div>
+    <div className='fade-in appear'>
         <h2>Send in your Questions</h2>
 
         <div 

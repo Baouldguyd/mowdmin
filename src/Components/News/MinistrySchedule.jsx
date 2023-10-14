@@ -4,7 +4,7 @@ import schedule from '../../Assets/schedule.jpg'
 
 const MinistrySchedule = () => {
     return (
-        <div className='aboutpg'>
+        <div className='aboutpg fade-in appear'>
             <style>
                 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
             </style>
