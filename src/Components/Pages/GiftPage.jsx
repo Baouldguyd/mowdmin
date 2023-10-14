@@ -32,19 +32,27 @@ const GiftPage = () => {
       <div>
         <h2>Make a Gift</h2>
         <p style={{ textAlign: 'center' }}>
+          “He that hath pity upon the poor lendeth unto the LORD; And that which
+          he hath given will he pay him again.” Proverbs 19:17 
+        </p>
+        <p style={{ textAlign: 'center' }}>
         Please Choose one of the methods below to make a donation..</p>
       </div>
 
       <div style={{
         width: '100vw',
-        display: 'flex'
+        display: 'flex',
+        justifyContent: 'space-around',
         
       }}>
         <a href="https://donate.stripe.com/bIY2aqg7R0Z9c6YaEH">
         <img style={giftStyle} src={stripe} alt="" />
         </a>
 
+        <a href="https://www.paypal.com/paypalme/Mowdministries?country.x=US&locale.x=en_US">
         <img style={giftStyle} src={paypal} alt="" />
+        </a>
+        
       </div>
 
     </div>

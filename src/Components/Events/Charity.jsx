@@ -1,6 +1,7 @@
 import React from "react";
 import charity from "../../Assets/charity.jpg";
 import { Link } from "react-router-dom";
+
 const Charity = () => {
   return (
     <div className="aboutpg">
@@ -26,20 +27,14 @@ const Charity = () => {
           Corinthians 9v9)
         </p>
 
-        <p>
-          No one comes to Christ and goes as He was! (For everyone who calls on
-          the name of God will be saved "Romans 10:13").
-        </p>
-
-        <p>
-          “He that hath pity upon the poor lendeth unto the LORD; And that which
-          he hath given will he pay him again.” Proverbs 19:17 
-        </p>
+                
 
         <Link to= '/gift'>
-        <p>
+        <button>
         Click Here to Sow a lovely seed
-        </p>
+        </button>
+        
+        
         </Link>
       </div>
     </div>

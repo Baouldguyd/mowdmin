@@ -133,7 +133,7 @@ const EventsApp = () => (
           </div>
         </div>
         <p>
-          This involves reaching out to the needy amongst us by showing love and
+          This involves reaching out to the needy by showing love and
           spreading the goodnews of Jesus Christ and His Salvation.
         </p>
         <p>
@@ -141,12 +141,9 @@ const EventsApp = () => (
           Corinthians 9v9)
         </p>
 
-        <p>
-          No one comes to Christ and goes as He was! (For everyone who calls on
-          the name of God will be saved "Romans 10:13").
-        </p>
-
-        <p>Sow a seed of love today.</p>
+        
+        <button>Sow a seed of love today.</button>
+        <p></p>
 
         <div></div>
       </div>
