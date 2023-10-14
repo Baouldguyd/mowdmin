@@ -3,7 +3,7 @@ import crusade from "../../Assets/crusade.jpg";
 
 const Crusade = () => {
   return (
-    <div className="aboutpg">
+    <div className="aboutpg fade-in appear">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
@@ -27,6 +27,7 @@ const Crusade = () => {
           different gospel singers who support the event.
         </p>
       </div>
+
       <div
         style={{
           display: "flex",
@@ -37,17 +38,16 @@ const Crusade = () => {
         }}
       >
         <button>
-        <a href="https://www.mowdministries.org/galerie">
-        Past Open Air Evangelisation 
-        </a>
+          <a href="https://www.mowdministries.org/galerie">
+            Past Open Air Evangelisation
+          </a>
         </button>
-        
+
         <button>
-        <a href="https://www.mowdministries.org/events">
-        Coming Open Air Evangelisation
-        </a>
+          <a href="https://www.mowdministries.org/events">
+            Coming Open Air Evangelisation
+          </a>
         </button>
-        
       </div>
     </div>
   );
