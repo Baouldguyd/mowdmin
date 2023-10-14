@@ -18,19 +18,15 @@ const Charity = () => {
 
       <div className="charityDeeds">
         <h2>Our Charitable Deeds</h2>
-        <p>
-          This involves reaching out to the needy amongst us by showing love and
-          spreading the goodnews of Jesus Christ and His Salvation.
-        </p>
-        <p>
-          We support people with social and psychological problems. (2
-          Corinthians 9v9)
+        <p style={{ textAlign: 'center' }}>
+          “He that hath pity upon the poor lendeth unto the LORD; And that which
+          he hath given will he pay him again.” Proverbs 19:17 
         </p>
 
                 
 
         <Link to= '/gift'>
-        <button>
+        <button style={{display: 'block', margin:"auto"}}>
         Click Here to Sow a lovely seed
         </button>
         
