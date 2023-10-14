@@ -26,13 +26,16 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    
   }
 
   .cross-logo{
-    width: 14rem;
-    height: 14rem;
+    width: 18rem;
+    height: 17rem;
     display: block;
     margin: auto;
+    margin-top: 9.5rem;
+    /* margin-left: 1rem; */
   }
 
   .cross-logo img {
