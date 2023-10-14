@@ -36,8 +36,18 @@ const Crusade = () => {
           margin: "0 auto",
         }}
       >
-        <button> Past Open Air Evangelisation </button>
-        <button>Coming Open Air Evangelisation</button>
+        <button>
+        <a href="https://www.mowdministries.org/galerie">
+        Past Open Air Evangelisation 
+        </a>
+        </button>
+        
+        <button>
+        <a href="https://www.mowdministries.org/events">
+        Coming Open Air Evangelisation
+        </a>
+        </button>
+        
       </div>
     </div>
   );
