@@ -23,7 +23,7 @@ const News = () => {
             <button><FaChurch/> MINISTRY SCHEDULE</button>
             </Link>
 
-            <Link to='/questions' >
+            <Link to='/select' >
             <button><FaComment/> QUESTIONS & ANSWER</button>
             </Link>
         </div>

@@ -34,6 +34,8 @@ import ScriptureText from './Components/Pages/ScriptureText'
 import Intercession from './Components/Events/Intercession';
 import Requests from './Components/Events/Requests';
 import IntercessionList from './Components/Events/IntercessionList';
+import SelectQA from './Components/News/SelectQA';
+import Answers from './Components/News/Answers';
 
 
 
@@ -90,8 +92,12 @@ const App = () => {
         {/* News Page */}
         <Route path='/ministryschedule' element={<MinistrySchedule/>} />
         <Route path='/newspage' element={<NewsPage/>} />
-        <Route path='/questions' element={<Questions/>} />
         
+        {/* Questions & Answer Page */}
+        <Route path='/questions' element={<Questions/>} />
+        <Route path='/select' element={<SelectQA/>} />
+        <Route path='/answer' element={ <Answers/>  } />
+
         <Route path='/gift' element={<GiftPage/>} />
       
 

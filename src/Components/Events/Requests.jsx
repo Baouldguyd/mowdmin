@@ -1,6 +1,37 @@
 import React from 'react';
+// import { useState } from 'react';
 
 const Requests = () => {
+
+    // const apiUrl = process.env.REACT_APP_REQUEST_URL
+
+    // const [prayer_request, setPrayer_Request] = useState({
+    //     request: '',
+    // });
+
+    // const handleInputChange = (event) => {
+    //     const {name, value} = event.target;
+    //     setPrayer_Request((prevData) => ({ ...prevData, [name]: value }));
+    // } 
+
+    // const handleSubmit = ()=>{
+
+    //     try {
+            
+    //        const response = 
+        
+    //     } 
+        
+    //     catch (error) {
+            
+    //     }
+
+    // }
+
+    
+
+
+
   return (
     <div className='fade-in appear'>
     
@@ -24,6 +55,13 @@ const Requests = () => {
                 Loading…
                 
                 </iframe>
+
+            <form action="" method="post">
+                
+                <label htmlFor="request">Enter Your Prayer Request Below</label>
+                <input type="text" name="request" id="request" />
+
+            </form>
         
         </div>
         
