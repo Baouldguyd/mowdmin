@@ -37,7 +37,7 @@ const Audio = () => {
           </div>
           </Link>
           <Link to='/audio/testimonies' >
-          <div className='torah'>
+          <div className='testimony'>
             <p>TESTIMONIES</p>
           </div>
           </Link>

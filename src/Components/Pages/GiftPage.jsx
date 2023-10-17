@@ -33,6 +33,11 @@ const GiftPage = () => {
         <h2>Make a Gift</h2>
         
         <p style={{ textAlign: 'center' }}>
+          “He that hath pity upon the poor lendeth unto the LORD; And that which
+          he hath given will he pay him again.” Proverbs 19:17 
+        </p>
+
+        <p style={{ textAlign: 'center' }}>
         Please Choose one of the methods below to make a donation..</p>
       </div>
 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Video = () => {
   return (
-    <div className="video fade-in">
+    <div className="video fade-in appear">
       <Link to="/video">
         <div className="events">
           <div className="line"></div>

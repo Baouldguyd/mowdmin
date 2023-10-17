@@ -119,7 +119,7 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    <Link to="/events/charity">
+    
       <div
         style={{
           display: "flex",
@@ -142,12 +142,14 @@ const EventsApp = () => (
         </p>
 
         
-        <button>Sow a seed of love today.</button>
-        <p></p>
+        <button style={{ display: 'block', margin: 'auto' }}> <a href="https://www.mowdministries.org/our-services">Click Here for Our Charitable Deeds</a> </button>
+        <p style={{ textAlign: 'center' }}>OR</p>
+          
+          <Link to='/gift'><button style={{ display: 'block', margin: 'auto',  }}>Click here to Sow a Lovely Seed</button></Link>
 
         <div></div>
       </div>
-    </Link>
+    
 
     <Link to="/events/baptism">
       <div
