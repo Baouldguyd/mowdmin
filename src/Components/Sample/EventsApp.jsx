@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from "antd";
 import { Link } from "react-router-dom";
+import { FaVideo } from 'react-icons/fa';
+
 
 const contentStyle = {
   height: "160px",
@@ -213,7 +215,7 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    <Link to="/events/supper">
+    
       <div
         style={{
           display: "flex",
@@ -231,9 +233,37 @@ const EventsApp = () => (
             This involves taking the communion by eating the flesh and blood of
             Jesus for sanctification
           </p>
+          <p>
+        This involves taking the communion by eating the flesh and drinking the blood of our Lord Jesus Christ for Sanctification and healing.
+
+In the beginning of the new month and of course follow by the program,
+
+ " The voice of the presence of God ", 
+
+on the first Sunday of the month we gather to break the bread and take the cup as our Lord Jesus Christ commanded us to do this in His remembrance in Luke 22vs 19.
+
+        </p>
+       
+       <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
+        <button style={{
+          display: 'block',
+          margin: 'auto'
+        }}>  <FaVideo/>  
+         Join Zoom Meeting Link
+        </button>
+       </a>
+
+       <p>
+       Meeting ID: 891 2138 4589
+      </p>
+
+      <p>
+      Passcode: twfHq8
+      </p>
+      
         </div>
       </div>
-    </Link>
+    
 
     <Link to="/events/convention">
       <div
