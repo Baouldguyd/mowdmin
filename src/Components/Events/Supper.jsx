@@ -18,7 +18,17 @@ const Supper = () => {
 
       <div className='charityDeeds'>
         <h2>The Lord Supper</h2>
-        <p>To begin the new month and of course follow by the program " The voice of the presence of God ", on the first Sunday of the month we gather to break the bread and take the cup as our Lord Jesus Christ commanded us to do in His remembrance in Luke 22vs 19.
+       
+
+        <p>
+        This involves taking the communion by eating the flesh and drinking the blood of our Lord Jesus Christ for Sanctification and healing.
+
+In the beginning of the new month and of course follow by the program,
+
+ " The voice of the presence of God ", 
+
+on the first Sunday of the month we gather to break the bread and take the cup as our Lord Jesus Christ commanded us to do this in His remembrance in Luke 22vs 19.
+
         </p>
        
        <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
