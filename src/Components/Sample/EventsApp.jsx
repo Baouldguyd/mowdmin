@@ -229,8 +229,8 @@ const EventsApp = () => (
 
       <div>
         <p>
-          This involves taking the communion by eating the flesh and blood of
-          Jesus for sanctification and healing.
+          This involves taking the communion by eating the flesh and drinking the blood of our Lord
+          Jesus Christ for Sanctification and healing.
         </p>
         <p>
        In the beginning of the new month and of course follow by the program, "
