@@ -1,8 +1,7 @@
 import React from "react";
 import { Carousel } from "antd";
 import { Link } from "react-router-dom";
-import { FaVideo } from 'react-icons/fa';
-
+import { FaVideo } from "react-icons/fa";
 
 const contentStyle = {
   height: "160px",
@@ -18,7 +17,7 @@ const onChange = (currentSlide) => {
 };
 
 const EventsApp = () => (
-  <Carousel afterChange={onChange} className='fade-in appear'>
+  <Carousel afterChange={onChange} className="fade-in appear">
     <Link to="/events/scripture">
       <div
         style={{
@@ -98,27 +97,26 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <div className="crusade">
-          <div className="h3text" style={contentStyle}>
-            Open Air Crusade
-          </div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="crusade">
+        <div className="h3text" style={contentStyle}>
+          Open Air Crusade
         </div>
+      </div>
 
-        <div>
-          <p>
-            Through the evangelistic crusades, GOD is manifested to heal and
-            deliver His people. For it is written, "WHEN THE SON DELIVERS YOU,
-            YOU WILL REALLY BE FREE." (JOHN 8vs36).
-          </p>
+      <div>
+        <p>
+          Through the evangelistic crusades, GOD is manifested to heal and
+          deliver His people. For it is written, "WHEN THE SON DELIVERS YOU, YOU
+          WILL REALLY BE FREE." (JOHN 8vs36).
+        </p>
 
-          <p>
+        <p>
           We have received the commission: “Go into all the world and preach the
           gospel to all creatures”. Mark 16, verse 15 “. This brought us
           together to organize an open-air evangelization in the city of Hamm
@@ -128,64 +126,66 @@ const EventsApp = () => (
         </p>
 
         <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "1rem",
-          width: "75vw",
-          margin: "0 auto",
-        }}
-      >
-        <button>
-          <a href="https://www.mowdministries.org/galerie">
-            Past Open Air Evangelisation
-          </a>
-        </button>
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "1rem",
+            width: "75vw",
+            margin: "0 auto",
+          }}
+        >
+          <button>
+            <a href="https://www.mowdministries.org/galerie">
+              Past Open Air Evangelisation
+            </a>
+          </button>
 
-        <button>
-          <a href="https://www.mowdministries.org/events">
-            Coming Open Air Evangelisation
-          </a>
-        </button>
-      </div>
-
-
-          
+          <button>
+            <a href="https://www.mowdministries.org/events">
+              Coming Open Air Evangelisation
+            </a>
+          </button>
         </div>
       </div>
-    
+    </div>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <div className="charity">
-          <div className="h3text" style={contentStyle}>
-            {" "}
-            Charitable Deeds
-          </div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="charity">
+        <div className="h3text" style={contentStyle}>
+          {" "}
+          Charitable Deeds
         </div>
-        <p>
-          This involves reaching out to the needy by showing love and
-          spreading the goodnews of Jesus Christ and His Salvation.
-        </p>
-        <p>
-          We support people with social and psychological problems. (2
-          Corinthians 9v9)
-        </p>
-
-        
-        <button style={{ display: 'block', margin: 'auto' }}> <a href="https://www.mowdministries.org/our-services">Click Here for Our Charitable Deeds</a> </button>
-        <p style={{ textAlign: 'center' }}>OR</p>
-          
-          <Link to='/gift'><button style={{ display: 'block', margin: 'auto',  }}>Click here to Sow a Lovely Seed</button></Link>
-
-        <div></div>
       </div>
-    
+      <p>
+        This involves reaching out to the needy by showing love and spreading
+        the goodnews of Jesus Christ and His Salvation.
+      </p>
+      <p>
+        We support people with social and psychological problems. (2 Corinthians
+        9v9)
+      </p>
+
+      <button style={{ display: "block", margin: "auto" }}>
+        {" "}
+        <a href="https://www.mowdministries.org/our-services">
+          Click Here for Our Charitable Deeds
+        </a>{" "}
+      </button>
+      <p style={{ textAlign: "center" }}>OR</p>
+
+      <Link to="/gift">
+        <button style={{ display: "block", margin: "auto" }}>
+          Click here to Sow a Lovely Seed
+        </button>
+      </Link>
+
+      <div></div>
+    </div>
 
     <Link to="/events/baptism">
       <div
@@ -215,55 +215,48 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <div className="supper">
-          <div className="h3text" style={contentStyle}>
-            Lord Supper
-          </div>
-        </div>
-
-        <div>
-          <p>
-            This involves taking the communion by eating the flesh and blood of
-            Jesus for sanctification
-          </p>
-          <p>
-        This involves taking the communion by eating the flesh and drinking the blood of our Lord Jesus Christ for Sanctification and healing.
-
-In the beginning of the new month and of course follow by the program,
-
- " The voice of the presence of God ", 
-
-on the first Sunday of the month we gather to break the bread and take the cup as our Lord Jesus Christ commanded us to do this in His remembrance in Luke 22vs 19.
-
-        </p>
-       
-       <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
-        <button style={{
-          display: 'block',
-          margin: 'auto'
-        }}>  <FaVideo/>  
-         Join Zoom Meeting Link
-        </button>
-       </a>
-
-       <p>
-       Meeting ID: 891 2138 4589
-      </p>
-
-      <p>
-      Passcode: twfHq8
-      </p>
-      
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="supper">
+        <div className="h3text" style={contentStyle}>
+          Lord Supper
         </div>
       </div>
-    
+
+      <div>
+        <p>
+          This involves taking the communion by eating the flesh and blood of
+          Jesus for sanctification and healing.
+        </p>
+        <p>
+       In the beginning of the new month and of course follow by the program, "
+          The voice of the presence of God ", on the first Sunday of the month
+          we gather to break the bread and take the cup as our Lord Jesus Christ
+          commanded us to do this in His remembrance in Luke 22vs 19.
+        </p>
+
+        <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
+          <button
+            style={{
+              display: "block",
+              margin: "auto",
+            }}
+          >
+            {" "}
+            <FaVideo />
+            Join Zoom Meeting Link
+          </button>
+        </a>
+
+        <p>Meeting ID: 891 2138 4589</p>
+
+        <p>Passcode: twfHq8</p>
+      </div>
+    </div>
 
     <Link to="/events/convention">
       <div
