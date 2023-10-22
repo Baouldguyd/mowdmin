@@ -229,15 +229,22 @@ const EventsApp = () => (
 
       <div>
         <p>
-          This involves taking the communion by eating the flesh and drinking the blood of our Lord
-          Jesus Christ for Sanctification and healing.
+          This involves taking the communion by eating the flesh and drinking
+          the blood of our Lord Jesus Christ for Sanctification and healing.
         </p>
         <p>
-       In the beginning of the new month and of course follow by the program, "
-          The voice of the presence of God ", on the first Sunday of the month
+          In the beginning of the new month and of course follow by the program,
+          " The voice of the presence of God ", on the first Sunday of the month
           we gather to break the bread and take the cup as our Lord Jesus Christ
           commanded us to do this in His remembrance in Luke 22vs 19.
         </p>
+
+        <p>
+          The ceremony of the communion Biggin at 9pm every first Sunday of the
+          month. To participate in takin the communion please click on zoom link
+          below.
+        </p>
+        <p>Remember this take place at 9pm every first Sunday of the month.</p>
 
         <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
           <button
