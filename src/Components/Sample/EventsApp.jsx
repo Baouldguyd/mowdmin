@@ -110,21 +110,19 @@ const EventsApp = () => (
       </div>
 
       <div>
-        
-      <p>
+        <p>
           We have received the commission: “Go into all the world and preach the
           gospel to all creatures”. Mark 16, verse 15 “. This brought us
           together to organize an open-air evangelization in the city of Hamm
           (Westf.) NRW for the first time in 2017. It is a moment that we meet
           to praise God the Almighty. There is always inspired gospel music, by
-          different gospel singers who support the event. 
+          different gospel singers who support the event.
         </p>
 
         <p>
-        Through the annual
-          "open air evangelization", GOD is manifested to heal and deliver His
-          people. For it is written, "WHEN THE SON DELIVERS YOU, YOU WILL REALLY
-          BE FREE." (JOHN 8vs36).
+          Through the annual "open air evangelization", GOD is manifested to
+          heal and deliver His people. For it is written, "WHEN THE SON DELIVERS
+          YOU, YOU WILL REALLY BE FREE." (JOHN 8vs36).
         </p>
         <div
           style={{
@@ -188,7 +186,7 @@ const EventsApp = () => (
       <div></div>
     </div>
 
-    <Link to="/events/baptism">
+    {/* <Link to="/events/baptism"> */}
       <div
         style={{
           display: "flex",
@@ -200,21 +198,61 @@ const EventsApp = () => (
             Water Baptism
           </div>
         </div>
-
         <div></div>
-        <p>Get Baptized by immersion at Mowd Ministries.</p>
         <p>
-          Feel free to{" "}
-          <a href="mailto:info@mowdministries.org">Contact Us Here</a> for your
-          Water Baptism
+          Baptism Acts 2vs 38 Baptism is not the clause of salvation. Baptism
+          does not advocate the cleansing of sins and does not provide
+          forgiveness of sin.
         </p>
+        When we read Acts 2 vs 38, the term simply means because of the
+        forgiveness of your sins.
+        <p>So it is because of forgiveness of sin we are baptise.</p>
+        <p>
+          The reality of forgiveness precedes the rite of baptism, of course
+          baptism by immersion and not ablutions.
+        </p>
+        <p>
+          Only a sincere repentance that make a way to the forgiveness of sins,
+          because it´s at the consequence of the remission and forgiveness of
+          our sins in Christ that we are baptized.
+        </p>
+        <p>
+          Baptism it´s an act of obedience following inevitably the conversion
+          to identify salvation.
+        </p>
+        <p>The commitment of a good conscience towards God. 1 Peter 3v21</p>
+        <p
+        style={{
+          textAlign: 'center',
+        }}
+        >To register for the baptism course, click.</p>
+       
+        <p></p>
+        <a href="">
+          <button
+          
+          style={{
+            display: 'block',
+            margin: 'auto',
+          }}
+          >Baptism Class</button>
+        </a>
 
-        <p>
-          for all of you who were baptized into Christ have clothed yourselves
-          with Christ. - Gal 3:27
-        </p>
+        <p
+        style={{
+          textAlign: 'center',
+        }}
+        >When you are ready for baptism click on:</p>
+        <a href="">
+          <button
+          style={{
+          display: 'block',
+          margin: 'auto'
+          }}
+          >Get Baptise</button>
+        </a>
       </div>
-    </Link>
+    
 
     <div
       style={{
