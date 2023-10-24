@@ -187,72 +187,81 @@ const EventsApp = () => (
     </div>
 
     {/* <Link to="/events/baptism"> */}
-      <div
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="baptism">
+        <div className="h3text" style={contentStyle}>
+          Water Baptism
+        </div>
+      </div>
+      <div></div>
+      <p>
+        Baptism Acts 2vs 38 Baptism is not the clause of salvation. Baptism does
+        not advocate the cleansing of sins and does not provide forgiveness of
+        sin.
+      </p>
+
+      <p>
+        When we read Acts 2 vs 38, the term simply means because of the
+        forgiveness of your sins. So it is because of forgiveness of sin we are
+        baptise.
+      </p>
+      <p>
+        The reality of forgiveness precedes the rite of baptism, of course
+        baptism by immersion and not ablutions.
+      </p>
+      <p>
+        Only a sincere repentance that make a way to the forgiveness of sins,
+        because it´s at the consequence of the remission and forgiveness of our
+        sins in Christ that we are baptized.
+      </p>
+      <p>
+        Baptism it´s an act of obedience following inevitably the conversion to
+        identify salvation.
+      </p>
+      <p>The commitment of a good conscience towards God. 1 Peter 3v21</p>
+      <p
         style={{
-          display: "flex",
-          flexDirection: "column",
+          textAlign: "center",
         }}
       >
-        <div className="baptism">
-          <div className="h3text" style={contentStyle}>
-            Water Baptism
-          </div>
-        </div>
-        <div></div>
-        <p>
-          Baptism Acts 2vs 38 Baptism is not the clause of salvation. Baptism
-          does not advocate the cleansing of sins and does not provide
-          forgiveness of sin.
-        </p>
-        When we read Acts 2 vs 38, the term simply means because of the
-        forgiveness of your sins.
-        <p>So it is because of forgiveness of sin we are baptise.</p>
-        <p>
-          The reality of forgiveness precedes the rite of baptism, of course
-          baptism by immersion and not ablutions.
-        </p>
-        <p>
-          Only a sincere repentance that make a way to the forgiveness of sins,
-          because it´s at the consequence of the remission and forgiveness of
-          our sins in Christ that we are baptized.
-        </p>
-        <p>
-          Baptism it´s an act of obedience following inevitably the conversion
-          to identify salvation.
-        </p>
-        <p>The commitment of a good conscience towards God. 1 Peter 3v21</p>
-        <p
-        style={{
-          textAlign: 'center',
-        }}
-        >To register for the baptism course, click.</p>
-       
-        <p></p>
-        <a href="">
-          <button
-          
-          style={{
-            display: 'block',
-            margin: 'auto',
-          }}
-          >Baptism Class</button>
-        </a>
+        To register for the baptism course, click.
+      </p>
 
-        <p
-        style={{
-          textAlign: 'center',
-        }}
-        >When you are ready for baptism click on:</p>
-        <a href="">
-          <button
+      <p></p>
+      <a href="">
+        <button
           style={{
-          display: 'block',
-          margin: 'auto'
+            display: "block",
+            margin: "auto",
           }}
-          >Get Baptise</button>
-        </a>
-      </div>
-    
+        >
+          Baptism Class
+        </button>
+      </a>
+
+      <p
+        style={{
+          textAlign: "center",
+        }}
+      >
+        When you are ready for baptism click on:
+      </p>
+      <a href="">
+        <button
+          style={{
+            display: "block",
+            margin: "auto",
+          }}
+        >
+          Get Baptise
+        </button>
+      </a>
+    </div>
 
     <div
       style={{
