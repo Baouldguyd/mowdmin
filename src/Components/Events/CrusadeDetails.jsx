@@ -22,10 +22,19 @@ const Crusade = () => {
           We have received the commission: “Go into all the world and preach the
           gospel to all creatures”. Mark 16, verse 15 “. This brought us
           together to organize an open-air evangelization in the city of Hamm
-          (Westf) NRW for the first time in 2017. It is a moment that we meet to
-          praise God the Almighty. There is always inspired gospel music, by
-          different gospel singers who support the event.
+          (Westf.) NRW for the first time in 2017. It is a moment that we meet
+          to praise God the Almighty. There is always inspired gospel music, by
+          different gospel singers who support the event. 
         </p>
+
+        <p>
+        Through the annual
+          "open air evangelization", GOD is manifested to heal and deliver His
+          people. For it is written, "WHEN THE SON DELIVERS YOU, YOU WILL REALLY
+          BE FREE." (JOHN 8vs36).
+        </p>
+
+      
       </div>
 
       <div
