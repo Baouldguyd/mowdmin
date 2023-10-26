@@ -1,5 +1,5 @@
 import React from 'react'
-import convention from '../../Assets/convention.jpg'
+import convention from '../../Assets/Pentecost.jpg'
 
 const Convention = () => {
   return (
