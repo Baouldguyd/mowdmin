@@ -6,7 +6,7 @@ import LoginForm from "./LoginForm";
 const BapLogin = () => {
 
   return (
-    <div className="aboutpg fade-in appear">
+    <div className="aboutpg fade-in appear ">
       
       <style>
         @import

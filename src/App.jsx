@@ -38,6 +38,7 @@ import SelectQA from './Components/News/SelectQA';
 import Answers from './Components/News/Answers';
 import BapLogin from './Components/Events/Baptism/BapLogin';
 import BapReg from './Components/Events/Baptism/BapReg';
+import BibleApp from './Components/Bible/BibleApp';
 
 
 
@@ -106,7 +107,8 @@ const App = () => {
 
         <Route path='/gift' element={<GiftPage/>} />
       
-
+      {/* Bible App */}
+      <Route path='/bible' element={ <BibleApp/> } />
       
       </Routes>
     </Router>

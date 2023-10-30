@@ -18,7 +18,7 @@ const onChange = (currentSlide) => {
 
 const EventsApp = () => (
   <Carousel afterChange={onChange} className="fade-in appear">
-    <Link to="/events/scripture">
+    <Link to="/bible">
       <div
         style={{
           display: "flex",
