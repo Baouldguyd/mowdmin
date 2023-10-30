@@ -36,7 +36,8 @@ import Requests from './Components/Events/Requests';
 import IntercessionList from './Components/Events/IntercessionList';
 import SelectQA from './Components/News/SelectQA';
 import Answers from './Components/News/Answers';
-
+import BapLogin from './Components/Events/Baptism/BapLogin';
+import BapReg from './Components/Events/Baptism/BapReg';
 
 
 
@@ -66,6 +67,11 @@ const App = () => {
         <Route path='/events/crusade' element={ <CrusadeDetails/> } />
         <Route path='/scripturetext' element={ <ScriptureText/> } />        
         
+
+        {/* Baptism Reg & Login */}
+        <Route path='/bapreg' element={ <BapReg/> } />
+        <Route path='/baplogin' element={ <BapLogin/> } />
+
         {/* Prayers & Request */}
         <Route path='/intercession' element={ <Intercession/> } />
         <Route path='/request' element={ <Requests/> } />

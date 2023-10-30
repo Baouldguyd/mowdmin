@@ -1,9 +1,9 @@
 import React from "react";
-import request from '../../Assets/bible.jpg'
-import RequestForm from "./Baptism/RequestForm";
+import baptism from '../../../Assets/baptism.jpg'
+import RegForm from "./RegForm";
 
-const Requests = () => {
 
+const BapReg = () => {
   return (
     <div className="aboutpg fade-in appear">
       
@@ -14,7 +14,7 @@ const Requests = () => {
 
       <div className="abouthead">
         <div className="aboutheadimg">
-          <img src={request} alt="" />
+          <img src={baptism} alt="" />
         </div>
       </div>
 
@@ -23,9 +23,9 @@ const Requests = () => {
             style={{
                 textAlign: 'center'
             }}
-        >Submit Your Prayer Request</h3>
+        >Register for Baptism</h3>
 
-            <RequestForm/>
+            <RegForm/>
       </div>
 
 
@@ -34,4 +34,4 @@ const Requests = () => {
   );
 };
 
-export default Requests;
+export default BapReg;

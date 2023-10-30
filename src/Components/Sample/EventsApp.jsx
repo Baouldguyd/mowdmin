@@ -233,7 +233,7 @@ const EventsApp = () => (
       </p>
 
       <p></p>
-      <a href="">
+      <Link to="/bapreg">
         <button
           style={{
             display: "block",
@@ -242,7 +242,7 @@ const EventsApp = () => (
         >
           Baptism Class
         </button>
-      </a>
+      </Link>
 
       <p
         style={{
@@ -251,7 +251,7 @@ const EventsApp = () => (
       >
         When you are ready for baptism click on:
       </p>
-      <a href="">
+      <Link to="/baplogin">
         <button
           style={{
             display: "block",
@@ -260,7 +260,7 @@ const EventsApp = () => (
         >
           Get Baptise
         </button>
-      </a>
+      </Link>
     </div>
 
     <div

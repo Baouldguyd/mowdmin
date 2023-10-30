@@ -1,0 +1,73 @@
+@media only screen and (max-width: 500px) {
+    
+    .form{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+
+    }
+    input{
+        height: 3rem;
+        border: none;
+        border-bottom: 3px solid #583822;
+        color: #583822;
+        padding: 2px;
+        font-size: 1rem;
+        
+    }
+
+    .message{
+        height: 6rem;
+    }
+
+    .bn13 {
+        display: inline-block;
+        padding: 0.65em 1.6em;
+        border: 3px solid #ffffff;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: #583822;
+        width: 9rem;
+        text-align: center;
+        transition: all 0.2s;
+        animation: bn13bouncy 5s infinite linear;
+        position: relative;
+      }
+      
+      .bn13:hover {
+        background-color: #FFD700;
+        color: #000000;
+        cursor: pointer;
+      }
+      
+      @keyframes bn13bouncy {
+        0% {
+          top: 0em;
+        }
+        40% {
+          top: 0em;
+        }
+        43% {
+          top: -0.9em;
+        }
+        46% {
+          top: 0em;
+        }
+        48% {
+          top: -0.4em;
+        }
+        50% {
+          top: 0em;
+        }
+        100% {
+          top: 0em;
+        }
+    }
+}
