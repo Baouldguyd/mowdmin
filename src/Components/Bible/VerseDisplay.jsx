@@ -3,7 +3,10 @@ import React from 'react';
 function VerseDisplay({ text }) {
   return (
     <div className="VerseDisplay">
-      <p>{text}</p>
+      <p
+      className='verseText'
+      
+      >{text}</p>
     </div>
   );
 }

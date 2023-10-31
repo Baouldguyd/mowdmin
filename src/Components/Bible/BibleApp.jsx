@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import VerseDisplay from './VerseDisplay';
 import biblecross from '../../Assets/biblecross.jpg'
+
+
 function BibleApp() {
   // Define the books and chapters for Old and New Testaments
   const oldTestamentBooks = [
+    
     'Genesis',
   'Exodus',
   'Leviticus',
@@ -47,6 +50,7 @@ function BibleApp() {
     /* Add more books here */
   ];
   const newTestamentBooks = [
+    
     'Matthew',
     'Mark',
     'Luke',
@@ -79,10 +83,10 @@ function BibleApp() {
   // You can access any book in the array by its index, e.g., newTestamentBooks[0] for Matthew.
   
 
-  const [selectedTestament, setSelectedTestament] = useState('Old Testament');
-  const [selectedBook, setSelectedBook] = useState('');
-  const [selectedChapter, setSelectedChapter] = useState(1);
-  const [selectedVerseNumber, setSelectedVerseNumber] = useState(1);
+  const [selectedTestament, setSelectedTestament] = useState('Select A Book');
+  const [selectedBook, setSelectedBook] = useState('Select a Book');
+  const [selectedChapter, setSelectedChapter] = useState('Select a Chapter');
+  const [selectedVerseNumber, setSelectedVerseNumber] = useState('Select a verse Number');
   const [verseText, setVerseText] = useState('');
 
   // Function to handle verse selection
@@ -102,7 +106,7 @@ function BibleApp() {
   };
 
   return (
-    <div className="aboutpg bible fade-in appear">
+    <div className="aboutpg bible fade-in appear ">
       
       <style>
         @import
@@ -124,6 +128,7 @@ function BibleApp() {
             value={selectedTestament}
             onChange={(e) => setSelectedTestament(e.target.value)}
           >
+            <option value="nil">Select A Testament</option>
             <option value="Old Testament">Old Testament</option>
             <option value="New Testament">New Testament</option>
           </select>
@@ -133,9 +138,11 @@ function BibleApp() {
             value={selectedBook}
             onChange={(e) => setSelectedBook(e.target.value)}
           >
+            <option value="nil">Select A Book</option>
             {selectedTestament === 'Old Testament'
               ? oldTestamentBooks.map((book) => (
-                  <option key={book} value={book}>
+                  
+                  <option key={book} value={book} >
                     {book}
                   </option>
                 ))
@@ -151,8 +158,9 @@ function BibleApp() {
             value={selectedChapter}
             onChange={(e) => setSelectedChapter(e.target.value)}
           >
-            {Array.from({ length: 150 }, (_, i) => (
-              <option key={i + 1} value={i + 1}>
+            <option value="nil">Select A Chapter</option>
+            {Array.from({ length: 150 }, ( _ , i) => (
+              <option key={i + 1} value={i + 1} >
                 {i + 1}
               </option>
             ))}
@@ -163,6 +171,7 @@ function BibleApp() {
             value={selectedVerseNumber}
             onChange={(e) => setSelectedVerseNumber(e.target.value)}
           >
+            <option value="nil">Select A Verse</option>
             {Array.from({ length: 150 }, (_, i) => (
               <option key={i + 1} value={i + 1}>
                 {i + 1}
@@ -171,7 +180,7 @@ function BibleApp() {
           </select>
         </div>
         <button onClick={handleVerseSelection}>Open</button>
-        <VerseDisplay text={verseText} />
+        <VerseDisplay text={verseText}  />
       </div>
     </div>
     </div>
