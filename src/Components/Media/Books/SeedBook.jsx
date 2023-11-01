@@ -47,6 +47,7 @@ const SeedBook = () => {
           value={selectedBookType}
           onChange={(e) => setSelectedBookType(e.target.value)}
         >
+            <option value="nil">Select Book Format</option>
           <option value="hardCover">Hard Cover</option>
           <option value="softCover">Soft Cover</option>
           <option value="pdf">PDF</option>

@@ -3,7 +3,8 @@ import CryBookCarousel from "./CryCarousel";
 import { FaCartPlus } from "react-icons/fa";
 
 const CryBook = () => {
-  const [selectedBookType, setSelectedBookType] = useState("");
+  
+    const [selectedBookType, setSelectedBookType] = useState("");
   
   const bookTypeUrls = {
     hardCover: "https://buy.stripe.com/fZe7uKdZJfU3b2UcMO",
@@ -43,6 +44,7 @@ const CryBook = () => {
           value={selectedBookType}
           onChange={(e) => setSelectedBookType(e.target.value)}
         >
+            <option value="nil">Select Book Format</option>
           <option value="hardCover">Hard Cover</option>
           <option value="softCover">Soft Cover</option>
           <option value="pdf">PDF</option>
