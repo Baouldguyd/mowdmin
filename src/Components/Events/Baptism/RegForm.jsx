@@ -11,7 +11,11 @@ function RegForm () {
       return <p> Thank You. We will contact You Shortly!</p>;
   }
 
+  
+
   return (
+
+
       <form onSubmit={handleSubmit} className={styles.form}> 
     
         <input 
@@ -21,6 +25,7 @@ function RegForm () {
         placeholder='Your Name'
         className={styles.name}
         required
+        
         />
 
 

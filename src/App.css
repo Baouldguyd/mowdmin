@@ -13,8 +13,8 @@
     display: flex;
     flex-direction: column;
     background: linear-gradient( rgba(8, 8, 8, 0.836) 0%, rgba(0, 0, 0, 0.836) 100%),
-    url('./Assets/foto.jpg');
-    background-size: cover;
+    url('./Assets/background.png');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     

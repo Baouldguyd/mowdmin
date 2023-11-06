@@ -38,7 +38,15 @@ const GiftPage = () => {
         </p>
 
         <p style={{ textAlign: 'center' }}>
-        Please Choose one of the methods below to make a donation..</p>
+        Please Choose one of the methods below to make a donation and don't forget to ask for the receipt if you need it for tax declaration. </p>
+
+        <p>
+        KD Bank:
+        
+        </p>
+        <p>
+        IBAN:  DE71 3506 0190 2100 5600 14
+        </p>
       </div>
 
       <div style={{
