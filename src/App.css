@@ -9,12 +9,12 @@
 
   .loading-screen{
     width: auto;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient( rgba(8, 8, 8, 0.836) 0%, rgba(0, 0, 0, 0.836) 100%),
+    background: 
     url('./Assets/background.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     
@@ -22,7 +22,7 @@
   }
 
   .screen{
-    height: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -30,11 +30,11 @@
   }
 
   .cross-logo{
-    width: 12rem;
-    height: 13rem;
+    width: 80vw;
+    height: 18rem;
     display: block;
     margin: auto;
-    margin-top: 15rem;
+    margin-top: 12rem;
     /* margin-left: 1rem; */
   }
 
@@ -44,19 +44,19 @@
     height: 100%;
   }
 
+  .churchText{
+    background-color: black;
+    opacity: 0.7;
+    height: 60vh;
+  }
 
-
-  .churchText h3{
+  .churchText > h2{
     text-align: center;
     color: white;
+    outline: 3px solid black;
   }
 
-  .pastor{
-    margin-top: 20rem;
-    height: auto;
-    
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
+  
 
 
   /* .head{
