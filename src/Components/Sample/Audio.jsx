@@ -49,7 +49,7 @@ const Audio = () => {
           </Link>
 
           <Link to='/audio/books' >
-          <div className='torah'>
+          <div className='bookBg'>
             <p>BOOKS</p>
           </div>
           </Link>
