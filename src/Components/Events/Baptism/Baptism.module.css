@@ -10,6 +10,7 @@
     }
     input{
         height: 3rem;
+        width: 100vw;
         border: none;
         border-bottom: 3px solid #583822;
         color: #583822;

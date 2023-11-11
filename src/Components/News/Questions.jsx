@@ -1,6 +1,7 @@
 import React from 'react'
-import QuestionForm from './QuestionForm';
 import questionImg from '../../Assets/question.jpg'
+import QAform from '../Forms/QAform';
+
 
 
 const Questions = () => {
@@ -17,12 +18,11 @@ const Questions = () => {
 
             </div>
 
-            <div style={{
-                width: '100vw',
-                height: 'auto'
-            }}>
-                <QuestionForm/>
-            </div>
+            
+                <h2>Send in your Questions</h2>
+                <QAform/>
+
+            
         
 
 
