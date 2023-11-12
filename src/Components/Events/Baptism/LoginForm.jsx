@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import styles from './Baptism.module.css'
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("mknlylyw");
+  const [state, handleSubmit] = useForm("xdorvopp");
   
   if (state.succeeded) {
       return <p> Thank You. We will contact You Shortly!</p>;
@@ -53,6 +53,22 @@ function ContactForm() {
         placeholder='Phone'
         required
         />
+
+<input
+        id="country"
+        type="text"
+        name="country"
+        placeholder="Your Country"
+        required
+      />
+
+      <input
+        id="state"
+        type="text"
+        name="state"
+        placeholder="Your State"
+        required
+      />
 
         
         {/* <input type="text" 
