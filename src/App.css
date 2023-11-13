@@ -214,10 +214,14 @@
 
     }
 
-    .newsButtonDiv button:hover, .playDiv:hover, .audioFile:hover{
+    .newsButtonDiv button:hover{
       transform: scale(1.1);
     }
   
+    .audioFile:hover{
+      opacity: 0.7;
+      transition: 0.8s ease-in ;
+    }
     .audio {
       height: auto;
       display: flex;
@@ -346,7 +350,7 @@
     .playDiv {
       width: 4rem;
       height: 4rem;
-      display: block;
+      display: inline-block;
       margin: auto;
       
     }
@@ -356,16 +360,22 @@
       height: 100%;
       border-radius: 50%;
       border: none;
-      background-color: #55399D;
+      background-color:#FFF;
     }
+
+    .playDiv>button:hover{
+      color:rgba(0, 0, 0, 0.24);
+      transition: 0.9s ease-in;
+    }
+
     a{
       text-decoration: none;
     }
 
     .playIcon {
       color: red;
-      width: 4rem;
-      height: 4rem;
+      width: 2rem;
+      height: 2rem;
     }
 
     .play{
