@@ -61,6 +61,14 @@ function QAform() {
         className={styles.message}
       />
 
+<input
+        id="address"
+        type="text"
+        name="address"
+        placeholder="Your Address"
+        required
+      />
+
       <button type="submit" disabled={state.submitting} className={styles.bn13}>
         Submit
       </button>

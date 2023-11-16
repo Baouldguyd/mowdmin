@@ -70,6 +70,14 @@ function ContactForm() {
         required
       />
 
+  <input
+        id="address"
+        type="text"
+        name="address"
+        placeholder="Your Address"
+        required
+      />
+
         
         {/* <input type="text" 
         name="message" 

@@ -120,7 +120,7 @@ function BibleApp() {
       </div>
     <div className="App">
       <header className="App-header">
-        <h1>Your Mobile Bible</h1>
+        <h2>Your Mobile Bible Devotional Reading</h2>
       </header>
       <div className="App-content">
         <div>

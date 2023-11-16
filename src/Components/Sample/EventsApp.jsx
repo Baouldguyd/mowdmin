@@ -57,6 +57,7 @@ const EventsApp = () => (
             Blessed are you as you are reading to seize the
             revelation of God's word.
           </p>
+          <button style={{ display: 'flex', margin: '0 auto' }}>Click Here for Your Bible Devotional Reading</button>
         </div>
       </div>
     </Link>

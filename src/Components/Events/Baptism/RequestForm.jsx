@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import {  ValidationError } from '@formspree/react';
+import {  useForm, ValidationError } from '@formspree/react';
 import axios from 'axios';
 
 import styles from './Baptism.module.css';
+
 
 function RequestForm() {
  
@@ -11,17 +12,17 @@ function RequestForm() {
     pRequest: ''
   });
 
+ 
 
-
+ 
   const handlePrayerRequest = (event) => {
     setPrayer({
       pRequest: event.target.value
     });
   };
 
-  const handleSubmitRequest = async (event) => {
-
-   
+  const handleSubmitRequest = async (event) => {   
+      
     event.preventDefault();
   
     const requestData = {
@@ -33,7 +34,7 @@ function RequestForm() {
       , requestData , {
         
       });
-  const apiResponse = response.data.responseMessage
+      const apiResponse = response.data.responseMessage
   
  
       if (response.data.responseCode === '00') {
@@ -56,12 +57,20 @@ function RequestForm() {
     
     const form = document.getElementsByName('form')
     form.style.display = 'none'
-    
+
+    try {
+      const submitInfo =  await axios.post('https://formspree.io/f/xnqkyaze')
+      
+
+    } catch (error) {
+      
+    }
   }
   
   
+  
   return (
-    <form onSubmit={handleSubmitRequest} className={styles.form}>
+    <form onSubmit={handleSubmitRequest} className={styles.form} >
 
       <input
         type="text"
@@ -94,6 +103,15 @@ function RequestForm() {
         required
       />
 
+<input
+        id="address"
+        type="text"
+        name="address"
+        placeholder="Your Address"
+        required
+      />
+
+
       <input
         type="text"
         name="prRequest"
@@ -110,6 +128,7 @@ function RequestForm() {
       </button>
     </form>
   );
+    
 }
 
 export default RequestForm;

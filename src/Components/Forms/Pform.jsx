@@ -2,7 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import styles from "../Events/Baptism/Baptism.module.css";
 
-function form() {
+function Pform() {
   const [state, handleSubmit] = useForm("mpzgearo");
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
@@ -49,6 +49,14 @@ function form() {
         type="text"
         name="state"
         placeholder="Your State"
+        required
+      />
+
+<input
+        id="address"
+        type="text"
+        name="address"
+        placeholder="Your Address"
         required
       />
 
