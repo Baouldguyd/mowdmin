@@ -16,6 +16,8 @@ const Intercession = () => {
         </div>
       </div>
 
+      h
+
       <div className="scriptureDiv">
         <Link to="/request">
           <div className="oldTestament">
@@ -25,7 +27,7 @@ const Intercession = () => {
 
         <Link to="/prayerlist">
           <div className="newTestament">
-            <h2>INTERCESSION</h2>
+            <h2>INTERCESSION'S ARMY</h2>
           </div>
         </Link>
       </div>

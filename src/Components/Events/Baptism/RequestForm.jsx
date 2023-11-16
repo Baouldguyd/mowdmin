@@ -76,8 +76,40 @@ function RequestForm() {
         type="text"
         id="name"
         name="name"
-        placeholder="Your Name"
+        placeholder="Your Full Name"
         className={styles.name}
+        required
+      />
+
+<input
+        id="country"
+        type="text"
+        name="country"
+        placeholder="Your Country"
+        required
+      />
+
+<input
+        id="state"
+        type="text"
+        name="state"
+        placeholder="Your State"
+        required
+      />
+
+<input
+        id="address"
+        type="text"
+        name="address"
+        placeholder="Your Address"
+        required
+      />
+
+<input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
         required
       />
 
@@ -95,21 +127,9 @@ function RequestForm() {
         
       />
 
-      <input
-        type="tel"
-        name="phone"
-        id="phone"
-        placeholder="Phone"
-        required
-      />
+      
 
-<input
-        id="address"
-        type="text"
-        name="address"
-        placeholder="Your Address"
-        required
-      />
+
 
 
       <input

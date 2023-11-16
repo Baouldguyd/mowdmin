@@ -57,46 +57,53 @@ const EventsApp = () => (
             Blessed are you as you are reading to seize the
             revelation of God's word.
           </p>
-          <button style={{ display: 'flex', margin: '0 auto' }}>Click Here for Your Bible Devotional Reading</button>
+          <button style={{ display: "flex", margin: "0 auto" }}>
+            Click Here for Your Bible Devotional Reading
+          </button>
         </div>
       </div>
     </Link>
 
-    <Link to="/intercession">
+    
       <div
         style={{
           display: "flex",
           flexDirection: "column",
         }}
       >
+        <Link to='/intercession'>
         <div className="prayer">
           <div className="h3text" style={contentStyle}>
-            Prayer - Intercession
+            Prayer - Army
           </div>
         </div>
-
+        </Link>
         <div>
           <p>
-            The organization encourages PRAYER, Evangelisation, Seminary
-            SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus
-            Christ
+            The organization Mowdministries e.V encourages Prayer meeting, Prayer Vigil, Intercessory prayer. Prayer of deliverance. Souls counselling and Prayer of agreement.
+            
           </p>
 
-          <p>
+          {/* <p>
             Prayer meeting, prayer vigil, intercessory prayer. Prayer of
             deliverance, Souls counselling and other payers support:
-          </p>
+          SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus
+            Christ </p> */}
           <p>
-            <a href="tel:+491744370644"> Call +49(0)1744370644 </a>
-            or email your prayer requests:{" "}
+           For prayer Request please call <a href="tel:+491744370644"> Call +49(0)1744370644  or +4915778688954</a>
+            or mail your prayer requests to:{" "}
           </p>
           <a href="mailto:prayer@mowdministries.org">
             {" "}
             prayer@mowdministries.org
           </a>
+          <p style={{ textAlign : 'center', margin : '0 auto' }}>or go to</p>
+
+          <button style={{ display: 'flex', margin: '0 auto', marginTop: '1rem' }}> <a href="/request">Prayer Request</a>  </button>
+          <button style={{ display: 'flex', margin: '0 auto', marginTop: '1rem' }}> <a href="/prayerlist">Intercession's Army</a>  </button>
         </div>
       </div>
-    </Link>
+    
 
     <div
       style={{
