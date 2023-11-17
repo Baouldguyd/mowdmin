@@ -80,27 +80,29 @@ const EventsApp = () => (
         </Link>
         <div>
           <p>
-            The organization Mowdministries e.V encourages Prayer meeting, Prayer Vigil, Intercessory prayer. Prayer of deliverance. Souls counselling and Prayer of agreement.
-            
+          The organisation Mowdministries e.V, encourages prayer, Prayer meeting, Prayer vigil, intercessory 
+          prayer. Prayer of deliverance. Souls counselling and Prayer of agreement. 
+
           </p>
 
-          {/* <p>
-            Prayer meeting, prayer vigil, intercessory prayer. Prayer of
-            deliverance, Souls counselling and other payers support:
-          SYMPOSIUM, Concert and FORUM DISCUSSIONS in the spirit of Jesus
-            Christ </p> */}
           <p>
-           For prayer Request please call <a href="tel:+491744370644"> Call +49(0)1744370644  or +4915778688954</a>
-            or mail your prayer requests to:{" "}
+          For prayer Request please call: 
           </p>
-          <a href="mailto:prayer@mowdministries.org">
+          
+          <p>
+          <a href="tel:+491744370644">+49(0)1744370644 {" "}or +4915778688954</a>
+           {" "} or mail your prayer requests to:{" "} <a href="mailto:prayer@mowdministries.org">
             {" "}
             prayer@mowdministries.org
           </a>
-          <p style={{ textAlign : 'center', margin : '0 auto' }}>or go to</p>
+          </p>
+          
+          <p style={{ textAlign : 'center', margin : '0 auto' }}>or go to: {" "} <button> <a href="/request">Prayer Request</a>  </button> </p>
 
-          <button style={{ display: 'flex', margin: '0 auto', marginTop: '1rem' }}> <a href="/request">Prayer Request</a>  </button>
-          <button style={{ display: 'flex', margin: '0 auto', marginTop: '1rem' }}> <a href="/prayerlist">Intercession's Army</a>  </button>
+          
+          
+          <p style={{ textAlign : 'center', margin : '0 auto', marginTop: '1rem', }}>For Intercession Please Click: {" "} <button>Intercession's Army</button> </p>
+          
         </div>
       </div>
     
