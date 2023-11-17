@@ -64,48 +64,50 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <Link to='/intercession'>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <Link to="/intercession">
         <div className="prayer">
           <div className="h3text" style={contentStyle}>
             Prayer - Army
           </div>
         </div>
-        </Link>
-        <div>
-          <p>
-          The organisation Mowdministries e.V, encourages prayer, Prayer meeting, Prayer vigil, intercessory 
-          prayer. Prayer of deliverance. Souls counselling and Prayer of agreement. 
+      </Link>
+      <div>
+        <p>
+          The organisation Mowdministries e.V, encourages prayer, Prayer
+          meeting, Prayer vigil, intercessory prayer. Prayer of deliverance.
+          Souls counselling and Prayer of agreement.
+        </p>
 
-          </p>
+        <p>For prayer Request please call:</p>
 
-          <p>
-          For prayer Request please call: 
-          </p>
-          
-          <p>
-          <a href="tel:+491744370644">+49(0)1744370644 {" "}or +4915778688954</a>
-           {" "} or mail your prayer requests to:{" "} <a href="mailto:prayer@mowdministries.org">
+        <p>
+          <a href="tel:+491744370644">+49(0)1744370644 or +4915778688954</a> or
+          mail your prayer requests to:{" "}
+          <a href="mailto:prayer@mowdministries.org">
             {" "}
             prayer@mowdministries.org
           </a>
-          </p>
-          
-          <p style={{ textAlign : 'center', margin : '0 auto' }}>or go to: {" "} <button> <a href="/request">Prayer Request</a>  </button> </p>
+        </p>
 
-          
-          
-          <p style={{ textAlign : 'center', margin : '0 auto', marginTop: '1rem', }}>For Intercession Please Click: {" "} <button>Intercession's Army</button> </p>
-          
-        </div>
+        <p style={{ textAlign: "center", margin: "0 auto" }}>
+          or go to:{" "}
+          <button>
+            {" "}
+            <Link to="/request">Prayer Request</Link>{" "}
+          </button>{" "}
+        </p>
+
+        <p style={{ textAlign: "center", margin: "0 auto", marginTop: "1rem" }}>
+          For Intercession Please Click: <button>Intercession's Army</button>{" "}
+        </p>
       </div>
-    
+    </div>
 
     <div
       style={{
