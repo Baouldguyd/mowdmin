@@ -306,6 +306,9 @@ const EventsApp = () => (
         </p>
         <p>Remember this take place at 9pm every first Sunday of the month.</p>
 
+        <p>
+          Please bring your own bread and Red Wine without alcohol
+        </p>
         <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
           <button
             style={{
