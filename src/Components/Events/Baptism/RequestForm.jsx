@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import {  ValidationError } from "@formspree/react";
 import axios from "axios";
 
 import styles from "./Baptism.module.css";
@@ -34,7 +34,9 @@ function RequestForm() {
         console.log("Request created successfully");
         console.log(responseAPI);
         alert(
-          `Your Prayer Request has been created successfully. We will pray for you.`
+          `Your prayer request has been received. The Intercessors Army are standing with you  in prayer of agreement and intercedes on your behalf. 
+
+          Please don´t forget to come back and share your testimony so that through the testimony of what the Lord has done for you, the faith of others shall be lifted and they will believe in God that answering prayer.`
         );
       } else {
         console.log("Failed to send prayer request to prRequest API");
