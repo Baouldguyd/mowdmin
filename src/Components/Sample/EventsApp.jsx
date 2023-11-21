@@ -76,7 +76,7 @@ const EventsApp = () => (
             Prayer - Army
           </div>
         </div>
-      </Link>
+      
       <div>
         <p>
           The organisation Mowdministries e.V, encourages prayer, Prayer
@@ -84,7 +84,9 @@ const EventsApp = () => (
           Souls counselling and Prayer of agreement.
         </p>
 
-        <p>For prayer Request please call:</p>
+        <button style={{ margin: '0 auto', display: 'flex', }}>Please Click to Choose for Option</button>
+
+        {/* <p>For prayer Request please call:</p>
 
         <p>
           <a href="tel:+491744370644">+49(0)1744370644 or +4915778688954</a> or
@@ -105,8 +107,9 @@ const EventsApp = () => (
 
         <p style={{ textAlign: "center", margin: "0 auto", marginTop: "1rem" }}>
           For Intercession Please Click: <button>Intercession's Army</button>{" "}
-        </p>
+        </p> */}
       </div>
+      </Link>
     </div>
 
     <div
