@@ -489,6 +489,17 @@
       justify-content: center;
     }
 
+    .concert{
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.432) 0%, rgba(0, 0, 0, 0.603) 100%),
+      url('./Assets/concertImg.jpg');
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
     .supper {
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
       url('./Assets/supper.jpg');

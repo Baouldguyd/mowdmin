@@ -406,7 +406,7 @@ const EventsApp = () => (
           flexDirection: "column",
         }}
       >
-        <div className="convention">
+        <div className="concert">
           <h3 className="h3text" style={contentStyle}>
             Concert
           </h3>
