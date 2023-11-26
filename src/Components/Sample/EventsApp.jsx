@@ -76,17 +76,19 @@ const EventsApp = () => (
             Prayer - Army
           </div>
         </div>
-      
-      <div>
-        <p>
-          The organisation Mowdministries e.V, encourages prayer, Prayer
-          meeting, Prayer vigil, intercessory prayer. Prayer of deliverance.
-          Souls counselling and Prayer of agreement.
-        </p>
 
-        <button style={{ margin: '0 auto', display: 'flex', }}>Please Click to Choose for Option</button>
+        <div>
+          <p>
+            The organisation Mowdministries e.V, encourages prayer, Prayer
+            meeting, Prayer vigil, intercessory prayer. Prayer of deliverance.
+            Souls counselling and Prayer of agreement.
+          </p>
 
-        {/* <p>For prayer Request please call:</p>
+          <button style={{ margin: "0 auto", display: "flex" }}>
+            Please Click to Choose for Option
+          </button>
+
+          {/* <p>For prayer Request please call:</p>
 
         <p>
           <a href="tel:+491744370644">+49(0)1744370644 or +4915778688954</a> or
@@ -108,7 +110,7 @@ const EventsApp = () => (
         <p style={{ textAlign: "center", margin: "0 auto", marginTop: "1rem" }}>
           For Intercession Please Click: <button>Intercession's Army</button>{" "}
         </p> */}
-      </div>
+        </div>
       </Link>
     </div>
 
@@ -309,9 +311,7 @@ const EventsApp = () => (
         </p>
         <p>Remember this take place at 9pm every first Sunday of the month.</p>
 
-        <p>
-          Please bring your own bread and Red Wine without alcohol
-        </p>
+        <p>Please bring your own bread and Red Wine without alcohol</p>
         <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
           <button
             style={{
@@ -389,39 +389,77 @@ const EventsApp = () => (
         </div>
 
         <div>
+          p
           <p>
-            This service brings together businessmen and politicians under the
-            fire of the Holy Spirit to revitalize his people and lead them on
-            the path of righteousness to make them a holy people of able men and
-            women.
+             Thou therefore, my son, be strong in the grace
+            that is in Christ Jesus. ‭2 And the things that thou hast heard of
+            me among many witnesses, the same commit thou to faithful men, who
+            shall be able to teach others also.
           </p>
+          <p>
+            This service brings together Men and women of God, businessmen and,
+            business women, politicians and leaders, under the fire of the Holy
+            Spirit to revitalize his people and lead them on the path of
+            righteousness to make them a holy person and able men and women to
+            lead in society.
+          </p>
+
+          <button style={{
+            display: 'flex',
+            margin: '0 auto',
+          }}>
+          Click to register for next program.
+          </button>
         </div>
       </div>
     </Link>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <div className="concert">
-          <h3 className="h3text" style={contentStyle}>
-            Concert
-          </h3>
-        </div>
-
-        <div>
-          <p>King David sang, praised, and danced before his GOD, and his enemies became barren. What your God wants for you is that you come before him in his temple with a shear full heart and all you have and just as you are with praise, the fruit of your lips. (Psalm 95:2)</p>
-          <p>The wall of JERICHO crumbles after the children of ISRAEL glorify GOD and walk around the wall for 7 days.</p>
-          <p>The people of GOD were delivered from the hands of their enemies under the rule of JOSAPHATTS just by singing and glorifying God. (II CHRONICLES 20v21-22; 26-29).</p>
-          <p>The lame man knew how to keep his miracle by singing, dancing, jumping and praising his God in the temple. (Acts 3v8) PAUL and SILAS sang and praised God and the prison doors were broken open.</p>
-          <p>Doors that have been closed for years will open before you when you can praise GOD with all your heart, soul and mind.</p>
-          <button style={{ display: 'flex', margin: '0 auto' }}> <a href="https://www.mowdministries.org/events"> Click here to Register for Concert</a></button>
-        </div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="concert">
+        <h3 className="h3text" style={contentStyle}>
+          Concert
+        </h3>
       </div>
-    
+
+      <div>
+        <p>
+          King David sang, praised, and danced before his GOD, and his enemies
+          became barren. What your God wants for you is that you come before him
+          in his temple with a shear full heart and all you have and just as you
+          are with praise, the fruit of your lips. (Psalm 95:2)
+        </p>
+        <p>
+          The wall of JERICHO crumbles after the children of ISRAEL glorify GOD
+          and walk around the wall for 7 days.
+        </p>
+        <p>
+          The people of GOD were delivered from the hands of their enemies under
+          the rule of JOSAPHATTS just by singing and glorifying God. (II
+          CHRONICLES 20v21-22; 26-29).
+        </p>
+        <p>
+          The lame man knew how to keep his miracle by singing, dancing, jumping
+          and praising his God in the temple. (Acts 3v8) PAUL and SILAS sang and
+          praised God and the prison doors were broken open.
+        </p>
+        <p>
+          Doors that have been closed for years will open before you when you
+          can praise GOD with all your heart, soul and mind.
+        </p>
+        <button style={{ display: "flex", margin: "0 auto" }}>
+          {" "}
+          <a href="https://www.mowdministries.org/events">
+            {" "}
+            Click here to Register for Concert
+          </a>
+        </button>
+      </div>
+    </div>
   </Carousel>
 );
 export default EventsApp;
