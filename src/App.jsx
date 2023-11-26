@@ -39,7 +39,7 @@ import Answers from './Components/News/Answers';
 import BapLogin from './Components/Events/Baptism/BapLogin';
 import BapReg from './Components/Events/Baptism/BapReg';
 import BibleApp from './Components/Bible/BibleApp';
-
+import SympoReg from './Components/Events/Baptism/SympoReg';
 
 
 const App = () => {
@@ -109,6 +109,8 @@ const App = () => {
       
       {/* Bible App */}
       <Route path='/bible' element={ <BibleApp/> } />
+
+      <Route path='/symporeg' element={<SympoReg/>} />
       
       </Routes>
     </Router>

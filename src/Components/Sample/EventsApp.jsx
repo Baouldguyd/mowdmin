@@ -389,7 +389,9 @@ const EventsApp = () => (
         </div>
 
         <div>
-          p
+          <p>
+          2Timothy 2:1-2, AV)
+          </p>
           <p>
              Thou therefore, my son, be strong in the grace
             that is in Christ Jesus. ‭2 And the things that thou hast heard of
@@ -404,12 +406,14 @@ const EventsApp = () => (
             lead in society.
           </p>
 
+        <Link to='/symporeg'>
           <button style={{
             display: 'flex',
             margin: '0 auto',
           }}>
           Click to register for next program.
           </button>
+          </Link>
         </div>
       </div>
     </Link>
