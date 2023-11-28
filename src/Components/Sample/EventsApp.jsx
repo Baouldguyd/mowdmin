@@ -384,7 +384,7 @@ const EventsApp = () => (
       >
         <div className="convention sympossium">
           <div className="h3text" style={contentStyle}>
-            Sympossium/Colloque{" "}
+            Sympossium/Colloque/Seminar{" "}
           </div>
         </div>
 
@@ -393,10 +393,7 @@ const EventsApp = () => (
           2Timothy 2:1-2, AV)
           </p>
           <p>
-             Thou therefore, my son, be strong in the grace
-            that is in Christ Jesus. ‭2 And the things that thou hast heard of
-            me among many witnesses, the same commit thou to faithful men, who
-            shall be able to teach others also.
+          Thou therefore, my son, be strong in the grace that is in Christ Jesus. ‭2 And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also.
           </p>
           <p>
             This service brings together Men and women of God, businessmen and,
