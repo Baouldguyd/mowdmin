@@ -375,7 +375,7 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    <Link to="/events/sympossium">
+    
       <div
         style={{
           display: "flex",
@@ -389,31 +389,34 @@ const EventsApp = () => (
         </div>
 
         <div>
+          <p>2Timothy 2:1-2, AV)</p>
           <p>
-          2Timothy 2:1-2, AV)
-          </p>
-          <p>
-          Thou therefore, my son, be strong in the grace that is in Christ Jesus. ‭2 And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also.
+            Thou therefore, my son, be strong in the grace that is in Christ
+            Jesus. ‭2 And the things that thou hast heard of me among many
+            witnesses, the same commit thou to faithful men, who shall be able
+            to teach others also.
           </p>
           <p>
             This service brings together Men and women of God, businessmen and,
-            business women, politicians and leaders, under the fire of the Holy
-            Spirit to revitalize his people and lead them on the path of
-            righteousness to make them a holy person and able men and women to
-            lead in society.
+            business women, politicians and leaders, also Marriage seminar,
+            Single seminar, under the fire of the Holy Spirit to revitalize his
+            people and lead them on the path of righteousness to make them a
+            holy person and able men and women to lead in society.
           </p>
 
-        <Link to='/symporeg'>
-          <button style={{
-            display: 'flex',
-            margin: '0 auto',
-          }}>
-          Click to register for next program.
-          </button>
+          <Link to="/symporeg">
+            <button
+              style={{
+                display: "flex",
+                margin: "0 auto",
+              }}
+            >
+              Click to register for next program.
+            </button>
           </Link>
         </div>
       </div>
-    </Link>
+    
 
     <div
       style={{
