@@ -929,7 +929,29 @@
         font-size: 1.2rem;
       }
 
+
+      /* Timer Style */
+
+      .timer{
+        height: 5rem;
+        display: flex;
+        justify-content: space-around;
+      }
     
+      .time-box{
+        height: 100%;
+        width: 4rem;
+        background-color: #FFF;
+        border-radius: 5px;
+      }
+
+      .time-box > p, .time-box > div {
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        
+      }
 
     
   

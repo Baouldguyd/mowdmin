@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "antd";
 import { Link } from "react-router-dom";
 import { FaVideo } from "react-icons/fa";
+import CountdownTimer from "./CountdownTimer";
 
 const contentStyle = {
   height: "160px",
@@ -16,7 +17,12 @@ const onChange = (currentSlide) => {
   console.log(currentSlide);
 };
 
+const targetDate = '2023-12-31T23:59:59';
+
 const EventsApp = () => (
+
+  
+
   <Carousel afterChange={onChange} className="fade-in appear">
     <Link to="/bible">
       <div
@@ -366,57 +372,77 @@ const EventsApp = () => (
 
         <div>
           <p>
-            This service brings all together: men, women, youth and children
-            under the divine anointing. God visits his people, reveals himself
-            to them and speaks to them. He (God) works out His plan in
-            everyone's life.
+            This service is about Men conference, women conference, youth and
+            children conference, under the divine direction of the Holy Spirit
+            to anoint and enable for a life of a conqueror.
           </p>
+          <p>
+            God always visits His people, reveals Himself to them and speaks to
+            them. He (God) works out His plan in everyone's life.
+          </p>
+          <p>Come join us at our Annual Convention at Hamm, Germany.</p>
+          <p>Don’t come alone, Invite someone and be blessed.</p>
+
+          <p
+          style={{
+            textAlign: 'center',
+            marginBottom: '1.3rem'
+          }}
+          >THE CONFERENCE STARTS IN </p>
+
+          <CountdownTimer targetDate={targetDate} />
+
+          <button style={{
+            display: 'flex',
+            margin: '0 auto',
+            marginTop: '1.3rem'
+          }}>
+            <a href="https://www.mowdministries.org/events">CLICK HERE FOR MORE INFORMATION</a>
+          </button>
         </div>
       </div>
     </Link>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <div className="convention sympossium">
-          <div className="h3text" style={contentStyle}>
-            Sympossium/Colloque/Seminar{" "}
-          </div>
-        </div>
-
-        <div>
-          <p>2Timothy 2:1-2, AV)</p>
-          <p>
-            Thou therefore, my son, be strong in the grace that is in Christ
-            Jesus. ‭2 And the things that thou hast heard of me among many
-            witnesses, the same commit thou to faithful men, who shall be able
-            to teach others also.
-          </p>
-          <p>
-            This service brings together Men and women of God, businessmen and,
-            business women, politicians and leaders, also Marriage seminar,
-            Single seminar, under the fire of the Holy Spirit to revitalize his
-            people and lead them on the path of righteousness to make them a
-            holy person and able men and women to lead in society.
-          </p>
-
-          <Link to="/symporeg">
-            <button
-              style={{
-                display: "flex",
-                margin: "0 auto",
-              }}
-            >
-              Click to register for next program.
-            </button>
-          </Link>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="convention sympossium">
+        <div className="h3text" style={contentStyle}>
+          Sympossium/Colloque/Seminar{" "}
         </div>
       </div>
-    
+
+      <div>
+        <p>2Timothy 2:1-2, AV)</p>
+        <p>
+          Thou therefore, my son, be strong in the grace that is in Christ
+          Jesus. ‭2 And the things that thou hast heard of me among many
+          witnesses, the same commit thou to faithful men, who shall be able to
+          teach others also.
+        </p>
+        <p>
+          This service brings together Men and women of God, businessmen and,
+          business women, politicians and leaders, also Marriage seminar, Single
+          seminar, under the fire of the Holy Spirit to revitalize his people
+          and lead them on the path of righteousness to make them a holy person
+          and able men and women to lead in society.
+        </p>
+
+        <Link to="/symporeg">
+          <button
+            style={{
+              display: "flex",
+              margin: "0 auto",
+            }}
+          >
+            Click to register for next program.
+          </button>
+        </Link>
+      </div>
+    </div>
 
     <div
       style={{
