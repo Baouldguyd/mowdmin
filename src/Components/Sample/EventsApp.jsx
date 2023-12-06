@@ -357,7 +357,7 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    <Link to="/events/conference">
+    
       <div
         style={{
           display: "flex",
@@ -401,7 +401,7 @@ const EventsApp = () => (
           </button>
         </div>
       </div>
-    </Link>
+    
 
     <div
       style={{
