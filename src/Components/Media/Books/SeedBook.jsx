@@ -5,16 +5,30 @@ import { useState } from "react";
 
 const SeedBook = () => {
   const [selectedBookType, setSelectedBookType] = useState("");
+  const [selectedLanguage, setSelectedLanguage] = useState("");
 
   const bookTypeUrls = {
-    hardCover: "https://buy.stripe.com/3cs2aq6xh37h8UM9AA",
-    softCover: "https://buy.stripe.com/00gaGWg7R37h6MEcMV",
-    pdf: "https://buy.stripe.com/28o5mCbRB8rB3AsbIS",
+    hardCover: {
+      English: "https://buy.stripe.com/fZe7uKdZJfU3b2UcMO",
+      Deutsch: "https://buy.stripe.com/aEU6qG9JtdLVc6Y4gJ",
+      French: "https://buy.stripe.com/fZe3eu7BlcHR3As14y",
+    },
+    softCover: {
+      English: "https://buy.stripe.com/28o4iyg7R0Z92wodQV",
+      Deutsch: "https://buy.stripe.com/6oE9CS2h1gY70ogfZp",
+      French: "https://buy.stripe.com/14k3eug7R0Z94Ew3cI",
+    },
+    pdf: {
+      English: "https://buy.stripe.com/9AQcP4dZJ23d8UM6ou",
+      Deutsch: "https://buy.stripe.com/dR6g1g9Jt5fpb2U4gI",
+      French: "https://buy.stripe.com/14k9CS5td4bl6ME00v",
+    },
+    // Add more languages and their corresponding URLs as needed
   };
 
   const stripePage = () => {
-    if (selectedBookType in bookTypeUrls) {
-      window.location.href = bookTypeUrls[selectedBookType];
+    if (selectedBookType in bookTypeUrls && selectedLanguage in bookTypeUrls[selectedBookType]) {
+      window.location.href = bookTypeUrls[selectedBookType][selectedLanguage];
     }
   };
 
@@ -42,12 +56,25 @@ const SeedBook = () => {
 
 
         <select
+          name="language"
+          id="language"
+          value={selectedLanguage}
+          onChange={(e) => setSelectedLanguage(e.target.value)}
+        >
+          <option value="">Select Language</option>
+          <option value="English">English</option>
+          <option value="Deutsch">Deutsch</option>
+          <option value="French">French</option>
+          {/* Add more languages as needed */}
+        </select>
+
+        <select
           name="bookType"
           id="bookType"
           value={selectedBookType}
           onChange={(e) => setSelectedBookType(e.target.value)}
         >
-            <option value="nil">Select Book Format</option>
+          <option value="">Select Book Format</option>
           <option value="hardCover">Hard Cover</option>
           <option value="softCover">Soft Cover</option>
           <option value="pdf">PDF</option>
