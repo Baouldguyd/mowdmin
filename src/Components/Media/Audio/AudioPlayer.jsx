@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-
+import torahAudio from '../../../Assets/audio/torah.mp3'
 
 
 function AudioPlayer() {
@@ -20,7 +20,9 @@ function AudioPlayer() {
       <h1>Audio Player</h1>
       <div className="audio-controls">
         <audio src={audioSrc} controls autoPlay={isPlaying} />
-        <button onClick={() => togglePlay('audio-file.mp3')}>
+        <button onClick={() => togglePlay(
+          torahAudio
+        )}>
           {isPlaying ? 'Pause' : 'Play'}
         </button>
       </div>

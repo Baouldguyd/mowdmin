@@ -3,7 +3,7 @@ import AudioPlayer from './AudioPlayer';
 
 const Lectures = () => {
   return (
-    <div>Lectures
+    <div>
 
     <AudioPlayer/>
 

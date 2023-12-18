@@ -364,7 +364,7 @@ const EventsApp = () => (
           flexDirection: "column",
         }}
       >
-        <div className="convention">
+        <div className="conference">
           <div className="h3text" style={contentStyle}>
             Conference
           </div>
@@ -409,7 +409,7 @@ const EventsApp = () => (
         flexDirection: "column",
       }}
     >
-      <div className="convention sympossium">
+      <div className="sympossium">
         <div className="h3text" style={contentStyle}>
           Sympossium/Colloque/Seminar{" "}
         </div>
