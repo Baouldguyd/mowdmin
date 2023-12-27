@@ -13,16 +13,17 @@ const contentStyle = {
   fontFamily: "sava-pro-semibold, sans-serif",
 };
 
+const sympo = {
+  textAlign: "center",
+};
+
 const onChange = (currentSlide) => {
   console.log(currentSlide);
 };
 
-const targetDate = '2023-12-31T23:59:59';
+const targetDate = "2023-12-31T23:59:59";
 
 const EventsApp = () => (
-
-  
-
   <Carousel afterChange={onChange} className="fade-in appear">
     <Link to="/bible">
       <div
@@ -357,51 +358,55 @@ const EventsApp = () => (
       </div>
     </Link>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <div className="conference">
-          <div className="h3text" style={contentStyle}>
-            Conference
-          </div>
-        </div>
-
-        <div>
-          <p>
-            This service is about Men conference, women conference, youth and
-            children conference, under the divine direction of the Holy Spirit
-            to anoint and enable for a life of a conqueror.
-          </p>
-          <p>
-            God always visits His people, reveals Himself to them and speaks to
-            them. He (God) works out His plan in everyone's life.
-          </p>
-          <p>Come join us at our Annual Convention at Hamm, Germany.</p>
-          <p>Don’t come alone, Invite someone and be blessed.</p>
-
-          <p
-          style={{
-            textAlign: 'center',
-            marginBottom: '1.3rem'
-          }}
-          >THE CONFERENCE STARTS IN </p>
-
-          <CountdownTimer targetDate={targetDate} />
-
-          <button style={{
-            display: 'flex',
-            margin: '0 auto',
-            marginTop: '1.3rem'
-          }}>
-            <a href="https://www.mowdministries.org/events">CLICK HERE FOR MORE INFORMATION</a>
-          </button>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="conference">
+        <div className="h3text" style={contentStyle}>
+          Conference
         </div>
       </div>
-    
+
+      <div>
+        <p>
+          This service is about Men conference, women conference, youth and
+          children conference, under the divine direction of the Holy Spirit to
+          anoint and enable for a life of a conqueror.
+        </p>
+        <p>
+          God always visits His people, reveals Himself to them and speaks to
+          them. He (God) works out His plan in everyone's life.
+        </p>
+        <p>Come join us at our Annual Convention at Hamm, Germany.</p>
+        <p>Don’t come alone, Invite someone and be blessed.</p>
+
+        <p
+          style={{
+            textAlign: "center",
+            marginBottom: "1.3rem",
+          }}
+        >
+          THE CONFERENCE STARTS IN{" "}
+        </p>
+
+        <CountdownTimer targetDate={targetDate} />
+
+        <button
+          style={{
+            display: "flex",
+            margin: "0 auto",
+            marginTop: "1.3rem",
+          }}
+        >
+          <a href="https://www.mowdministries.org/events">
+            CLICK HERE FOR MORE INFORMATION
+          </a>
+        </button>
+      </div>
+    </div>
 
     <div
       style={{
@@ -416,24 +421,45 @@ const EventsApp = () => (
       </div>
 
       <div>
-        <p>2Timothy 2:1-2, AV)</p>
-        <p>
+        <p
+        style={sympo}>
+          2Timothy 2:1-2, AV)
+          </p>
+        <p style={sympo}>
           Thou therefore, my son, be strong in the grace that is in Christ
           Jesus. ‭2 And the things that thou hast heard of me among many
           witnesses, the same commit thou to faithful men, who shall be able to
           teach others also.
         </p>
-        <p>
+        <p style={sympo}>
           This service brings together Men and women of God, businessmen and,
-          business women, politicians and leaders, also Marriage seminar, Single
-          seminar, under the fire of the Holy Spirit to revitalize his people
-          and lead them on the path of righteousness to make them a holy person
-          and able men and women to lead in society.
+          business women, politicians and leaders, under the fire of the Holy
+          Spirit to revitalize his people and lead them on the path of
+          righteousness to make them a holy person and able men and women to
+          lead in society.
         </p>
+
+        <p style={sympo}>
+          This program includes also Marriage´s seminar, Single´s seminar. You
+          and children's seminar.
+        </p>
+
+        <p
+          style={{
+            textAlign: "center",
+            marginBottom: "1.3rem",
+            fontWeight: 'bolder'
+          }}
+        >
+          SYMPOSSIUM BEGINS IN{" "}
+        </p>
+
+        <CountdownTimer targetDate={targetDate} />
 
         <Link to="/symporeg">
           <button
             style={{
+              marginTop: '1rem',
               display: "flex",
               margin: "0 auto",
             }}
