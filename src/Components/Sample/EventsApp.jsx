@@ -456,6 +456,16 @@ const EventsApp = () => (
 
         <CountdownTimer targetDate={targetDate} />
 
+        <div
+        style={{
+          marginTop: '1.2rem',
+          height: '1.5rem'
+
+        }}
+        >
+
+        </div>
+
         <Link to="/symporeg">
           <button
             style={{
