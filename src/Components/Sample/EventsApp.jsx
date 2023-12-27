@@ -416,7 +416,7 @@ const EventsApp = () => (
     >
       <div className="sympossium">
         <div className="h3text" style={contentStyle}>
-          Sympossium/Colloque/Seminar{" "}
+          Symposium/Colloque/Seminar{" "}
         </div>
       </div>
 
@@ -459,7 +459,7 @@ const EventsApp = () => (
         <Link to="/symporeg">
           <button
             style={{
-              marginTop: '1rem',
+              marginTop: '1.2rem',
               display: "flex",
               margin: "0 auto",
             }}
