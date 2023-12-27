@@ -19,7 +19,7 @@ function AudioPlayer() {
     <div className="App">
       <h1>Audio Player</h1>
       <div className="audio-controls">
-        <audio src={audioSrc} controls autoPlay={isPlaying} />
+        <audio src={audioSrc} controls controlsList='nodownload noremoteplayback nofullscreen' autoPlay={isPlaying}  />
         <button onClick={() => togglePlay(
           torahAudio
         )}>
