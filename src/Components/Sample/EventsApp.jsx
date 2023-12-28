@@ -316,20 +316,41 @@ const EventsApp = () => (
           the blood of our Lord Jesus Christ for Sanctification and healing.
         </p>
         <p>
-          In the beginning of the new month and of course follow by the program,
-          " The voice of the presence of God ", on the first Sunday of the month
-          we gather to break the bread and take the cup as our Lord Jesus Christ
-          commanded us to do this in His remembrance in Luke 22vs 19.
+        In the beginning of the new month and of course follow by the program, 
+"The voice of the presence of God ", on the first Sunday of the month we gather to break the bread and take the cup as our Lord Jesus Christ commanded us to do this in His remembrance in Luke 22vs 19.
+
         </p>
 
         <p>
-          The ceremony of the communion Biggin at 9pm every first Sunday of the
-          month. To participate in takin the communion please click on zoom link
-          below.
+        Remember this take place every first Sunday of the Month at:
         </p>
-        <p>Remember this take place at 9pm every first Sunday of the month.</p>
+
+        <p
+        style={sympo}
+        >6pm GMT/BST</p>
+        <p
+        style={sympo}
+        >7pm CET</p>
+        <p
+        style={sympo}
+        >7pm WAT+1</p>
+        <p
+        style={sympo}
+        >9pm MSK</p>
+        <p
+        style={sympo}
+        >1pm EST</p>
+        <p
+        style={sympo}
+        >11am MST</p>
+
+        <p>We would be honoured to have you join us.</p>
 
         <p>Please bring your own bread and Red Wine without alcohol</p>
+
+        <p>
+        To  participate in taking the communion please click on zoom link below or enter the Meeting 🆔 and the password 🔑
+        </p>
         <a href="https://us05web.zoom.us/j/89121384589?pwd=wVkJn7myqUvPWuD2YnFtjZbZ8r6t18.1">
           <button
             style={{
