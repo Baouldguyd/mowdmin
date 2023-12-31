@@ -71,13 +71,13 @@ const EventsApp = () => (
       </div>
     </Link>
 
+
     <div
       style={{
         display: "flex",
         flexDirection: "column",
       }}
     >
-      <Link to="/intercession">
         <div className="prayer">
           <div className="h3text" style={contentStyle}>
             Prayer - Army
@@ -85,40 +85,39 @@ const EventsApp = () => (
         </div>
 
         <div>
-          <p>
-            The organisation Mowdministries e.V, encourages prayer, Prayer
-            meeting, Prayer vigil, intercessory prayer. Prayer of deliverance.
-            Souls counselling and Prayer of agreement.
+          <p style={sympo}>
+          The organisation Mowdministries e.V encourages prayer, prayer-meeting, Prayer vigil. Intercessory Prayer, Prayer of deliverance, Prayer of agreement, Souls counselling.
           </p>
 
           <button style={{ margin: "0 auto", display: "flex" }}>
             Please Click to Choose for Option
           </button>
 
-          {/* <p>For prayer Request please call:</p>
+          
 
-        <p>
+        {/* <p>
           <a href="tel:+491744370644">+49(0)1744370644 or +4915778688954</a> or
           mail your prayer requests to:{" "}
           <a href="mailto:prayer@mowdministries.org">
             {" "}
             prayer@mowdministries.org
           </a>
-        </p>
+        </p> */}
 
-        <p style={{ textAlign: "center", margin: "0 auto" }}>
-          or go to:{" "}
+        <p style={{ textAlign: "center", margin: "0 auto", marginTop: '1rem' }}>
+        
           <button>
+          
             {" "}
             <Link to="/request">Prayer Request</Link>{" "}
           </button>{" "}
         </p>
 
         <p style={{ textAlign: "center", margin: "0 auto", marginTop: "1rem" }}>
-          For Intercession Please Click: <button>Intercession's Army</button>{" "}
-        </p> */}
+         <button>Intercession's Army</button>{" "}
+        </p> 
         </div>
-      </Link>
+      
     </div>
 
     <div
