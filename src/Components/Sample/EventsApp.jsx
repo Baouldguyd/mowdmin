@@ -78,6 +78,7 @@ const EventsApp = () => (
         flexDirection: "column",
       }}
     >
+
         <div className="prayer">
           <div className="h3text" style={contentStyle}>
             Prayer - Army
@@ -114,7 +115,11 @@ const EventsApp = () => (
         </p>
 
         <p style={{ textAlign: "center", margin: "0 auto", marginTop: "1rem" }}>
-         <button>Intercession's Army</button>{" "}
+         <button>
+          <Link to='/prayerlist'>
+          Intercession's Army
+          </Link>
+          </button>{" "}
         </p> 
         </div>
       
