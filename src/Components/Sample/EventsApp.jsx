@@ -87,10 +87,19 @@ const EventsApp = () => (
 
         <div>
           <p style={sympo}>
+          1 Thessalonians 5v17.
+ 
+
+          </p>
+
+          <p style={sympo}>
+          Be unceasing and persistent in prayer
+          </p>
+          <p style={sympo}>
           The organisation Mowdministries e.V encourages prayer, prayer-meeting, Prayer vigil. Intercessory Prayer, Prayer of deliverance, Prayer of agreement, Souls counselling.
           </p>
 
-          <button style={{ margin: "0 auto", display: "flex" }}>
+          <button style={{ margin: "0 auto", display: "flex", marginBottom: '1.4rem' }}>
             Please Click to Choose for Option
           </button>
 
@@ -105,7 +114,7 @@ const EventsApp = () => (
           </a>
         </p> */}
 
-        <p style={{ textAlign: "center", margin: "0 auto", marginTop: '1rem' }}>
+        {/* <p style={{ textAlign: "center", margin: "0 auto", marginTop: '1rem' }}>
         
           <button>
           
@@ -120,7 +129,21 @@ const EventsApp = () => (
           Intercession's Army
           </Link>
           </button>{" "}
-        </p> 
+        </p>  */}
+
+<div className="scriptureDiv">
+        <Link to="/request">
+          <div className="oldTestament">
+            <h2>PRAYER REQUEST</h2>
+          </div>
+        </Link>
+
+        <Link to="/prayerlist">
+          <div className="newTestament">
+            <h2>INTERCESSION'S ARMY</h2>
+          </div>
+        </Link>
+      </div>
         </div>
       
     </div>
