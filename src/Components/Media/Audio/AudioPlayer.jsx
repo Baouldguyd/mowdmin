@@ -16,7 +16,7 @@ function AudioPlayer() {
   };
 
   return (
-    <div className="App">
+    <div className="App fade-in appear">
       <h1>Audio Player</h1>
       <div className="audio-controls">
         <audio src={audioSrc} controls controlsList='nodownload noremoteplayback nofullscreen' autoPlay={isPlaying}  />

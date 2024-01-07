@@ -73,7 +73,7 @@ function RequestForm() {
   };
 
   return (
-    <form onSubmit={handleSubmitRequest} className={styles.form} name="form">
+    <form onSubmit={handleSubmitRequest} className={styles.form} name="form" >
       {/* ... (rest of your form inputs) */}
        <input
         type="text"

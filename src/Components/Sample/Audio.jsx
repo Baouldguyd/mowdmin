@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Audio = () => {
+  
   return (
     <div className='audio fade-in appear'>
         <div className='events'>
@@ -31,7 +32,7 @@ const Audio = () => {
           
         
           <Link to='/audio/sermon' >
-          <div className='torah'>
+          <div className='sermon'>
             <p>SERMON</p>
     
           </div>
@@ -43,7 +44,7 @@ const Audio = () => {
           </Link>
           
           <Link to='/audio/lectures' >
-          <div className='torah'>
+          <div className='lecture'>
             <p>LECTURE</p>
           </div>
           </Link>

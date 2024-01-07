@@ -249,20 +249,33 @@
     }
 
     .torah{
-      width: 40vw;
+      width: 45vw;
       height: 7rem;
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/bible.jpg');
+              url('./Assets/torah.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       justify-content: center;
+      border-radius: 10px;
       
+    }
 
+    .sermon{
+      width: 45vw;
+      height: 7rem;
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+              url('./Assets/sermon.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+      
     }
 
     .bookBg{
-      width: 40vw;
+      width: 45vw;
       height: 7rem;
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
               url('./Assets/book.jpg');
@@ -270,11 +283,12 @@
       background-repeat: no-repeat;
       display: flex;
       justify-content: center;
+      border-radius: 10px;
       
     }
 
     .testimony{
-      width: 40vw;
+      width: 45vw;
       height: 7rem;
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
               url('./Assets/testimony.jpg');
@@ -282,11 +296,12 @@
       background-repeat: no-repeat;
       display: flex;
       justify-content: center;
+      border-radius: 10px;
       
     }
 
     .audiogospel{
-      width: 40vw;
+      width: 45vw;
       height: 7rem;
       background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
               url('./Assets/audioimage.jpeg');
@@ -294,7 +309,22 @@
       background-repeat: no-repeat;
       display: flex;
       justify-content: center;
+      border-radius: 10px;
     }
+
+    .lecture{
+      width: 45vw;
+      height: 7rem;
+      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
+              url('./Assets/lecture.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+    }
+
+    
 
     .books{
       
@@ -586,8 +616,11 @@
       background-repeat: no-repeat;
       justify-content: flex-start;
       align-items: flex-start;
+      margin-bottom: 1.6rem;
       
     }
+
+    
 
     .vid-box2{
       width: 100vw;

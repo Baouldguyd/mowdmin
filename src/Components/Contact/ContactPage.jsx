@@ -5,7 +5,7 @@ import crossChurch from '../../Assets/crossChurch.jpeg'
 
 const ContactPage = () => {
   return (
-    <div className='contactPg'>
+    <div className='contactPg fade-in appear'>
       <style>
                 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
             </style>
