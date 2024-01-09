@@ -1,35 +1,29 @@
 @media only screen and (max-width: 500px) {
   @font-face {
-    font-family: 'sava-pro-semibold'; 
+    font-family: "sava-pro-semibold";
     /* / Replace with the desired font name */
-    src: url('./Assets/Fonts/SavaPro-Semibold.otf') format('truetype');
-    
-    
+    src: url("./Assets/Fonts/SavaPro-Semibold.otf") format("truetype");
   }
 
-  .loading-screen{
+  .loading-screen {
     width: auto;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: 
-    url('./Assets/background.png');
+    background: url("./Assets/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    
-    
   }
 
-  .screen{
+  .screen {
     height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    
   }
 
-  .cross-logo{
+  .cross-logo {
     width: 80vw;
     height: 18rem;
     display: block;
@@ -39,25 +33,21 @@
   }
 
   .cross-logo img {
-   
     width: 100%;
     height: 100%;
   }
 
-  .churchText{
+  .churchText {
     background-color: black;
     opacity: 0.7;
     height: 60vh;
   }
 
-  .churchText > h2{
+  .churchText > h2 {
     text-align: center;
     color: white;
     outline: 3px solid black;
   }
-
-  
-
 
   /* .head{
     height: auto;
@@ -99,32 +89,32 @@
     border-radius: 50%;
   } */
 
-  .aboutUs{
+  .aboutUs {
     height: 20vh;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
   }
 
-  .aboutUs-bgimg{
+  .aboutUs-bgimg {
     height: 100%;
-    
-    background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('https://res.cloudinary.com/dxjjjt3zt/image/upload/v1692522462/mowd-ministries/Gebet_f%C3%BCr_Deutschland-_Moment_trtdl5.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("https://res.cloudinary.com/dxjjjt3zt/image/upload/v1692522462/mowd-ministries/Gebet_f%C3%BCr_Deutschland-_Moment_trtdl5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
     padding: 1rem;
     align-items: flex-end;
-
-    
-
   }
 
-  .aboutUs-bgimg h1{
-
+  .aboutUs-bgimg h1 {
     font-size: 1.5rem;
     text-align: center;
     color: white;
@@ -137,903 +127,1065 @@
     gap: 1rem;
   }
 
-    .eventsHeadline h1 {
-      text-align: center;
-      color: white;
-    }
-
-    .line {
-      height: 1.5px;
-      background-color: white;
-      width: 50vw;
-    }
-    .carousel-item {
-      
-      border-radius: 8px;
-      padding: 20px;
-      text-align: center;
-      font-size: 18px;
-    }
-
-      .event{
-        margin-top: 1.5rem;
-      }
-    .eventsContent {
-      display: flex;
-      justify-content: space-between;
-
-    }
-
-    .eventsHeadline h1 {
-      font-weight: lighter;
-    }
-
-    .events-img{
-      width: 50vw;
-      height: 15rem;
-    }
-
-    .eventsContent div {
-      padding: 1rem;
-    }
-
-    .eventsContent div p {
-      color: white;
-    }
-
-    .events-img img {
-      width: 100%;
-      height: 100%;
-    }
-
-    .news{
-      margin-top: 1.5rem;
-      height: auto;
-    }
-
-    .newsButtonDiv {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-
-    .newsButtonDiv button {
-      height: 5rem;
-      width: 90vw;
-      border: 1px solid rgb(223,233,236);
-      display: block;
-      margin: auto;
-      color: #FFF;
-      background-color: rgb(123,148,160);
-      font-family: 'sava-pro-semibold', sans-serif;
-      font-size: 1.2rem;
-      border: 3px solid white;
-      padding: 1rem;
-      font-weight: 1px;
-      box-shadow: 0px 4px 4px 0px rgba(28,58,76,1),
-
-    }
-
-    .newsButtonDiv button:hover{
-      transform: scale(1.1);
-    }
-  
-    .audioFile:hover{
-      opacity: 0.7;
-      transition: 0.8s ease-in ;
-    }
-    .audio {
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      
-
-    }
-
-    .audioList{
-      height: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .booksList{
-      height: auto;
-      gap: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      background-color: inherit;
-    }
-
-    .torah{
-      width: 45vw;
-      height: 7rem;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/torah.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      border-radius: 10px;
-      
-    }
-
-    .sermon{
-      width: 45vw;
-      height: 7rem;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/sermon.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      border-radius: 10px;
-      
-    }
-
-    .bookBg{
-      width: 45vw;
-      height: 7rem;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/book.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      border-radius: 10px;
-      
-    }
-
-    .testimony{
-      width: 45vw;
-      height: 7rem;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/testimony.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      border-radius: 10px;
-      
-    }
-
-    .audiogospel{
-      width: 45vw;
-      height: 7rem;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/audioimage.jpeg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      border-radius: 10px;
-    }
-
-    .lecture{
-      width: 45vw;
-      height: 7rem;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/lecture.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      border-radius: 10px;
-    }
-
-    
-
-    .books{
-      
-      height: 10rem;
-      display: flex;
-      gap: 1rem;
-      justify-content: space-evenly;
-      
-    }
-
-    .books h2{
-      font-size: 18px;
-    }
-
-    
-
-    .bookImg{
-      height: 100%;
-      width: 8rem;
-      border-radius: 10px;
-    }
-
-    
-
-    .torah p {
-      text-align: center;
-    }
-
-    p,h1,h2{
-      color: white;
-    }
-
-    .audioFile {
-      height: 7rem;
-      width: 95vw;
-      border-radius: 10px;
-      display: flex;
-      justify-content: space-between;
-      margin: auto;
-      color: #FFF;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.24) 100%),
-      url('./Assets/biblecross.jpg');
-      background-position: center;
-      font-family: DM Sans;
-      font-size: 20px;
-      gap: 1rem;
-      padding: 0.5rem;
-      border: 3px solid white;
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-    }
-
-    .playDiv {
-      width: 4rem;
-      height: 4rem;
-      display: inline-block;
-      margin: auto;
-      
-    }
-
-    .playDiv button {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      border: none;
-      background-color: red;
-    }
-
-    .playDiv>button:hover{
-      color:rgba(0, 0, 0, 0.24);
-      transition: 0.9s ease-in;
-    }
-
-    a{
-      text-decoration: none;
-    }
-
-    .playIcon {
-      color: red;
-      width: 2rem;
-      height: 2rem;
-    }
-
-    .play{
-      color: white;
-      width: 2rem;
-      height: 2rem;
-    }
-
-    .live{
-      color: rgba(0, 0, 0, 0.603);
-      border-color: red;
-    }
-
-    .video{
-      
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-    .videoFile{
-      width: 95vw;
-      height: auto;
-      display: block;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-
-    }
-
-    .videoFile div {
-      
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-      width: 100%;
-      height: 100%;
-      
-    }
-
-    
-
-    .socials{
-      height: auto;
-      
-    }
-
-    .socialIcons {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      gap: 0.8rem;
-    }
-
-    @keyframes fade-in {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-    
-    .fade-in {
-      animation: fade-in 5s ease-in-out; /* Adjust the duration and easing as needed */
-    }
-    
-    .scripture {
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/scripture.jpg');
-              background-size: auto;
-              background-size: cover;
-              background-repeat: no-repeat;
-              display: flex;
-              align-items: flex-end;
-              justify-content: center;
-    }
-
-    .charity{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/charity.jpg');
-              
-              background-size: cover;
-              background-repeat: no-repeat;
-              display: flex;
-              align-items: flex-end;
-              justify-content: center;
-    }
-
-    .prayer{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-              url('./Assets/biblecross.jpg');
-              
-              background-size: cover;
-              background-repeat: no-repeat;
-              display: flex;
-              align-items: flex-end;
-              justify-content: center;
-    }
-
-    
-    .sympossium{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.432) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/sympossium.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .conference{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.432) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/conference.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .convention{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.432) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/Pentecost.jpg');
-      
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .concert{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.432) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/concertImg.jpg');
-      
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .supper {
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/supper.jpg');
-      
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .baptism {
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/baptism.jpg');
-      
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .action{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/action.jpg');
-      
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .crusade{
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/crusade.jpg');
-      
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-
-    .h3text{
-      font-size: 1.5rem;
-    }
-    .videoContainer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: auto;
-      
-    }
-
-
-    .vid-box {
-      width: 100vw;
-      height: 12rem;
-      
-      display: flex;
-      background: linear-gradient(180deg, rgba(8, 8, 8, 0.644) 0%, rgba(0, 0, 0, 0.603) 100%),
-      url('./Assets/foto.jpg');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      justify-content: flex-start;
-      align-items: flex-start;
-      margin-bottom: 1.6rem;
-      
-    }
-
-    
-
-    .vid-box2{
-      width: 100vw;
-      height: 12rem;
-      
-      display: flex;
-      background: 
-      url('./Assets/livestream.jpg');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      justify-content: flex-start;
-      align-items: flex-start;
-    }
-
-
-    .audioPage {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      height: auto;
-      margin-top: 1rem;
-    }
-
-    .App {
-      text-align: center;
-      margin-top: 50px;
-    }
-    
-    .audio-controls {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    
-    button {
-      background-color: #3498db;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-      font-size: 16px;
-      border-radius: 4px;
-    }
-
-    
-    .aboutpg,.contactPg, .newsPage{
-      background-color: rgb(13,15,54);
-      height: 100vh;
-      font-family: 'Mukta', sans-serif;
-      width: auto;
-
-    }
-
-    .abtpg{
-      height: auto;
-    }
-
-    .abouthead {
-      height: 20vh;
-      width: auto;
-      display: flex;
-      flex-direction: column;
-      
-    }
-
-    .aboutheadimg {
-      margin: auto;
-      display: block;
-      width: 6rem;
-      height: 6rem;
-      /* background-image: url('https://res.cloudinary.com/dxjjjt3zt/image/upload/v1692522462/mowd-ministries/Gebet_f%C3%BCr_Deutschland-_Moment_trtdl5.jpg');
+  .eventsHeadline h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .line {
+    height: 1.5px;
+    background-color: white;
+    width: 50vw;
+  }
+  .carousel-item {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .event {
+    margin-top: 1.5rem;
+  }
+  .eventsContent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .eventsHeadline h1 {
+    font-weight: lighter;
+  }
+
+  .events-img {
+    width: 50vw;
+    height: 15rem;
+  }
+
+  .eventsContent div {
+    padding: 1rem;
+  }
+
+  .eventsContent div p {
+    color: white;
+  }
+
+  .events-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .news {
+    margin-top: 1.5rem;
+    height: auto;
+  }
+
+  .newsButtonDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .newsButtonDiv button {
+    height: 5rem;
+    width: 90vw;
+    border: 1px solid rgb(223, 233, 236);
+    display: block;
+    margin: auto;
+    color: #fff;
+    background-color: rgb(123, 148, 160);
+    font-family: "sava-pro-semibold", sans-serif;
+    font-size: 1.2rem;
+    border: 3px solid white;
+    padding: 1rem;
+    font-weight: 1px;
+    box-shadow: 0px 4px 4px 0px rgba(28, 58, 76, 1);
+  }
+
+  .newsButtonDiv button:hover {
+    transform: scale(1.1);
+  }
+
+  .audioFile:hover {
+    opacity: 0.7;
+    transition: 0.8s ease-in;
+  }
+  .audio {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .audioList {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .booksList {
+    height: auto;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+  }
+
+  .torah {
+    width: 45vw;
+    height: 7rem;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/torah.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .sermon {
+    width: 45vw;
+    height: 7rem;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/sermon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .bookBg {
+    width: 45vw;
+    height: 7rem;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/book.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .testimony {
+    width: 45vw;
+    height: 7rem;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/testimony.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .audiogospel {
+    width: 45vw;
+    height: 7rem;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/audioimage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .lecture {
+    width: 45vw;
+    height: 7rem;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/lecture.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .books {
+    height: 10rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+
+  .books h2 {
+    font-size: 18px;
+  }
+
+  .bookImg {
+    height: 100%;
+    width: 8rem;
+    border-radius: 10px;
+  }
+
+  .torah p {
+    text-align: center;
+  }
+
+  p,
+  h1,
+  h2 {
+    color: white;
+  }
+
+  .audioFile {
+    height: 7rem;
+    width: 95vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: #fff;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.24) 100%
+      ),
+      url("./Assets/biblecross.jpg");
+    background-position: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    gap: 1rem;
+    padding: 0.5rem;
+    border: 3px solid white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .playDiv {
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    margin: auto;
+  }
+
+  .playDiv button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+  }
+
+  .playDiv > button:hover {
+    color: rgba(0, 0, 0, 0.24);
+    transition: 0.9s ease-in;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .playIcon {
+    color: red;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .play {
+    color: white;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .live {
+    color: rgba(0, 0, 0, 0.603);
+    border-color: red;
+  }
+
+  .video {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .videoFile {
+    width: 95vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .videoFile div {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+  }
+
+  .socials {
+    height: auto;
+  }
+
+  .socialIcons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 0.8rem;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .fade-in {
+    animation: fade-in 5s ease-in-out; /* Adjust the duration and easing as needed */
+  }
+
+  .scripture {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/scripture.jpg");
+    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .charity {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/charity.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .prayer {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/biblecross.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .sympossium {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.432) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/sympossium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .conference {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.432) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/conference.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .convention {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.432) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/Pentecost.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .concert {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.432) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/concertImg.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .supper {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/supper.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .baptism {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/baptism.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .action {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/action.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .crusade {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/crusade.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .h3text {
+    font-size: 1.5rem;
+  }
+  .videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .vid-box {
+    width: 100vw;
+    height: 12rem;
+
+    display: flex;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.644) 0%,
+        rgba(0, 0, 0, 0.603) 100%
+      ),
+      url("./Assets/foto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.6rem;
+  }
+
+  .vid-box2 {
+    width: 100vw;
+    height: 12rem;
+
+    display: flex;
+    background: url("./Assets/livestream.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .audioPage {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .App {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  .aboutpg,
+  .contactPg,
+  .newsPage {
+    background-color: rgb(13, 15, 54);
+    height: 100vh;
+    font-family: "Mukta", sans-serif;
+    width: auto;
+  }
+
+  .abtpg {
+    height: auto;
+  }
+
+  .abouthead {
+    height: 20vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutheadimg {
+    margin: auto;
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    /* background-image: url('https://res.cloudinary.com/dxjjjt3zt/image/upload/v1692522462/mowd-ministries/Gebet_f%C3%BCr_Deutschland-_Moment_trtdl5.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; */
-    }
+  }
 
-    .aboutheadimg img {
-      
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-    }
+  .aboutheadimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
 
-    .aboutpg div div p,h3 {
-      color: white;
-    }
+  .aboutpg div div p,
+  h3 {
+    color: white;
+  }
 
-    .aboutpg div div h3{
-      text-align: center;
-    }
+  .aboutpg div div h3 {
+    text-align: center;
+  }
 
-    .aboutText {
-      padding: 7px;
-    }
+  .aboutText {
+    padding: 7px;
+  }
 
-    .scriptureDiv{
-      display: flex;
-      justify-content: space-around;
-      height: auto;
-      flex-direction: column;
-      gap: 2rem;
-    }
+  .scriptureDiv {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+  }
 
-    .oldTestament, .newTestament{
-      width: 80vw;
-      height: 5rem;
-      border-radius: 10px;
-      border: 3px solid white;
-      display: block;
-      margin: auto;
-    }
-    .oldTestament h2, .newTestament h2{
-      text-align: center;
-    }
-    h2{
-      text-align: center;
-    }
+  .oldTestament,
+  .newTestament {
+    width: 80vw;
+    height: 5rem;
+    border-radius: 10px;
+    border: 3px solid white;
+    display: block;
+    margin: auto;
+  }
+  .oldTestament h2,
+  .newTestament h2 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
 
-    .charityDeeds{
-      padding: 7px;
-      height: auto;
-      background-color: inherit;
-    }
-    .contactPg{
-      display: flex;
-      flex-direction: column;
-      height: 120vh;
-    }
+  .charityDeeds {
+    padding: 7px;
+    height: auto;
+    background-color: inherit;
+  }
+  .contactPg {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+  }
 
-    .contactImg {
-      width: 100vw;
-      height: 30vh;
-    }
+  .contactImg {
+    width: 100vw;
+    height: 30vh;
+  }
 
-      .contactImg img {
-        width: 100%;
-        height: 100%;
-      }
+  .contactImg img {
+    width: 100%;
+    height: 100%;
+  }
 
-      
-
-      .contactDetails{
-        display: block;
-        margin: auto;
-        height: auto;
-        width: 100vw;
-        background-color: inherit;
-        
-        
-      }
-
-      .contactInfo {
-        
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-       }
-
-      .contactMail p, .contactWeb p, .contactLocation p{
-        font-size: larger;
-      }
-      .contactMail,.contactWeb{
-        margin-left: 1rem;
-      }
-      
-      .contactLocation{
-        width: 90vw;
-        height: 10rem;
-        display: block;
-        margin: auto;
-      }
-
-      .mapLocation{
-        width: 100%;
-        height: 100%;
-      }
-
-      .symposium, .actionPlan{
-        padding: 7px;
-      }
-      a{
-        text-decoration: none;
-        color: white;
-      }
-
-      .schedule{
-        height: auto;
-        background-color: rgb(13,15,54);
-      }
-
-      .scheduleText p {
-        margin-left: 7px;
-      }
-
-    .view-btn{
-      border-radius: 5px;
-    }
-
-    .view-btn:hover{
-      background-color: greenyellow;
-    }
-
-
-    /* CryBook Carousel Style */
-
-    .crybookCarousel div {
-              background-size: cover;
-              background-repeat: no-repeat;
-              display: flex;
-              align-items: flex-end;
-              justify-content: center;
-    }
-
-    .crybook1{
-      background: 
-              url('./Assets/cry.jpg');
-              
-    }
-
-    .crybook2{
-      background: url('./Assets/Books/crycover.jpg');
-
-    }
-
-    .crybook3{
-      background: url('./Assets/Books/crycover3.jpg');
-    }
-
-    .crybook4{
-      background: url('./Assets/Books/crycoverfrench.jpg');
-    }
-
-    .crybook5{
-      background: url('./Assets/Books/cryfrench2.jpg');
-    }
-
-    .probook1{
-      background: url('./Assets/Books/prophecy.png');
-      
-    }
-    .probook4{
-      background: url('./Assets/Books/procover.jpg');
-      
-    }
-    .probook2{
-      background: url('./Assets/Books/prophecy\ french.jpg');
-      background-size: contain;
-    }
-
-    .probook3{
-      background: url('./Assets/Books/prophecy2.jpg');
-      background-size: auto;
-    }
-
-    .seedbook1{
-      background: url('./Assets/Books/seedfrench.jpg');
-      background-size: contain;
-    }
-
-    .seedbook2{
-      background: url('./Assets/seed.jpg');
-      background-size: contain;
-    }
-
-    .bookword{
-      padding: 7px;
-    }
-
-    .gospel{
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-
-    .gospelimg {
-      height: 30vh;
-      width: auto;
-      margin-top: 1rem;
-    }
-    
-    .gospelaudio{
+  .contactDetails {
+    display: block;
+    margin: auto;
     height: auto;
     width: 100vw;
-    }
+    background-color: inherit;
+  }
+
+  .contactInfo {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .contactMail p,
+  .contactWeb p,
+  .contactLocation p {
+    font-size: larger;
+  }
+  .contactMail,
+  .contactWeb {
+    margin-left: 1rem;
+  }
+
+  .contactLocation {
+    width: 90vw;
+    height: 10rem;
+    display: block;
+    margin: auto;
+  }
+
+  .mapLocation {
+    width: 100%;
+    height: 100%;
+  }
+
+  .symposium,
+  .actionPlan {
+    padding: 7px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .schedule {
+    height: auto;
+    background-color: rgb(13, 15, 54);
+  }
+
+  .scheduleText p {
+    margin-left: 7px;
+  }
+
+  .view-btn {
+    border-radius: 5px;
+  }
+
+  .view-btn:hover {
+    background-color: greenyellow;
+  }
+
+  /* CryBook Carousel Style */
+
+  .crybookCarousel div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .crybook1 {
+    background: url("./Assets/cry.jpg");
+  }
+
+  .crybook2 {
+    background: url("./Assets/Books/crycover.jpg");
+  }
+
+  .crybook3 {
+    background: url("./Assets/Books/crycover3.jpg");
+  }
+
+  .crybook4 {
+    background: url("./Assets/Books/crycoverfrench.jpg");
+  }
+
+  .crybook5 {
+    background: url("./Assets/Books/cryfrench2.jpg");
+  }
+
+  .probook1 {
+    background: url("./Assets/Books/prophecy.png");
+  }
+  .probook4 {
+    background: url("./Assets/Books/procover.jpg");
+  }
+  .probook2 {
+    background: url("./Assets/Books/prophecy\ french.jpg");
+    background-size: contain;
+  }
+
+  .probook3 {
+    background: url("./Assets/Books/prophecy2.jpg");
+    background-size: auto;
+  }
+
+  .seedbook1 {
+    background: url("./Assets/Books/seedfrench.jpg");
+    background-size: contain;
+  }
+
+  .seedbook2 {
+    background: url("./Assets/seed.jpg");
+    background-size: contain;
+  }
+
+  .bookword {
+    padding: 7px;
+  }
+
+  .gospel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .gospelimg {
+    height: 30vh;
+    width: auto;
+    margin-top: 1rem;
+  }
+
+  .gospelaudio {
+    height: auto;
+    width: 100vw;
+  }
+
+  .audiomack {
+    width: auto;
+    height: auto;
+  }
+
+  .newsPage {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .video {
+    width: auto;
+    height: 30vh;
+  }
+
+  .videoplay {
+    width: 100%;
+    height: 100%;
+  }
+
+  .newsLink span {
+    color: white;
+  }
+
+  .newsLink a {
+    text-decoration: underline;
+  }
+
+  .bible {
+    height: auto;
+    font-family: "Mukta", sans-serif;
+    width: auto;
+
+    background-color: rgb(13, 15, 54);
+  }
+
+  /* BIBLE APP */
+
+  .verseText {
+    font-size: 1.5rem;
+    width: 90vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4px;
+  }
+
+  .App {
+    height: 100vh;
+    background-color: rgb(13, 15, 54);
+  }
+
+  select {
+    height: 1.5rem;
+    width: 80vw;
+    margin-bottom: 1rem;
+
+    background-color: #fff;
+    color: rgb(13, 15, 54);
+  }
+
+  option {
+    color: rgb(13, 15, 54);
+    font-size: 1.2rem;
+  }
+
+  /* Timer Style */
+
+  .timer {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .time-box {
+    height: 100%;
+    width: 4rem;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .time-box > p,
+  .time-box > div {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .conveDiv > p {
+    text-align: center;
+  }
+
+  .newIcon {
+    background-color: red;
+  }
+
+  .audioDiv {
+    width: 100%;
+    background: url("./Assets/audioBg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+  .audioPlayerDiv {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 9px;
+    margin: 25px;
+    height: 70%;
     
-    .audiomack{
-      width: auto;
-      height: auto;
-    }
+  }
 
-    .newsPage{
-      
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .video{
-      width: auto;
-      height: 30vh;
-
-    }
-
-    .videoplay{
-      width: 100%;
-      height: 100%;
-    }
-
-    .newsLink span{
-      color: white;
-    }
-
-    .newsLink a {
-      text-decoration: underline;
-      
-    }
-
-    .bible{
-      height: auto;
-      font-family: 'Mukta', sans-serif;
-      width: auto;
-      
-      background-color: rgb(13,15,54);
-    }
-
-
-
-    /* BIBLE APP */
-
-      .verseText{
-        font-size: 1.5rem;
-        width: 90vw;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 4px;
-        
-      }
-
-        .App{
-          height: 100vh;
-          background-color: rgb(13,15,54);
-        }
-
-      select{
-        height: 1.5rem;
-        width: 80vw;
-        margin-bottom: 1rem;
-        
-        background-color: #FFF;
-        color:  rgb(13,15,54);
-      }
-
-      option{
-        color: rgb(13,15,54);
-        font-size: 1.2rem;
-      }
-
-
-      /* Timer Style */
-
-      .timer{
-        height: 5rem;
-        display: flex;
-        justify-content: space-around;
-      }
+  .audioCoverImg {
     
-      .time-box{
-        height: 100%;
-        width: 4rem;
-        background-color: #FFF;
-        border-radius: 5px;
-      }
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
 
-      .time-box > p, .time-box > div {
-        color: black;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        
-      }
+  .artistName{
+    height: 3rem;
+    width: 100%;
+  }
 
-      .conveDiv > p {
-        text-align: center;
-      }
 
-      .newIcon{
-        background-color: red;
-      }
+  /* Player Button */
 
-    
+  .container {
+    width:3rem;
+    height: 3rem;
+    position: relative;
+    border-radius: 50%;
+  }
   
+  .play-btn {
+    position: absolute;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#ff6347, #ff6347);
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .play-btn::before {
+    content: "";
+    position: absolute;
+    width: 93%;
+    height: 93%;
+    background-color: #000;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .play-btn:checked {
+    animation: borderAnimate 700ms ease-in-out 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes borderAnimate {
+    0% {
+      transform: rotate(0);
+      background: conic-gradient(#ff6347, transparent 20%);
+    }
+  
+    80% {
+      background: conic-gradient(#ff6347, transparent 90%);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      background: conic-gradient(#ff6347, #ff6347);
+    }
+  }
+  
+  .play-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 60%;
+    top: 50%;
+    background-color: #ff6347;
+    transform: translate(-60%, -50%) rotate(90deg);
+    clip-path: polygon(50% 15%, 0% 100%, 100% 100%);
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+  }
+  
+  .play-btn:checked + .play-icon {
+    clip-path: polygon(0 100%, 0% 100%, 100% 100%);
+  }
+  
+  .pause-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  
+  .pause-icon::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #ff6347;
+    left: 0;
+  }
+  
+  .pause-icon::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: #ff6347;
+    right: 0;
+  }
+  
+  .play-btn:checked ~ .pause-icon::before {
+    animation: reveal 300ms ease-in-out 350ms 1;
+    animation-fill-mode: forwards;
+  }
+  
+  .play-btn:checked ~ .pause-icon::after {
+    animation: reveal 300ms ease-in-out 600ms 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes reveal {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 35%;
+    }
+  }
 
+  .playerBtn{
+    background-color: transparent;
+  }
 
-
-    
-
-
-
-
-    
-    
-    
-    
-    
-
-    
-
-    
-
-
-    
 
 }
