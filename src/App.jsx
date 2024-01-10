@@ -41,11 +41,19 @@ import BapReg from './Components/Events/Baptism/BapReg';
 import BibleApp from './Components/Bible/BibleApp';
 import SympoReg from './Components/Events/Baptism/SympoReg';
 
+import Translate from './Translate';
+
+
+
+
+
 
 const App = () => {
   return (
     <Router>
-      <Routes>
+      <div>
+        <Translate/>
+        <Routes>
         <Route path="/" element={<LoadingScreen />} />
         <Route  path="/home" element={<HomePage />} />
         
@@ -112,7 +120,9 @@ const App = () => {
 
       <Route path='/symporeg' element={<SympoReg/>} />
       
-      </Routes>
+        </Routes>
+      </div>
+      
     </Router>
   );
 };

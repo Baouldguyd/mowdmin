@@ -13,7 +13,7 @@ const textStyle = {
         height: 'auto',
         fontSize: '1.1rem',
     }}
-    className=''
+    className='fade-in appear'
     >
         <div style={{
             display: 'flex',

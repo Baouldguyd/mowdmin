@@ -710,6 +710,10 @@
     width: auto;
   }
 
+  .lang{
+    font-family: "Mukta", sans-serif;
+  }
+
   .abtpg {
     height: auto;
   }

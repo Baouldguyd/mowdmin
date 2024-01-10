@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import sympoimg from '../../../Assets/bible.jpg'
 import RegForm from "./RegForm";
 
