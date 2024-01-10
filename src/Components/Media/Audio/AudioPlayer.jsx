@@ -22,17 +22,25 @@ function AudioPlayer() {
   };
 
   const handlePlayPause = () => {
+    const gifLoad = document.querySelector(".gifLoad")
+
     if (audioElement.current.paused) {
       audioElement.current.play();
       setIsPlaying(true);
       setGifPaused(false);
       setRotationPaused(false);
+      gifLoad.style.display = 'block';
     } else {
       audioElement.current.pause();
       setIsPlaying(false);
       setGifPaused(true);
       setRotationPaused(true);
+      gifLoad.style.display = 'none';
     }
+
+    
+    
+
   };
 
   useEffect(() => {
@@ -99,6 +107,7 @@ function AudioPlayer() {
             width="100%"
             height="100%"
             ref={gifRef}
+            className='gifLoad'
           ></iframe>
         </div>
       </div>
@@ -113,15 +122,15 @@ function AudioPlayer() {
 
         
 
-        <button onClick={handlePlayPause} className='playerBtn'>
-          {/* {isPlaying ? "Pause" : "Play"} */}
-
-          <PlayButton/>
-          <button className='playerBtn' onClick={() => togglePlay(torahAudio)}>
-          {/* {isPlaying ? "Pause" : "Play"}  */}
-        </button>
+            <div onClick={() => togglePlay(torahAudio)} >
+            
+                <button onClick={handlePlayPause} className='playerBtn'>
+              {/* {isPlaying ? "Pause" : "Play"}  */}
+              <PlayButton/>
+             </button>
+            </div>
           
-        </button>
+        
 
 
 
