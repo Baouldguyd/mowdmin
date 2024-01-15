@@ -52,7 +52,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Translate/>
+        {/* <Translate/> */}
         <Routes>
         <Route path="/" element={<LoadingScreen />} />
         <Route  path="/home" element={<HomePage />} />

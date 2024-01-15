@@ -64,7 +64,7 @@ function AudioPlayer() {
 
   return (
     <div className="aboutpg App fade-in appear audioDiv">
-      <style>
+      {/* <style>
         {`
           @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
           .paused {
@@ -82,7 +82,7 @@ function AudioPlayer() {
             }
           }
         `}
-      </style>
+      </style> */}
       <h1>Audio Player</h1>
 
       <div className="audioPlayerDiv">
