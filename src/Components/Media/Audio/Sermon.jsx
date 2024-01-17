@@ -35,7 +35,7 @@ const Sermon = () => {
               
                 <button>
                 <a href={item.sermonLink}>
-                  <FaPlay className="playIcon" />{" "}
+                  <FaPlay className="sermonPlay " />{" "}
                   </a>
                 </button>
               
