@@ -14,6 +14,7 @@ const Home = () => {
   return (
     <div style={{
       padding: '3px',
+      height: 'auto'
     }}>
         <Translate/>
         <AboutUs/>
