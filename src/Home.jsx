@@ -8,12 +8,14 @@ import Video from './Components/Sample/Video';
 import ActionDetails from './Components/Sample/ActionDetails';
 import Ourcontact from './Components/Sample/Ourcontact';
 import Gift from './Components/Sample/Gift';
-
+import Translate from './Translate';
 
 const Home = () => {
   return (
-    <div >
-        
+    <div style={{
+      padding: '3px',
+    }}>
+        <Translate/>
         <AboutUs/>
         <ActionDetails/>
         {/* <Eventsdetails/> */}
