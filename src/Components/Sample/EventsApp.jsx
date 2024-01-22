@@ -21,11 +21,11 @@ const onChange = (currentSlide) => {
   console.log(currentSlide);
 };
 
-const targetDate = "2023-12-31T23:59:59";
+const targetDate = "2024-01-31T23:59:59";
 
 const EventsApp = () => (
   <Carousel afterChange={onChange} className="fade-in appear">
-    <Link to="/bible">
+    <Link to="/bibleapp">
       <div
         style={{
           display: "flex",
@@ -71,39 +71,33 @@ const EventsApp = () => (
       </div>
     </Link>
 
-
     <div
       style={{
         display: "flex",
         flexDirection: "column",
       }}
     >
-
-        <div className="prayer">
-          <div className="h3text" style={contentStyle}>
-            Prayer - Army
-          </div>
+      <div className="prayer">
+        <div className="h3text" style={contentStyle}>
+          Prayer - Army
         </div>
+      </div>
 
-        <div>
-          <p style={sympo}>
-          1 Thessalonians 5v17.
- 
+      <div>
+        <p style={sympo}>1 Thessalonians 5v17.</p>
 
-          </p>
+        <p style={sympo}>Be unceasing and persistent in prayer</p>
+        <p style={sympo}>
+          The organisation Mowdministries e.V encourages prayer, prayer-meeting,
+          Prayer vigil. Intercessory Prayer, Prayer of deliverance, Prayer of
+          agreement, Souls counselling.
+        </p>
 
-          <p style={sympo}>
-          Be unceasing and persistent in prayer
-          </p>
-          <p style={sympo}>
-          The organisation Mowdministries e.V encourages prayer, prayer-meeting, Prayer vigil. Intercessory Prayer, Prayer of deliverance, Prayer of agreement, Souls counselling.
-          </p>
-
-          <button style={{ margin: "0 auto", display: "flex", marginBottom: '1.4rem' }}>
-            Please Click to Choose for Option
-          </button>
-
-          
+        <button
+          style={{ margin: "0 auto", display: "flex", marginBottom: "1.4rem" }}
+        >
+          Please Click to Choose for Option
+        </button>
 
         {/* <p>
           <a href="tel:+491744370644">+49(0)1744370644 or +4915778688954</a> or
@@ -131,21 +125,20 @@ const EventsApp = () => (
           </button>{" "}
         </p>  */}
 
-<div className="scriptureDiv">
-        <Link to="/request">
-          <div className="oldTestament">
-            <h2>PRAYER REQUEST</h2>
-          </div>
-        </Link>
+        <div className="scriptureDiv">
+          <Link to="/request">
+            <div className="oldTestament">
+              <h2>PRAYER REQUEST</h2>
+            </div>
+          </Link>
 
-        <Link to="/prayerlist">
-          <div className="newTestament">
-            <h2>INTERCESSION'S ARMY</h2>
-          </div>
-        </Link>
-      </div>
+          <Link to="/prayerlist">
+            <div className="newTestament">
+              <h2>INTERCESSION'S ARMY</h2>
+            </div>
+          </Link>
         </div>
-      
+      </div>
     </div>
 
     <div
@@ -386,64 +379,62 @@ const EventsApp = () => (
       </div>
     </div>
 
-    
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <div className="convention">
-          <div className="h3text" style={contentStyle}>
-            Holy Spirit Convention
-          </div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div className="convention">
+        <div className="h3text" style={contentStyle}>
+          Holy Spirit Convention
         </div>
+      </div>
 
-        <div className="conveDiv">
-          <p>Acts 1v 4-8</p>
+      <div className="conveDiv">
+        <p>Acts 1v 4-8</p>
 
-          <p>
-            But ye shall receive power, after that the Holy Ghost is come upon
-            you: and ye shall be witnesses unto me both in Jerusalem, and in all
-            Judaea, and in Samaria, and unto the uttermost part of the earth.
-          </p>
-          <p>What is the Holy Spirit?</p>
-          <p>
-            Holy Spirit it´s not a what, but He, the 3rd person of the trinity.
-            In Ezekiel chapter 36:25-27 God promise to purify His people, and
-            through a new covenant (Jeremiah 31:31-34); He will give a new
-            spirit and new dispositions to adore Him.
-          </p>
+        <p>
+          But ye shall receive power, after that the Holy Ghost is come upon
+          you: and ye shall be witnesses unto me both in Jerusalem, and in all
+          Judaea, and in Samaria, and unto the uttermost part of the earth.
+        </p>
+        <p>What is the Holy Spirit?</p>
+        <p>
+          Holy Spirit it´s not a what, but He, the 3rd person of the trinity. In
+          Ezekiel chapter 36:25-27 God promise to purify His people, and through
+          a new covenant (Jeremiah 31:31-34); He will give a new spirit and new
+          dispositions to adore Him.
+        </p>
 
-          <p>
-            1° God's promise to pour out His Spirit on all flesh is to eradicate
-            the aridity of His people and bring them to spiritual flourishing.
-            Acts 1 v-8
-          </p>
+        <p>
+          1° God's promise to pour out His Spirit on all flesh is to eradicate
+          the aridity of His people and bring them to spiritual flourishing.
+          Acts 1 v-8
+        </p>
 
-          <p>
-            2° The indwelling of His Spirit in us, is to enable us to walk in
-            obedience to God and His Word.
-          </p>
+        <p>
+          2° The indwelling of His Spirit in us, is to enable us to walk in
+          obedience to God and His Word.
+        </p>
 
-          <p>
-            The work of the Holy Spirit is the ability He gives to men to
-            accomplish the tasks for which God has destined them. This consisted
-            of making the believers fit for the service that God has entrusted
-            to them. Actes 1v-8
-          </p>
+        <p>
+          The work of the Holy Spirit is the ability He gives to men to
+          accomplish the tasks for which God has destined them. This consisted
+          of making the believers fit for the service that God has entrusted to
+          them. Actes 1v-8
+        </p>
 
-          <p>
-            3° It is the working power of the Holy Spirit that inspires
-            prophecies. Joel 2 v 28, John 16 v 13.
-          </p>
+        <p>
+          3° It is the working power of the Holy Spirit that inspires
+          prophecies. Joel 2 v 28, John 16 v 13.
+        </p>
 
-          <p>Join us at our next Holy Spirit Convention.</p>
+        <p>Join us at our next Holy Spirit Convention.</p>
 
-          <p>Don’t come alone, Invite someone and be blessed.</p>
+        <p>Don’t come alone, Invite someone and be blessed.</p>
 
-          
-          <p
+        <p
           style={{
             textAlign: "center",
             marginBottom: "1.3rem",
@@ -468,10 +459,8 @@ const EventsApp = () => (
             CLICK HERE TO PARTICIPATE IN THIS PROGRAM
           </a>
         </button>
-
-        </div>
       </div>
-  
+    </div>
 
     <div
       style={{
