@@ -8,7 +8,7 @@ const sermonDetails = [
   },
 
   {
-    sermonTitle: "My Rood shall blossom because I am a chosen one",
+    sermonTitle: "My Road shall blossom because I am a chosen one",
     sermonLink: "https://www.instagram.com/mowdministries_e.v/",
   },
 
