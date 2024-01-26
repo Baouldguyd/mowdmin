@@ -44,10 +44,10 @@ import SympoReg from './Components/Events/Baptism/SympoReg';
 // Bible App Links
 import BibleWelcome from './HandyBibleApp/WelcomeScreen/BibleWelcome';
 import BibleSummary from './HandyBibleApp/WelcomeScreen/BibleSummary';
-
-
-
-
+import NewTestamentBook from './HandyBibleApp/BookScreen/NewTestamentBook';
+import OldTestamentBook from './HandyBibleApp/BookScreen/OldTestamentBook';
+import BookScreen from './HandyBibleApp/BookScreen/BookScreen';
+import BookDetail from './BookDetail';
 
 
 
@@ -127,8 +127,11 @@ const App = () => {
       {/* Handy Bible */}
       <Route path='/bibleapp' element={ <BibleWelcome/> } />
       <Route path='/biblesummary' element={ <BibleSummary/> } />
-        
-        
+      <Route path='/bookscreen' element={ <BookScreen/> } />
+      <Route path="/old-testament/:bookId" component={BookDetail} />
+            <Route path="/new-testament/:bookId" component={BookDetail} />
+            <Route exact path="/old-testament" render={() => <OldTestamentBook />} />
+            <Route exact path="/new-testament" render={() => <NewTestamentBook />} />
         
         </Routes>
       </div>

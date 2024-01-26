@@ -16,6 +16,9 @@ const Home = () => {
       padding: '3px',
       height: 'auto'
     }}>
+        <div className="topDiv" style={{
+          height: '25px'
+        }}></div>
         <Translate/>
         <AboutUs/>
         <ActionDetails/>

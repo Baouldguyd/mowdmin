@@ -8,12 +8,12 @@ const ActionDetails = () => {
   return (
     <div className='event'>
         <div className='events'>
-            {/* <div className='line'></div> */}
+            <div className='lineAction'></div>
         
             <div className='eventsHeadline'>
                 <h1> Action and Plan </h1>
             </div>
-            {/* <div className='line'></div> */}
+            <div className='lineAction'></div>
         </div>
 
         <Link to='/events' >

@@ -137,6 +137,12 @@
     background-color: white;
     width: 50vw;
   }
+
+  .lineAction{
+    height: 1.5px;
+    background-color: white;
+    width: 18vw;
+  }
   .carousel-item {
     border-radius: 8px;
     padding: 20px;
@@ -1302,5 +1308,5 @@
     }
   }
   
-
+ 
 }
