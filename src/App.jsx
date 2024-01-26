@@ -56,7 +56,9 @@ const App = () => {
   return (
     <Router>
       <div>
-        
+      <div className="topDiv" style={{
+          height: '25px'
+        }}></div>
         <Routes>
         <Route path="/" element={<LoadingScreen />} />
         <Route  path="/home" element={<HomePage />} />

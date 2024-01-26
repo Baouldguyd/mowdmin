@@ -26,10 +26,13 @@ const Translate = () => {
   }, []);
  
   return (
-    <div id="google_translate_element">
+    <div>
+      <div id="google_translate_element">
       
       {/* This is where the translation widget will be rendered */}
     </div>
+    </div>
+    
   );
 };
 
