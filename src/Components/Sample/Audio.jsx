@@ -18,7 +18,7 @@ const Audio = () => {
 
         <div className="audioList">
         
-        <Link to='/audio/torah' >
+        <Link to='/bible' >
             <div className='torah'>
             <p>TORAH</p>
             </div>

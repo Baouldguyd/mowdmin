@@ -225,12 +225,12 @@ const EventsApp = () => (
         9v9)
       </p>
 
-      <button style={{ display: "block", margin: "auto" }}>
-        {" "}
+      
+        
         <a href="https://www.mowdministries.org/our-services">
-          Click Here for Our Charitable Deeds
-        </a>{" "}
-      </button>
+        <button style={{ display: "block", margin: "auto" }}> Click Here for Our Charitable Deeds </button>
+        </a>
+    
       <p style={{ textAlign: "center" }}>OR</p>
 
       <Link to="/gift">
