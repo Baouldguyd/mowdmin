@@ -4,12 +4,31 @@ import biblecross from "../../Assets/torah.jpg";
 
 function BibleApp() {
   // Define the books and chapters for Old and New Testaments
-  const oldTestamentBooks = [
-    "Genesis",
-    "Exodus",
-    "Leviticus",
-    "Numbers",
-    "Deuteronomy",
+  const oldTestamentBooks = [ 
+    {
+      book: "Genesis",
+      chapter_length: 50,
+    },
+
+    {
+      book: "Exodus",
+      chapter_length: 40
+    },
+    {
+      book : "Leviticus",
+      chapter_length: 27
+    },
+    {
+      book: "Numbers",
+      chapter_length: 36
+    },
+    {
+      book: "Deuteronomy",
+      chapter_length: 34
+    }
+
+
+
     // 'Joshua',
     // 'Judges',
     // 'Ruth',
@@ -152,9 +171,9 @@ function BibleApp() {
             >
               <option value="nil">Select A Book</option>
               {selectedTestament === "Old Testament"
-                ? oldTestamentBooks.map((book) => (
-                    <option key={book} value={book}>
-                      {book}
+                ? oldTestamentBooks.map((book, index) => (
+                    <option key={index} value={book}>
+                      {book.book}
                     </option>
                   ))
                 : newTestamentBooks.map((book) => (
@@ -164,19 +183,28 @@ function BibleApp() {
                   ))}
             </select>
           </div>
-          <div>
-            <select
-              value={selectedChapter}
-              onChange={(e) => setSelectedChapter(e.target.value)}
-            >
-              <option value="nil">Select A Chapter</option>
-              {Array.from({ length: 150 }, (_, i) => (
-                <option key={i + 1} value={i + 1}>
-                  {i + 1}
-                </option>
-              ))}
-            </select>
-          </div>
+          
+
+<div>
+  <select
+    value={selectedChapter}
+    onChange={(e) => setSelectedChapter(e.target.value)}
+  >
+    <option value="nil">Select A Chapter</option>
+    {selectedTestament === "Old Testament" &&
+      selectedBook !== "Select a Book" &&
+      oldTestamentBooks
+        .find((book) => book.book === selectedBook).book
+        .chapter_length.map((_, index) => (
+          <option key={index} value={index + 1}>
+            {index + 1}
+          </option>
+        ))}
+  </select>
+</div>
+
+
+
           {/* <div>
           <select
             value={selectedVerseNumber}
@@ -203,7 +231,7 @@ function BibleApp() {
             <div key={index} value={bibleVerse}>
               <p> {bibleVerse.book_name}</p>
               <p>
-                {"["} <span>{bibleVerse.chapter}</span> {":"}{""}
+                {"["} <span>{bibleVerse.chapter}</span> {":"}{" "}
                 <span>{bibleVerse.verse}</span>
                 {" ]"}
               </p>
