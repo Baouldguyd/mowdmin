@@ -48,6 +48,7 @@ import NewTestamentBook from './HandyBibleApp/BookScreen/NewTestamentBook';
 import OldTestamentBook from './HandyBibleApp/BookScreen/OldTestamentBook';
 import BookScreen from './HandyBibleApp/BookScreen/BookScreen';
 import BookDetail from './BookDetail';
+import Genesis from './HandyBibleApp/Books/Genesis';
 
 
 
@@ -135,6 +136,11 @@ const App = () => {
             <Route exact path="/old-testament" render={() => <OldTestamentBook />} />
             <Route exact path="/new-testament" render={() => <NewTestamentBook />} />
         
+        {/* OLD TESTAMENT */}
+        <Route path="/genesis" element= {<Genesis/>} />
+
+
+
         </Routes>
       </div>
       

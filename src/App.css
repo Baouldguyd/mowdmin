@@ -1308,5 +1308,64 @@
     }
   }
   
+  .bibleContainer{
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+    height: auto;
+    background-color: #fff;
+  }
+
+  .bibleContainer span {
+    color:rgb(13, 15, 54);
+    font-size: 1.2rem;
+    
+    
+  }
+
+  .bibleContainDiv{
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+  }
+
+  .bibleContainDiv span {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  
+
+
+  .bookOfTheBible{
+    height: 100%;
+
+  }
+  .divLine{
+    height: 1px;
+    background-color: rgb(13, 15, 54);
+    width: 100vw;
+  }
+
+  .bibleDisplay{
+    display: grid;
+    grid-template-columns: 1fr 3rem;
+    margin-top: 1rem;
+  }
+
+  .bibleText{
+    height: auto;
+    
+
+  }
+
+  .bibleText p {
+    color:rgb(13, 15, 54);
+  }
+  
+.bibleChapterNumber{
+  height: auto;
+  background-color: rgb(13, 15, 54);
+  width: 100%;
+  
+}
  
 }
