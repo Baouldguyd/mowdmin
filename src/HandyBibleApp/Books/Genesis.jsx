@@ -3,9 +3,8 @@ import React, { useState, useEffect } from "react";
 import Spinner from "../../Components/Loader/Spinner";
 
 const Genesis = () => {
-  const bibleNumbers = [
-    "1", "2", "3", "4", "5", "6", '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'
-  ];
+  
+  const [bibleNumbers, setBibleNumbers] = useState([])
 
   const [bibleVerses, setBibleVerses] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState("1");
@@ -52,8 +51,11 @@ const Genesis = () => {
         
 
         try {
+
+          const chaptersTrue = '?include-chapters=true';
+            
             const response = await axios.get(
-                `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/books`,
+                `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/books/GEN${chaptersTrue}`,
                 {
                     headers: {
                         "Content-Type": "application/json",
@@ -63,9 +65,19 @@ const Genesis = () => {
             );
 
             const data = response.data;
+            const booksData = data.data;
+            const chapterNumbers = booksData.chapters
+            
 
             // setBibleVerses(data.verses);
             console.log(data);
+            console.log(booksData);
+            console.log(chapterNumbers);
+
+            const chapterNumbersArray = chapterNumbers.map((chapter) => chapter.number);
+        setBibleNumbers(chapterNumbersArray);
+
+            setBibleNumbers(chapterNumbers);
         } catch (error) {
             console.error("An error occurred", error);
         } finally {
@@ -77,8 +89,30 @@ const Genesis = () => {
 
 }, [selectedChapter]);
 
-  const handleChapterClick = (chapter) => {
+  const handleChapterClick = async (chapter) => {
     setSelectedChapter(chapter);
+    try {
+      const chapterResponse = await axios.get(
+         `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/chapters/GEN.1?content-type=json&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=true&include-verse-spans=false`,
+         {
+          headers:{
+            'Content-Type': 'application/json',
+            'api-key' : '0557abf27931c5f6a02610bc5fec32dc'
+          }
+         }
+      );
+
+      const chapterData = chapterResponse.data;
+      const chapterInfo = chapterData.data
+      const chapterContent = chapterInfo.content
+      
+      console.log(chapterData)
+      console.log(chapterContent);
+
+      
+    } catch (error) {
+      
+    }
   };
 
   return (
@@ -121,9 +155,10 @@ const Genesis = () => {
               ))}
             </div>
             <div className="bibleChapterNumber">
-              {bibleNumbers.map((item) => (
+              
+              {bibleNumbers.map((item, index) => (
                 <p
-                  key={item}
+                  key={index}
                   style={{
                     textAlign: "center",
                     fontSize: "1.2rem",
@@ -132,7 +167,7 @@ const Genesis = () => {
                   }}
                   onClick={() => handleChapterClick(item)}
                 >
-                  {item}
+                  {item.number}
                 </p>
               ))}
             </div>
