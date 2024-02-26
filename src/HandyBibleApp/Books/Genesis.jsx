@@ -11,9 +11,45 @@ const Genesis = () => {
   const [selectedChapter, setSelectedChapter] = useState("1");
   const [isLoading, setIsLoading] = useState(false);
 
+  const bibleVersions = [
+    {
+        bibleVersion: 'KJV',
+        bibleId: 'de4e12af7f28f599-02'
+    },
+    {
+        bibleVersion: 'LSV',
+        bibleId: '01b29f4b342acc35-01'
+    },
+    {
+        bibleVersion: 'RSV',
+        bibleId: '40072c4a5aba4022-01'
+    },
+    {
+        bibleVersion: 'ASV',
+        bibleId: '06125adad2d5898a-01'
+    },
+    {
+        bibleVersion: 'OSV',
+        bibleId: 'c89622d31b60c444-02'
+    },
+    {
+        bibleVersion: 'OJB',
+        bibleId: 'c89622d31b60c444-02'
+    },
+    {
+        bibleVersion: 'WEB',
+        bibleId: '9879dbb7cfe39e4d-01'
+    },
+    {
+        bibleVersion: 'ELBBK',
+        bibleId: 'f492a38d0e52db0f-01'
+    },
+  ]
   useEffect(() => {
     const fetchData = async () => {
         setIsLoading(true);
+
+        
 
         try {
             const response = await axios.get(
@@ -53,9 +89,7 @@ const Genesis = () => {
           <span className="cha">CHA</span>
           <span>
             <select name="" id="">
-                <input type="text" id="kjv" />
-                <input type="text" id="" />
-                <input type="text" />
+                <option value=""></option>
             </select>
           </span>
         </div>
