@@ -23,6 +23,7 @@
     box-shadow: 0 0 0.2em 0 var(--color-background);
   }
   
+  
   .btn-content:hover, .btn-content:focus {
     transition: 0.5s;
     -webkit-animation: btn-content 1s;
@@ -38,7 +39,7 @@
     transform: scale(0.6);
   }
   
-  .btn-content:hover .icon-arrow {
+  .btn-content:hov .icon-arrow {
     transition: 0.5s;
     margin-right: 25px;
   }
@@ -61,7 +62,7 @@
     transform: translateX(-30%);
   }
   
-  .btn-content:hover #arrow-icon-three {
+  .btn-content #arrow-icon-three {
     animation: color_anim 1s infinite 0.2s;
   }
   

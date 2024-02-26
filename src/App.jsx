@@ -41,6 +41,8 @@ import BapReg from './Components/Events/Baptism/BapReg';
 import BibleApp from './Components/Bible/BibleApp';
 import SympoReg from './Components/Events/Baptism/SympoReg';
 
+
+
 // Bible App Links
 import BibleWelcome from './HandyBibleApp/WelcomeScreen/BibleWelcome';
 import BibleSummary from './HandyBibleApp/WelcomeScreen/BibleSummary';

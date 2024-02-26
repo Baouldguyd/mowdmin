@@ -14,7 +14,7 @@
 
 .welcomeScreen{
     display: grid;
-    height: 100vh;
+    min-height: 100svh;
     grid-template-rows: 4rem 1fr 4rem;
 }
 
