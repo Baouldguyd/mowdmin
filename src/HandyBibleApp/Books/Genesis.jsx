@@ -54,16 +54,26 @@ const Genesis = () => {
 
           const chaptersTrue = '?include-chapters=true';
             
-            const response = await axios.get(
-                `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/books/GEN${chaptersTrue}`,
-                {
-                    headers: {
-                        "Content-Type": "application/json",
-                        "api-key": '0557abf27931c5f6a02610bc5fec32dc'
-                    }
-                }
-            );
+            // const response = await axios.get(
+            //     // `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/books/GEN${chaptersTrue}`,
+            //     `https://bolls.life/static/translations/YLT.json`
+            //     // {
+            //     //     headers: {
+            //     //         "Content-Type": "application/json",
+            //     //         // "api-key": '0557abf27931c5f6a02610bc5fec32dc'
+            //     //     }
+            //     // }
+            // );
 
+            const response = await fetch('https://bolls.life/get-chapter/KJV/1/1/');
+
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+
+        const result = await response.json();
+
+        console.log(result);
             const data = response.data;
             const booksData = data.data;
             const chapterNumbers = booksData.chapters

@@ -51,7 +51,7 @@ import OldTestamentBook from './HandyBibleApp/BookScreen/OldTestamentBook';
 import BookScreen from './HandyBibleApp/BookScreen/BookScreen';
 import BookDetail from './BookDetail';
 import Genesis from './HandyBibleApp/Books/Genesis';
-
+import BookPage from './HandyBibleApp/BookScreen/BookPage';
 
 
 
@@ -133,10 +133,11 @@ const App = () => {
       <Route path='/bibleapp' element={ <BibleWelcome/> } />
       <Route path='/biblesummary' element={ <BibleSummary/> } />
       <Route path='/bookscreen' element={ <BookScreen/> } />
-      <Route path="/old-testament/:bookId" component={BookDetail} />
-            <Route path="/new-testament/:bookId" component={BookDetail} />
-            <Route exact path="/old-testament" render={() => <OldTestamentBook />} />
+      {/* <Route path="/old-testament/:bookId" component={BookDetail} /> */}
+            {/* <Route path="/new-testament/:bookId" component={BookDetail} /> */}
+            <Route path="/old-testament" exact component={OldTestamentBook} />
             <Route exact path="/new-testament" render={() => <NewTestamentBook />} />
+            <Route path="/old-testament/:bookId" component={BookPage} />
         
         {/* OLD TESTAMENT */}
         <Route path="/genesis" element= {<Genesis/>} />
