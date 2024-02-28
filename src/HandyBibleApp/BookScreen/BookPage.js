@@ -31,7 +31,7 @@ const BookPage = ({ match, location }) => {
 
     fetchData();
 
-    // Cleanup function
+    // Cleanup func tion
     return () => {
       isMounted = false; // Set the flag to false when component is unmounted
     };

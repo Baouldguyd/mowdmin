@@ -1,10 +1,10 @@
-import axios from "axios";
+// import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Spinner from "../../Components/Loader/Spinner";
 
 const Genesis = () => {
   
-  const [bibleNumbers, setBibleNumbers] = useState([])
+  // const [bibleNumbers, setBibleNumbers] = useState([])
 
   const [bibleVerses, setBibleVerses] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState("1");
@@ -13,7 +13,7 @@ const Genesis = () => {
   const bibleVersions = [
     {
         bibleVersion: 'KJV',
-        bibleId: 'de4e12af7f28f599-02'
+        bibleId: ''
     },
     {
         bibleVersion: 'LSV',
@@ -48,46 +48,27 @@ const Genesis = () => {
     const fetchData = async () => {
         setIsLoading(true);
 
-        
-
         try {
 
-          const chaptersTrue = '?include-chapters=true';
-            
-            // const response = await axios.get(
-            //     // `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/books/GEN${chaptersTrue}`,
-            //     `https://bolls.life/static/translations/YLT.json`
-            //     // {
-            //     //     headers: {
-            //     //         "Content-Type": "application/json",
-            //     //         // "api-key": '0557abf27931c5f6a02610bc5fec32dc'
-            //     //     }
-            //     // }
-            // );
+        const response = await fetch('https://bolls.life/get-chapter/KJV/1/1/');
 
-            const response = await fetch('https://bolls.life/get-chapter/KJV/1/1/');
-
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
+        
 
         const result = await response.json();
 
         console.log(result);
             const data = response.data;
-            const booksData = data.data;
-            const chapterNumbers = booksData.chapters
+
+            setBibleVerses(result)
+
+            // const booksData = data.data;
+            // const chapterNumbers = booksData.chapters
             
 
-            // setBibleVerses(data.verses);
-            console.log(data);
-            console.log(booksData);
-            console.log(chapterNumbers);
+          //   const chapterNumbersArray = chapterNumbers.map((chapter) => chapter.number);
+          // setBibleNumbers(chapterNumbersArray);
 
-            const chapterNumbersArray = chapterNumbers.map((chapter) => chapter.number);
-        setBibleNumbers(chapterNumbersArray);
-
-            setBibleNumbers(chapterNumbers);
+            // setBibleNumbers(chapterNumbers);
         } catch (error) {
             console.error("An error occurred", error);
         } finally {
@@ -99,31 +80,31 @@ const Genesis = () => {
 
 }, [selectedChapter]);
 
-  const handleChapterClick = async (chapter) => {
-    setSelectedChapter(chapter);
-    try {
-      const chapterResponse = await axios.get(
-         `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/chapters/GEN.1?content-type=json&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=true&include-verse-spans=false`,
-         {
-          headers:{
-            'Content-Type': 'application/json',
-            'api-key' : '0557abf27931c5f6a02610bc5fec32dc'
-          }
-         }
-      );
+  // const handleChapterClick = async (chapter) => {
+  //   setSelectedChapter(chapter);
+  //   try {
+  //     const chapterResponse = await axios.get(
+  //        `https://api.scripture.api.bible/v1/bibles/de4e12af7f28f599-02/chapters/GEN.1?content-type=json&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=true&include-verse-spans=false`,
+  //        {
+  //         headers:{
+  //           'Content-Type': 'application/json',
+  //           'api-key' : '0557abf27931c5f6a02610bc5fec32dc'
+  //         }
+  //        }
+  //     );
 
-      const chapterData = chapterResponse.data;
-      const chapterInfo = chapterData.data
-      const chapterContent = chapterInfo.content
+  //     const chapterData = chapterResponse.data;
+  //     const chapterInfo = chapterData.data
+  //     const chapterContent = chapterInfo.content
       
-      console.log(chapterData)
-      console.log(chapterContent);
+  //     console.log(chapterData)
+  //     console.log(chapterContent);
 
       
-    } catch (error) {
+  //   } catch (error) {
       
-    }
-  };
+  //   }
+  // };
 
   return (
     <div className="bibleContainer">
@@ -157,16 +138,18 @@ const Genesis = () => {
               {bibleVerses.map((bibleVerse, index) => (
                 <div key={index}>
                   <p>
-                    {"["} <span>{bibleVerse.chapter}</span> {":"}{" "}
+                    {"["} <span>{bibleVerse.versemn }</span> {":"}{" "}
                     <span>{bibleVerse.verse}</span>
                     {" ]"} <span>{bibleVerse.text}</span>
                   </p>
                 </div>
               ))}
+
+              
             </div>
             <div className="bibleChapterNumber">
               
-              {bibleNumbers.map((item, index) => (
+              {/* {bibleNumbers.map((item, index) => (
                 <p
                   key={index}
                   style={{
@@ -179,7 +162,7 @@ const Genesis = () => {
                 >
                   {item.number}
                 </p>
-              ))}
+              ))} */}
             </div>
           </>
         )}
