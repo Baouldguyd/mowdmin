@@ -1323,16 +1323,19 @@
   }
 
   .bibleContainDiv{
-    display: grid;
-    grid-template-columns: 1fr 0.2fr;
+    display: flex;
+    justify-content: space-between;
+    
   }
 
-  .bibleContainDiv span {
+  .bibleContainDiv span  {
     font-size: 1.4rem;
     font-weight: bold;
   }
 
-  
+  .cha{
+    margin-right: 0.5rem;
+  }
 
 
   .bookOfTheBible{
