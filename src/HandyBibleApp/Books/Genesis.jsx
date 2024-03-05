@@ -273,7 +273,7 @@ const Genesis = () => {
       setIsLoading(true);
 
       try {
-        const response = await fetch("https://bolls.life/get-chapter/KJV/1/1/");
+        const response = await fetch(`https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1`);
 
         const result = await response.json();
 
@@ -290,7 +290,7 @@ const Genesis = () => {
     };
 
     fetchData();
-  }, [selectedChapter]);
+  }, [selectedBook, selectedChapter, selectedVersion]);
 
   const handleChapterClick = async (chapter) => {
     setIsLoading(true)
@@ -417,7 +417,7 @@ const Genesis = () => {
               {Array.from(
                 {
                   length:
-                    bookSelect.find((book) => book.bookid === 1)?.chapters || 0,
+                    bookSelect.find((book) => book.bookid === 1 )?.chapters || 0,
                 },
                 (_, index) => index + 1
               ).map((chapter) => (
