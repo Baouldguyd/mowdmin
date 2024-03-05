@@ -1,6 +1,5 @@
 // import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { FaArrowDown } from "react-icons/fa";
 import Spinner from "../../Components/Loader/Spinner";
 
 const Genesis = () => {
@@ -294,6 +293,7 @@ const Genesis = () => {
   }, [selectedChapter]);
 
   const handleChapterClick = async (chapter) => {
+    setIsLoading(true)
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
@@ -308,6 +308,9 @@ const Genesis = () => {
     } catch (error) {
       console.error("An error occured fetching selected chapter", error);
     }
+    finally{
+      setIsLoading(false)
+    }
   };
 
   return (
@@ -316,12 +319,13 @@ const Genesis = () => {
         <div className="bibleContainDiv">
           <span className="chapBook">
             <select name="" id=""
-            onChange={(e) => SetSelectedBook(e.target.value)  }
+            onChange={(e) => SetSelectedBook(e.target.value)}
             style={{
               fontSize: '1.4rem',
               fontWeight: 'bold',
-              width: '7rem',
+              width: 'auto',
               border: 'none',
+              height: 'auto'
               
             }}
             >
