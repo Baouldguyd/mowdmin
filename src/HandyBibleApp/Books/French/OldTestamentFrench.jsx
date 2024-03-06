@@ -9,7 +9,7 @@ const OldTestamentFrench = () => {
   const [bibleVerses, setBibleVerses] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState("1");
   const [isLoading, setIsLoading] = useState(false);
-  const [selectedVersion, setSelectedVersion] = useState("NB");
+  const [selectedVersion, setSelectedVersion] = useState("NBS");
   const [chapterLength, setChapterLength] = useState([])
 
   const bibleVersions = [
@@ -71,12 +71,12 @@ const OldTestamentFrench = () => {
 
       try {
         const response = await fetch(
-          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1`
+          `/get-chapter/${selectedVersion}/${selectedBook}/1`
         );
 
         const result = await response.json();
 
-        const booksResponse = await fetch("https://bolls.life/get-books/YLT/");
+        const booksResponse = await fetch("/get-books/YLT/");
         const booksResult = await booksResponse.json();
        
         const selectedBookChapter = bookSelect.find(
