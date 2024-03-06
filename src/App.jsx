@@ -52,6 +52,11 @@ import BookScreen from './HandyBibleApp/BookScreen/BookScreen';
 import BookDetail from './BookDetail';
 import Genesis from './HandyBibleApp/Books/Genesis';
 import BookPage from './HandyBibleApp/BookScreen/BookPage';
+import OldTestament from './HandyBibleApp/Books/English/OldTestament';
+import Newtestament from './HandyBibleApp/Books/English/Newtestament';
+import OldTestamentFrench from './HandyBibleApp/Books/French/OldTestamentFrench';
+import NewTestamentFrench from './HandyBibleApp/Books/French/NewTestamentFrench';
+import OldTestamentGerman from './HandyBibleApp/Books/German/OldTestamentGerman';
 
 
 
@@ -142,7 +147,19 @@ const App = () => {
         {/* OLD TESTAMENT */}
         <Route path="/genesis" element= {<Genesis/>} />
 
+        {/*Bible Books */}
 
+        {/* English */}
+        <Route path="/english/oldTestament" element= {<OldTestament/>} />
+        <Route path="/english/newTestament" element= { <Newtestament/> } />
+
+        {/* French */}
+        <Route path="/french/oldTestament" element= { <OldTestamentFrench/> } />
+        <Route path="/french/newTestament" element= {<NewTestamentFrench/>} />
+
+        {/* German */}
+        <Route path="/german/oldTestament" element= { <OldTestamentGerman/> } />
+        <Route path="/german/newTestament" element= { <NewTestamentFrench/> } />
 
         </Routes>
       </div>
