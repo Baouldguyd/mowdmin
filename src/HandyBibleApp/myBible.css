@@ -8,13 +8,13 @@
 
 .body{
     background-color: rgb(13, 15, 54);
-    height: 100vh;
+    max-height: 100svh;
     font-family: "Mukta", sans-serif;
 }
 
 .welcomeScreen{
     display: grid;
-    height: 100vh;
+    min-height: 100svh;
     grid-template-rows: 4rem 1fr 4rem;
 }
 

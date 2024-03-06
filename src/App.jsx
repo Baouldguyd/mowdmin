@@ -41,14 +41,25 @@ import BapReg from './Components/Events/Baptism/BapReg';
 import BibleApp from './Components/Bible/BibleApp';
 import SympoReg from './Components/Events/Baptism/SympoReg';
 
+
+
 // Bible App Links
 import BibleWelcome from './HandyBibleApp/WelcomeScreen/BibleWelcome';
 import BibleSummary from './HandyBibleApp/WelcomeScreen/BibleSummary';
 import NewTestamentBook from './HandyBibleApp/BookScreen/NewTestamentBook';
 import OldTestamentBook from './HandyBibleApp/BookScreen/OldTestamentBook';
 import BookScreen from './HandyBibleApp/BookScreen/BookScreen';
-import BookDetail from './BookDetail';
-
+import Genesis from './HandyBibleApp/Books/Genesis';
+import BookPage from './HandyBibleApp/BookScreen/BookPage';
+import OldTestament from './HandyBibleApp/Books/English/OldTestament';
+import Newtestament from './HandyBibleApp/Books/English/Newtestament';
+import OldTestamentFrench from './HandyBibleApp/Books/French/OldTestamentFrench';
+import NewTestamentFrench from './HandyBibleApp/Books/French/NewTestamentFrench';
+import OldTestamentGerman from './HandyBibleApp/Books/German/OldTestamentGerman';
+import BibleLanguage from './HandyBibleApp/HomeScreen/BibleLanguage';
+import English from './HandyBibleApp/Books/English/English';
+import German from './HandyBibleApp/Books/German/German';
+import French from './HandyBibleApp/Books/French/French';
 
 
 
@@ -130,11 +141,36 @@ const App = () => {
       <Route path='/bibleapp' element={ <BibleWelcome/> } />
       <Route path='/biblesummary' element={ <BibleSummary/> } />
       <Route path='/bookscreen' element={ <BookScreen/> } />
-      <Route path="/old-testament/:bookId" component={BookDetail} />
-            <Route path="/new-testament/:bookId" component={BookDetail} />
-            <Route exact path="/old-testament" render={() => <OldTestamentBook />} />
+      {/* <Route path="/old-testament/:bookId" component={BookDetail} /> */}
+            {/* <Route path="/new-testament/:bookId" component={BookDetail} /> */}
+            <Route path="/old-testament" exact component={OldTestamentBook} />
             <Route exact path="/new-testament" render={() => <NewTestamentBook />} />
+            <Route path="/old-testament/:bookId" component={BookPage} />
         
+        {/* OLD TESTAMENT */}
+        <Route path="/genesis" element= {<Genesis/>} />
+
+        {/*Bible Books */}
+
+        {/* English */}
+        <Route path="/english/oldTestament" element= {<OldTestament/>} />
+        <Route path="/english/newTestament" element= { <Newtestament/> } />
+
+        {/* French */}
+        <Route path="/french/oldTestament" element= { <OldTestamentFrench/> } />
+        <Route path="/french/newTestament" element= {<NewTestamentFrench/>} />
+
+        {/* German */}
+        <Route path="/german/oldTestament" element= { <OldTestamentGerman/> } />
+        <Route path="/german/newTestament" element= { <NewTestamentFrench/> } />
+        <Route path='/bibleLanguage' element={ <BibleLanguage/> } />
+
+        {/* Language Selection */}
+        <Route path='/english' element={ <English/> } />
+        <Route path='/german' element={ <German/> } />
+        <Route path='/french' element={ <French/> } />
+
+
         </Routes>
       </div>
       

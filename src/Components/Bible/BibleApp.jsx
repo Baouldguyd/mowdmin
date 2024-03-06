@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import biblecross from "../../Assets/torah.jpg";
 
 function BibleApp() {
+  
   const oldTestamentBooks = [
     {
       book: "Genesis",
@@ -26,35 +27,7 @@ function BibleApp() {
     // Add more books here
   ];
 
-  const newTestamentBooks = [
-    "Matthew",
-    "Mark",
-    "Luke",
-    "John",
-    "Acts",
-    "Romans",
-    "1 Corinthians",
-    "2 Corinthians",
-    "Galatians",
-    "Ephesians",
-    "Philippians",
-    "Colossians",
-    "1 Thessalonians",
-    "2 Thessalonians",
-    "1 Timothy",
-    "2 Timothy",
-    "Titus",
-    "Philemon",
-    "Hebrews",
-    "James",
-    "1 Peter",
-    "2 Peter",
-    "1 John",
-    "2 John",
-    "3 John",
-    "Jude",
-    "Revelation",
-  ];
+
 
   const [selectedTestament, setSelectedTestament] = useState("nil");
   const [selectedBook, setSelectedBook] = useState("nil");
