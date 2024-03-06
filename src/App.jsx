@@ -49,7 +49,6 @@ import BibleSummary from './HandyBibleApp/WelcomeScreen/BibleSummary';
 import NewTestamentBook from './HandyBibleApp/BookScreen/NewTestamentBook';
 import OldTestamentBook from './HandyBibleApp/BookScreen/OldTestamentBook';
 import BookScreen from './HandyBibleApp/BookScreen/BookScreen';
-import BookDetail from './BookDetail';
 import Genesis from './HandyBibleApp/Books/Genesis';
 import BookPage from './HandyBibleApp/BookScreen/BookPage';
 import OldTestament from './HandyBibleApp/Books/English/OldTestament';
@@ -57,6 +56,10 @@ import Newtestament from './HandyBibleApp/Books/English/Newtestament';
 import OldTestamentFrench from './HandyBibleApp/Books/French/OldTestamentFrench';
 import NewTestamentFrench from './HandyBibleApp/Books/French/NewTestamentFrench';
 import OldTestamentGerman from './HandyBibleApp/Books/German/OldTestamentGerman';
+import BibleLanguage from './HandyBibleApp/HomeScreen/BibleLanguage';
+import English from './HandyBibleApp/Books/English/English';
+import German from './HandyBibleApp/Books/German/German';
+import French from './HandyBibleApp/Books/French/French';
 
 
 
@@ -160,6 +163,13 @@ const App = () => {
         {/* German */}
         <Route path="/german/oldTestament" element= { <OldTestamentGerman/> } />
         <Route path="/german/newTestament" element= { <NewTestamentFrench/> } />
+        <Route path='/bibleLanguage' element={ <BibleLanguage/> } />
+
+        {/* Language Selection */}
+        <Route path='/english' element={ <English/> } />
+        <Route path='/german' element={ <German/> } />
+        <Route path='/french' element={ <French/> } />
+
 
         </Routes>
       </div>
