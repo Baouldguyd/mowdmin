@@ -1,22 +1,24 @@
 {
-  "headers": [
-    {"Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, OPTIONS",
-    "Access-Control-Allow-Headers": "X-Requested-With, Content-Type"}
-  ],
   "routes": [
     {
       "src": "/get-chapter/:path*",
       "dest": "https://bolls.life/:path*",
       "methods": ["GET"],
-      "headers": "${headers}"
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type"
+      }
     },
     {
       "src": "/get-books/:path*",
       "dest": "https://bolls.life/:path*",
       "methods": ["GET"],
-      "headers": "${headers}"
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type"
+      }
     }
-    
   ]
 }
