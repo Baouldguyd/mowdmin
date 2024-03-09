@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "/get-chapter*",
+      "src": "/get-chapter/:path*",
       "dest": "https://bolls.life/:path*",
       "methods": ["GET"],
       "headers": {
