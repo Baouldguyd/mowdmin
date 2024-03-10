@@ -92,12 +92,12 @@ const OldTestamentGerman = () => {
 
       try {
         const response = await fetch(
-          `/get-chapter/${selectedVersion}/${selectedBook}/1`
+          `https://bolls.life//get-chapter/${selectedVersion}/${selectedBook}/1`
         );
 
         const result = await response.json();
 
-        const booksResponse = await fetch("/get-books/YLT/");
+        const booksResponse = await fetch("https://bolls.life//get-books/YLT/");
         const booksResult = await booksResponse.json();
        
         const selectedBookChapter = bookSelect.find(
