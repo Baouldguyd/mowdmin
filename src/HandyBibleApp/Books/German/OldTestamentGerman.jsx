@@ -138,7 +138,7 @@ console.log(selectedBook);
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
-        `/get-chapter/${selectedVersion}/${selectedBook}/${chapter}`
+        `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${chapter}`
       );
 
       const chapterData = await chapterResponse.json();
