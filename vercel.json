@@ -1,21 +1,21 @@
 {
   "routes": [
     {
-      "src": "https://bolls.life/get-chapter/:path*",
+      "src": "/get-chapter/:path*",
       "dest": "https://bolls.life/:path*",
       "methods": ["GET"],
       "headers": {
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://mowdmin.vercel.app",
         "Access-Control-Allow-Methods": "GET, OPTIONS",
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type"
       }
     },
     {
-      "src": "https://bolls.life/get-books/:path*",
+      "src": "/get-books/:path*",
       "dest": "https://bolls.life/:path*",
       "methods": ["GET"],
       "headers": {
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://mowdmin.vercel.app",
         "Access-Control-Allow-Methods": "GET, OPTIONS",
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type"
       }
