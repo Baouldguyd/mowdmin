@@ -13,9 +13,9 @@
     align-items: center;
     padding: 5px 30px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--color-text);
     background: var(--color-background);
     transition: 1s;
