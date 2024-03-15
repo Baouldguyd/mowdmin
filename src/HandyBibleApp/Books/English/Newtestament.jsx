@@ -214,7 +214,7 @@ const Newtestament = () => {
 
         const result = await response.json();
 
-        const booksResponse = await fetch("/get-books/YLT/");
+        const booksResponse = await fetch("https://bolls.life/get-books/YLT/");
         const booksResult = await booksResponse.json();
        
         const selectedBookChapter = bookSelect.find(
