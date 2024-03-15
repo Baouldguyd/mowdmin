@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "../myBible.css";
 import NextButton from './NextButton';
-import OpenButton from './OpenButton';
+
 
 
 const BibleSummary = () => {
@@ -23,7 +24,9 @@ const BibleSummary = () => {
                     }}>The Bible promises that Jesus Christ will return to this earth as the conquering King. Only  those who live in repentant faith in Christ will escape God’s judgement and live joyfully in God’s presence for all eternity. God’s message is the same to all of us: repent and believe,  before it is too late.  </p>
                 </div>
               
-              <OpenButton/>  
+              <Link to='/bibleLanguage'>
+              <NextButton/>
+              </Link>
               
             </div>
             <div className="bottom"><div className="bottom-box"></div></div>

@@ -5,7 +5,7 @@ import Spinner from "../../../Components/Loader/Spinner";
 const Newtestament = () => {
   // const [bibleNumbers, setBibleNumbers] = useState([])
 
-  const [selectedBook, setSelectedBook] = useState("1");
+  const [selectedBook, setSelectedBook] = useState("40");
   const [bibleVerses, setBibleVerses] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState("40");
   const [isLoading, setIsLoading] = useState(false);
