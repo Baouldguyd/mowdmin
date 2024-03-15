@@ -92,7 +92,9 @@ const OldTestamentGerman = () => {
 
       try {
         const response = await fetch(
-          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1`
+
+          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1/`
+
         );
 
         const result = await response.json();

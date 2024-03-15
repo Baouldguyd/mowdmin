@@ -5,7 +5,7 @@ import Spinner from "../../../Components/Loader/Spinner";
 const NewTestamentGerman = () => {
   // const [bibleNumbers, setBibleNumbers] = useState([])
 
-  const [selectedBook, setSelectedBook] = useState("1");
+  const [selectedBook, setSelectedBook] = useState("40");
   const [bibleVerses, setBibleVerses] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState("40");
   const [isLoading, setIsLoading] = useState(false);
@@ -80,7 +80,7 @@ const NewTestamentGerman = () => {
 
       try {
         const response = await fetch(
-          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1`
+          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1/`
         );
 
         const result = await response.json();
