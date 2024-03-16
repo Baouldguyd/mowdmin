@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+/* div{
+    background-color: rgb(13, 15, 54);
+    font-family: "Mukta", sans-serif;
+    width: auto;
+}  */
+
+.body{
+    background-color: rgb(13, 15, 54);
+    max-height: 100svh;
+    font-family: "Mukta", sans-serif;
+}
+
+.welcomeScreen{
+    display: grid;
+    min-height: 100svh;
+    grid-template-rows: 4rem 1fr 4rem;
+}
+
+.top{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.top-box{
+    background-color: #E96C2F;
+    width: 70px;
+height: 100%;
+flex-shrink: 0;
+/* border-radius: 50%; */
+border-bottom-left-radius: 10rem;
+
+}
+
+.bottom-box{
+    background-color: #E96C2F;
+    width: 70px;
+height: 100%;
+flex-shrink: 0;
+/* border-radius: 50%; */
+border-top-right-radius: 10rem;
+}
+.middle{
+    /* background-color: yellow; */
+    display: flex;
+   flex-direction: column;
+   gap: 2rem;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.summaryDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vector{
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+border-radius: 50%;
+border: 1px solid white;
+background: url('../Assets/bird.png');
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.summaryTitle {
+    color: #FFF;
+text-align: center;
+font-family: Mukta;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.summaryText > p + p {
+    color: #FFF;
+text-align: center;
+font-family: Mukta;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px;
+}
+
+
+.typewriter {
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 0.15em; /* Adjust cursor width */
+    height: 1.1em; /* Adjust cursor height */
+    background-color: orange;
+    animation: blink-caret 0.75s infinite; /* Blinking cursor animation */
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
