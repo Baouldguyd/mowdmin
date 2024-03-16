@@ -21,7 +21,7 @@ const BibleWelcome = () => {
       <div className="bottom">
         
         <div className="bottom-box"></div>
-        <p><a href="https://isabitech.com">Developed by iSabi Technologies</a></p>
+        <p></p>
       </div>
     </div>
     </div>
