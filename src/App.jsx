@@ -60,6 +60,7 @@ import BibleLanguage from './HandyBibleApp/HomeScreen/BibleLanguage';
 import English from './HandyBibleApp/Books/English/English';
 import German from './HandyBibleApp/Books/German/German';
 import French from './HandyBibleApp/Books/French/French';
+import NewTestamentGerman from './HandyBibleApp/Books/German/NewTestamentGerman';
 
 
 
@@ -162,7 +163,7 @@ const App = () => {
 
         {/* German */}
         <Route path="/german/oldTestament" element= { <OldTestamentGerman/> } />
-        <Route path="/german/newTestament" element= { <NewTestamentFrench/> } />
+        <Route path="/german/newTestament" element= { <NewTestamentGerman/> } />
         <Route path='/bibleLanguage' element={ <BibleLanguage/> } />
 
         {/* Language Selection */}
