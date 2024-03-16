@@ -61,6 +61,7 @@ import English from './HandyBibleApp/Books/English/English';
 import German from './HandyBibleApp/Books/German/German';
 import French from './HandyBibleApp/Books/French/French';
 import NewTestamentGerman from './HandyBibleApp/Books/German/NewTestamentGerman';
+import WelcomeScreen from './Welcome/WelcomeScreen';
 
 
 
@@ -72,7 +73,8 @@ const App = () => {
           height: '25px'
         }}></div>
         <Routes>
-        <Route path="/" element={<LoadingScreen />} />
+        <Route path="/" element={<WelcomeScreen />} />
+        <Route path='/welcome' element={ <WelcomeScreen/> } />
         <Route  path="/home" element={<HomePage />} />
         
         
@@ -170,6 +172,7 @@ const App = () => {
         <Route path='/english' element={ <English/> } />
         <Route path='/german' element={ <German/> } />
         <Route path='/french' element={ <French/> } />
+
 
 
         </Routes>
