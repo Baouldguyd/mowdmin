@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "../myBible.css";
-import NextButton from './NextButton';
+import OpenButton from './OpenButton';
 
 
 
@@ -25,7 +25,7 @@ const BibleSummary = () => {
                 </div>
               
               <Link to='/bibleLanguage'>
-              <NextButton/>
+              <OpenButton/>
               </Link>
               
             </div>

@@ -5,7 +5,7 @@ const OpenButton = () => {
   return (
     <div>
 <div className="btn-conteiner">
-  <a className="btn-content" href="https://bolls.life">
+  <a className="btn-content" href="">
     <span className="btn-title"> Open Bible</span>
     <span className="icon-arrow">
       <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">

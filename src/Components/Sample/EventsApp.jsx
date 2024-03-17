@@ -25,7 +25,7 @@ const targetDate = "2024-01-31T23:59:59";
 
 const EventsApp = () => (
   <Carousel afterChange={onChange} className="fade-in appear">
-    <Link to="/bibleapp">
+    <Link to="/biblesummary">
       <div
         style={{
           display: "flex",
