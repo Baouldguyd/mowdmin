@@ -1,6 +1,9 @@
 // import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Spinner from "../../../Components/Loader/Spinner";
+import AudioBible from "../Audio/AudioBible";
+import Speech from "./Speech";
+
 
 const OldTestament = () => {
   // const [bibleNumbers, setBibleNumbers] = useState([])
@@ -350,16 +353,22 @@ console.log(selectedBook);
           </div>
         ) : (
           <>
-            <div className="bibleText">
+
+            {/* <div className="bibleText">
               {bibleVerses.map((bibleVerse, index) => (
                 <div key={index}>
+                  
                   <p>
                     {"["} <span>{bibleVerse.verse}</span>
                     {" ]"} <span>{bibleVerse.text}</span>
                   </p>
+                   
                 </div>
               ))}
-            </div>
+              
+            </div> */}
+            <Speech verses={bibleVerses} />
+            
             <div
               className="bibleChapterNumber"
               id="chapterSelect"
@@ -382,11 +391,14 @@ console.log(selectedBook);
                 </p>
               ))}
             </div>
+            
           </>
+          // <Speech verses={bibleVerses} />
+          
         )}
       </div>
     </div>
   );
 };
 
-export default OldTestament;
+export default OldTestament
