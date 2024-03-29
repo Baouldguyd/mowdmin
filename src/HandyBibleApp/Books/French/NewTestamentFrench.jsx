@@ -1,6 +1,9 @@
 // import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Spinner from "../../../Components/Loader/Spinner";
+import { FloatButton } from 'antd';
+import { MutedOutlined, SoundOutlined } from "@ant-design/icons";
+
 
 const NewTestamentFrench = () => {
   // const [bibleNumbers, setBibleNumbers] = useState([])
@@ -11,6 +14,9 @@ const NewTestamentFrench = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [selectedVersion, setSelectedVersion] = useState("NBS");
   const [chapterLength, setChapterLength] = useState([])
+  const synth = window.speechSynthesis;
+  const [isPlaying, setIsPlaying] = useState(false)
+
 
   const bibleVersions = [
     {
@@ -120,6 +126,25 @@ console.log(selectedBook);
     //   setIsLoading(false)
     // }
   };
+  const handleSpeakAll = () => {
+    if (synth.speaking) {
+      // If speaking, stop speech synthesis
+      synth.cancel();
+      
+      
+    } else {
+      // If not speaking, concatenate all verse texts and speak them
+      const textToSpeak = bibleVerses.map((verse) => verse.text).join(" ");
+      const utterance = new SpeechSynthesisUtterance(textToSpeak);
+      utterance.lang = "fr-FR"
+      synth.speak(utterance);
+      
+    }
+
+    setIsPlaying(!isPlaying);
+
+  };
+
   return (
     <div className="bibleContainer">
       <div className="bookOfTheBible">
@@ -220,6 +245,7 @@ console.log(selectedBook);
                   {chapter}
                 </p>
               ))}
+              <FloatButton onClick= {handleSpeakAll} icon = { isPlaying ? <SoundOutlined /> : <MutedOutlined/> } />;
             </div>
           </>
         )}

@@ -1,6 +1,9 @@
 // import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Spinner from "../../../Components/Loader/Spinner";
+import { FloatButton } from 'antd';
+import { MutedOutlined, SoundOutlined } from "@ant-design/icons";
+
 
 const OldTestament = () => {
   // const [bibleNumbers, setBibleNumbers] = useState([])
@@ -11,6 +14,8 @@ const OldTestament = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [selectedVersion, setSelectedVersion] = useState("KJV");
   const [chapterLength, setChapterLength] = useState([])
+  const synth = window.speechSynthesis;
+  const [isPlaying, setIsPlaying] = useState(false)
 
   const bibleVersions = [
     {
@@ -225,31 +230,19 @@ const OldTestament = () => {
         );
 
         const result = await response.json();
-        const booksResponse = await fetch("https://bolls.life/get-books/YLT/");
-        const booksResult = await booksResponse.json();
-       
         const selectedBookChapter = bookSelect.find(
-          (book) =>   book.bookid == selectedBook
+          (book) => book.bookid == selectedBook
         );
 
         const chapterNumbers = selectedBookChapter
-    ? Array.from(
-        { length: selectedBookChapter.chapters },
-        (_, index) => index + 1
-      )
-    : [];
+          ? Array.from(
+              { length: selectedBookChapter.chapters },
+              (_, index) => index + 1
+            )
+          : [];
 
-//     console.log(selectedBookChapter);
-//     console.log(chapterNumbers)
-// console.log(bookSelect);
-    setChapterLength(chapterNumbers)
-
-console.log(selectedBook);
-
-
-        console.log(booksResult);
-        console.log(result);
-        setBibleVerses(result)
+        setChapterLength(chapterNumbers);
+        setBibleVerses(result);
       } catch (error) {
         console.error("An error occurred", error);
       } finally {
@@ -258,11 +251,9 @@ console.log(selectedBook);
     };
 
     fetchData();
-  }, [selectedBook, selectedChapter, selectedVersion]);
-
+  }, [selectedBook, selectedVersion]);
 
   const handleChapterClick = async (chapter) => {
-    // setIsLoading(true)
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
@@ -270,17 +261,31 @@ console.log(selectedBook);
       );
 
       const chapterData = await chapterResponse.json();
-
-      console.log(chapterData);
-
       setBibleVerses(chapterData);
     } catch (error) {
-      console.error("An error occured fetching selected chapter", error);
+      console.error("An error occurred fetching selected chapter", error);
     }
-    // finally{
-    //   setIsLoading(false)
-    // }
   };
+
+  const handleSpeakAll = () => {
+    if (synth.speaking) {
+      // If speaking, stop speech synthesis
+      synth.cancel();
+      
+      
+    } else {
+      // If not speaking, concatenate all verse texts and speak them
+      const textToSpeak = bibleVerses.map((verse) => verse.text).join(" ");
+      const utterance = new SpeechSynthesisUtterance(textToSpeak);
+      synth.speak(utterance);
+      
+    }
+
+    setIsPlaying(!isPlaying);
+
+  };
+
+
   return (
     <div className="bibleContainer">
       <div className="bookOfTheBible">
@@ -359,7 +364,9 @@ console.log(selectedBook);
                   </p>
                 </div>
               ))}
+              <FloatButton onClick= {handleSpeakAll} icon = { isPlaying ? <SoundOutlined /> : <MutedOutlined/> } />;
             </div>
+           
             <div
               className="bibleChapterNumber"
               id="chapterSelect"

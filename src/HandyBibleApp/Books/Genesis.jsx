@@ -248,10 +248,17 @@ const Genesis = () => {
 
       try {
         const response = await fetch(
-          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1`
+          `https://api.scripture.api.bible/v1/audio-bibles/de4e12af7f28f599-02`,
+           {
+            headers : {
+              "Content-Type" : "Application/json",
+              "api-key" : "0557abf27931c5f6a02610bc5fec32dc"
+            }
+          }
         );
 
         const result = await response.json();
+        console.log(result);
 
         const booksResponse = await fetch("https://bolls.life/get-books/YLT/");
         const booksResult = await booksResponse.json();
