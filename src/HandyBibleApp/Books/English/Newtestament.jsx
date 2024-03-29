@@ -4,6 +4,7 @@ import Spinner from "../../../Components/Loader/Spinner";
 import { FloatButton } from 'antd';
 import { MutedOutlined, SoundOutlined } from "@ant-design/icons";
 
+
 const Newtestament = () => {
   // const [bibleNumbers, setBibleNumbers] = useState([])
 
@@ -256,7 +257,7 @@ const Newtestament = () => {
 
 
   const handleChapterClick = async (chapter) => {
-    // setIsLoading(true)
+    setIsLoading(true)
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
@@ -271,9 +272,9 @@ const Newtestament = () => {
     } catch (error) {
       console.error("An error occured fetching selected chapter", error);
     }
-    // finally{
-    //   setIsLoading(false)
-    // }
+    finally{
+      setIsLoading(false)
+    }
   };
 
   const handleSpeakAll = () => {

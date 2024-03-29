@@ -254,6 +254,7 @@ const OldTestament = () => {
   }, [selectedBook, selectedVersion]);
 
   const handleChapterClick = async (chapter) => {
+    setIsLoading(true);
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
@@ -265,6 +266,10 @@ const OldTestament = () => {
     } catch (error) {
       console.error("An error occurred fetching selected chapter", error);
     }
+   finally {
+    setIsLoading(false);
+  }
+    
   };
 
   const handleSpeakAll = () => {

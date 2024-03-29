@@ -133,7 +133,7 @@ console.log(selectedBook);
 
 
   const handleChapterClick = async (chapter) => {
-    // setIsLoading(true)
+    setIsLoading(true)
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
@@ -148,9 +148,9 @@ console.log(selectedBook);
     } catch (error) {
       console.error("An error occured fetching selected chapter", error);
     }
-    // finally{
-    //   setIsLoading(false)
-    // }
+    finally{
+      setIsLoading(false)
+    }
   };
 
   const handleSpeakAll = () => {
@@ -163,7 +163,7 @@ console.log(selectedBook);
       // If not speaking, concatenate all verse texts and speak them
       const textToSpeak = bibleVerses.map((verse) => verse.text).join(" ");
       const utterance = new SpeechSynthesisUtterance(textToSpeak);
-      utterance.lang = "de-DE"
+      utterance.lang = "de-DE";
       synth.speak(utterance);
       
     }
