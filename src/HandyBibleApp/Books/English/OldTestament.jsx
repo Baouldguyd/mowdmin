@@ -372,7 +372,7 @@ const OldTestament = () => {
               <FloatButton onClick= {handleSpeakAll} icon = { isPlaying ? <SoundOutlined /> : <MutedOutlined/> } />;
             </div>
            
-            <div
+            {/* <div
               className="bibleChapterNumber"
               id="chapterSelect"
               value={selectedChapter}
@@ -393,7 +393,46 @@ const OldTestament = () => {
                   {chapter}
                 </p>
               ))}
-            </div>
+            </div> */}
+            <div
+  className="bibleChapterNumber"
+  id="chapterSelect"
+  value={selectedChapter}
+  onChange={(e) => setSelectedChapter(e.target.value)}
+>
+  {chapterLength.map((chapter) => (
+    <div
+    style={{
+      backgroundColor: selectedChapter === chapter ? "white" : "inherit", // Convert chapter to string for comparison
+      borderRadius: '50%',
+      height: '40px',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginBottom: '40px',
+      width: '80%',
+      margin: 'auto',
+      overflow: 'scroll'
+      
+    }}
+    >
+<p
+      key={chapter}
+      value={chapter}
+      style={{
+        textAlign: "center",
+        fontSize: "1.2rem",
+        color: selectedChapter === chapter ? "rgb(13, 15, 54)" : 'white',
+        cursor: "pointer",
+      }}
+      onClick={() => handleChapterClick(chapter)}
+    >
+      {chapter}
+    </p>
+    </div>
+  ))}
+</div>
+
           </>
         )}
       </div>
