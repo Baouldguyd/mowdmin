@@ -129,7 +129,7 @@ console.log(selectedBook);
     };
 
     fetchData();
-  }, [selectedBook, selectedChapter, selectedVersion]);
+  }, [selectedBook, selectedVersion]);
 
 
   const handleChapterClick = async (chapter) => {

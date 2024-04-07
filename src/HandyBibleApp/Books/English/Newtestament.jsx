@@ -252,7 +252,7 @@ const Newtestament = () => {
     };
 
     fetchData();
-  }, [selectedBook, selectedChapter, selectedVersion]);
+  }, [selectedBook, selectedVersion]);
 
 
 

@@ -137,29 +137,27 @@ console.log(selectedBook);
     };
 
     fetchData();
-  }, [selectedBook, selectedChapter, selectedVersion]);
+  }, [selectedBook, selectedVersion]);
 
 
   const handleChapterClick = async (chapter) => {
-    setIsLoading(true)
+    setIsLoading(true);
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
         `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${chapter}`
       );
-
+  
       const chapterData = await chapterResponse.json();
-
-      console.log(chapterData);
-
       setBibleVerses(chapterData);
+      setChapterLength(Array.from({ length: chapterData.length }, (_, index) => index + 1)); // Update chapterLength based on new data length
     } catch (error) {
-      console.error("An error occured fetching selected chapter", error);
-    }
-    finally{
-      setIsLoading(false)
+      console.error("An error occurred fetching selected chapter", error);
+    } finally {
+      setIsLoading(false);
     }
   };
+  
 
   const handleSpeakAll = () => {
     if (synth.speaking) {

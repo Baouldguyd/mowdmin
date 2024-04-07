@@ -250,6 +250,8 @@ const OldTestament = () => {
       }
     };
 
+    
+
     fetchData();
   }, [selectedBook, selectedVersion]);
 
@@ -260,17 +262,17 @@ const OldTestament = () => {
       const chapterResponse = await fetch(
         `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${chapter}`
       );
-
+  
       const chapterData = await chapterResponse.json();
       setBibleVerses(chapterData);
+      setChapterLength(Array.from({ length: chapterData.length }, (_, index) => index + 1)); // Update chapterLength based on new data length
     } catch (error) {
       console.error("An error occurred fetching selected chapter", error);
+    } finally {
+      setIsLoading(false);
     }
-   finally {
-    setIsLoading(false);
-  }
-    
   };
+  
 
   const handleSpeakAll = () => {
     if (synth.speaking) {
@@ -409,10 +411,10 @@ const OldTestament = () => {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      marginBottom: '40px',
       width: '80%',
       margin: 'auto',
-      overflow: 'scroll'
+      marginTop: '1rem',
+
       
     }}
     >
@@ -421,7 +423,7 @@ const OldTestament = () => {
       value={chapter}
       style={{
         textAlign: "center",
-        fontSize: "1.2rem",
+        fontSize: "1.4rem",
         color: selectedChapter === chapter ? "rgb(13, 15, 54)" : 'white',
         cursor: "pointer",
       }}
