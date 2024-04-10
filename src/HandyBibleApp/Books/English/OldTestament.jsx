@@ -24,12 +24,12 @@ const OldTestament = () => {
       info: "http://wikipedia.org/wiki/King_James_Version",
       updated: 1684914894403,
     },
-    {
-      bibleVersion: "YLT",
-      translationName: "Young's Literal Translation (1898)",
-      info: "http://wikipedia.org/wiki/Young%27s_Literal_Translation",
-      updated: 1626349711821,
-    },
+    // {
+    //   bibleVersion: "YLT",
+    //   translationName: "Young's Literal Translation (1898)",
+    //   info: "http://wikipedia.org/wiki/Young%27s_Literal_Translation",
+    //   updated: 1626349711821,
+    // },
     
     {
       bibleVersion: "NKJV",
@@ -43,12 +43,12 @@ const OldTestament = () => {
     //   info: "http://wikipedia.org/wiki/World_English_Bible",
     //   updated: 1678028993719,
     // },
-    {
-      bibleVersion: "RSV",
-      translationName: "Revised Standard Version (1952)",
-      info: "http://wikipedia.org/wiki/Revised_Standard_Version",
-      updated: 1635188106109,
-    },
+    // {
+    //   bibleVersion: "RSV",
+    //   translationName: "Revised Standard Version (1952)",
+    //   info: "http://wikipedia.org/wiki/Revised_Standard_Version",
+    //   updated: 1635188106109,
+    // },
     // {
     //   bibleVersion: "CJB",
     //   translationName: "The Complete Jewish Bible (1998)",
@@ -73,12 +73,12 @@ const OldTestament = () => {
     //   info: "http://www.tlvbiblesociety.org/tree-of-life-version",
     //   updated: 1635188106109,
     // },
-    {
-      bibleVersion: "LSB",
-      translationName: "The Legacy Standard Bible",
-      info: "http://lsbible.org/",
-      updated: 1702218835084,
-    },
+    // {
+    //   bibleVersion: "LSB",
+    //   translationName: "The Legacy Standard Bible",
+    //   info: "http://lsbible.org/",
+    //   updated: 1702218835084,
+    // },
     // {
     //   bibleVersion: "NASB",
     //   translationName: "New American Standard Bible (1995)",
@@ -104,7 +104,7 @@ const OldTestament = () => {
     //   updated: 1591185595149,
     // },
     {
-      bibleVersion: "NIV2011",
+      bibleVersion: "NIV",
       translationName: "New International Version, 2011",
       info: "http://en.wikipedia.org/wiki/New_International_Version",
       updated: 1626349711821,
@@ -121,12 +121,12 @@ const OldTestament = () => {
       info: "http://en.wikipedia.org/wiki/New_Living_Translation",
       updated: 1635188106109,
     },
-    {
-      bibleVersion: "NRSVCE",
-      translationName: "New Revised Standard Version Catholic Edition, 1993",
-      info: "http://en.wikipedia.org/wiki/New_Revised_Standard_Version_Catholic_Edition",
-      updated: 1635188106109,
-    },
+    // {
+    //   bibleVersion: "NRSVCE",
+    //   translationName: "New Revised Standard Version Catholic Edition, 1993",
+    //   info: "http://en.wikipedia.org/wiki/New_Revised_Standard_Version_Catholic_Edition",
+    //   updated: 1635188106109,
+    // },
     // {
     //   bibleVersion: "NET",
     //   translationName: "New English Translation, 2007",
@@ -157,24 +157,24 @@ const OldTestament = () => {
       info: "http://en.wikipedia.org/wiki/Amplified_Bible",
       updated: 1673261959445,
     },
-    {
-      bibleVersion: "MSG",
-      translationName: "The Message, 2002",
-      info: "http://messagebible.com",
-      updated: 1635188106109,
-    },
-    {
-      bibleVersion: "LSV",
-      translationName: "Literal Standard Version",
-      info: "http://www.lsvbible.com/",
-      updated: 1635188106109,
-    },
-    {
-      bibleVersion: "BSB",
-      translationName: "The Holy Bible, Berean Standard Bible",
-      info: "http://berean.bible",
-      updated: 1635188106109,
-    }
+    // {
+    //   bibleVersion: "MSG",
+    //   translationName: "The Message, 2002",
+    //   info: "http://messagebible.com",
+    //   updated: 1635188106109,
+    // },
+    // {
+    //   bibleVersion: "LSV",
+    //   translationName: "Literal Standard Version",
+    //   info: "http://www.lsvbible.com/",
+    //   updated: 1635188106109,
+    // },
+    // {
+    //   bibleVersion: "BSB",
+    //   translationName: "The Holy Bible, Berean Standard Bible",
+    //   info: "http://berean.bible",
+    //   updated: 1635188106109,
+    // }
   ];
 
   const bookSelect = [
