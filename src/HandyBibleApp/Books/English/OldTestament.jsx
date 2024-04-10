@@ -266,7 +266,8 @@ const OldTestament = () => {
   
       const chapterData = await chapterResponse.json();
       setBibleVerses(chapterData);
-      setChapterLength(Array.from({ length: chapterData.length }, (_, index) => index + 1)); // Update chapterLength based on new data length
+      // setChapterLength(Array.from({ length: chapterData.length }, (_, index) => index + 1));
+       // Update chapterLength based on new data length
     } catch (error) {
       console.error("An error occurred fetching selected chapter", error);
     } finally {
