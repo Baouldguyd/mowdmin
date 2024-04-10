@@ -226,10 +226,11 @@ const OldTestament = () => {
 
       try {
         const response = await fetch(
-          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/1/`
+          `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${selectedChapter}/`
         );
 
         const result = await response.json();
+        console.log(response);
         const selectedBookChapter = bookSelect.find(
           (book) => book.bookid == selectedBook
         );
@@ -242,7 +243,7 @@ const OldTestament = () => {
           : [];
 
         setChapterLength(chapterNumbers);
-        // setBibleVerses(result);
+        setBibleVerses(result);
       } catch (error) {
         console.error("An error occurred", error);
       } finally {
@@ -260,7 +261,7 @@ const OldTestament = () => {
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
-        `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${chapter}`
+        `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${chapter}/`
       );
   
       const chapterData = await chapterResponse.json();

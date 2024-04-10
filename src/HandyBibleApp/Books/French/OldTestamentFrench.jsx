@@ -122,7 +122,7 @@ console.log(selectedBook);
     setSelectedChapter(chapter);
     try {
       const chapterResponse = await fetch(
-        `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${chapter}`
+        `https://bolls.life/get-chapter/${selectedVersion}/${selectedBook}/${chapter}/`
       );
 
       const chapterData = await chapterResponse.json();
@@ -244,20 +244,36 @@ console.log(selectedBook);
               onChange={(e) => setSelectedChapter(e.target.value)}
             >
               {chapterLength.map((chapter) => (
-                <p
-                  key={chapter}
-                  value={chapter}
-                  style={{
-                    textAlign: "center",
-                    fontSize: "1.2rem",
-                    color: selectedChapter === chapter ? "blue" : "white",
-                    cursor: "pointer",
-                  }}
-                  onClick={() => handleChapterClick(chapter)}
-                >
-                  {chapter}
-                </p>
-              ))}
+    <div
+    style={{
+      backgroundColor: selectedChapter === chapter ? "white" : "inherit", // Convert chapter to string for comparison
+      borderRadius: '50%',
+      height: '40px',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: '80%',
+      margin: 'auto',
+      marginTop: '1rem',
+
+      
+    }}
+    >
+<p
+      key={chapter}
+      value={chapter}
+      style={{
+        textAlign: "center",
+        fontSize: "1.4rem",
+        color: selectedChapter === chapter ? "rgb(13, 15, 54)" : 'white',
+        cursor: "pointer",
+      }}
+      onClick={() => handleChapterClick(chapter)}
+    >
+      {chapter}
+    </p>
+    </div>
+  ))}
             </div>
           </>
         )}
