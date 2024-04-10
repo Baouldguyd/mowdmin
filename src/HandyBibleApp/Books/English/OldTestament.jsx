@@ -242,7 +242,7 @@ const OldTestament = () => {
           : [];
 
         setChapterLength(chapterNumbers);
-        setBibleVerses(result);
+        // setBibleVerses(result);
       } catch (error) {
         console.error("An error occurred", error);
       } finally {
