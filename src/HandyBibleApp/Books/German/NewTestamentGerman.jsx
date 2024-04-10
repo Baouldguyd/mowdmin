@@ -20,24 +20,24 @@ const NewTestamentGerman = () => {
 
   const bibleVersions = [
     
-      {
-        translationName: "Menge-Bibel",
-        bibleVersion: "MB",
-        "info": "http://de.wikipedia.org/wiki/Hermann_Menge",
-        "updated": 1591185595149
-      },
+      // {
+      //   translationName: "Menge-Bibel",
+      //   bibleVersion: "MB",
+      //   "info": "http://de.wikipedia.org/wiki/Hermann_Menge",
+      //   "updated": 1591185595149
+      // },
       {
         translationName: "Elberfelder Bibel, 1871",
         bibleVersion: "ELB",
         "info": "http://de.wikipedia.org/wiki/Elberfelder_Bibel",
         "updated": 1591185595149
       },
-      {
-        bibleVersion: "SCH",
-        translationName: "Schlachter (1951)",
-        "info": "http://wikipedia.org/wiki/Schlachter_Bible",
-        "updated": 1591185595149
-      },
+      // {
+      //   bibleVersion: "SCH",
+      //   translationName: "Schlachter (1951)",
+      //   "info": "http://wikipedia.org/wiki/Schlachter_Bible",
+      //   "updated": 1591185595149
+      // },
       {
         bibleVersion: "LUT",
         translationName: "Luther (1912)",
