@@ -32,12 +32,12 @@ const Newtestament = () => {
     //   updated: 1626349711821,
     // },
     
-    {
-      bibleVersion: "NKJV",
-      translationName: "New King James Version, 1982",
-      info: "http://wikipedia.org/wiki/New_King_James_Version",
-      updated: 1635188106109,
-    },
+    // {
+    //   bibleVersion: "NKJV",
+    //   translationName: "New King James Version, 1982",
+    //   info: "http://wikipedia.org/wiki/New_King_James_Version",
+    //   updated: 1635188106109,
+    // },
     // {
     //   bibleVersion: "WEB",
     //   translationName: "World English Bible",
@@ -116,12 +116,12 @@ const Newtestament = () => {
     //   info: "http://en.wikipedia.org/wiki/New_International_Version",
     //   updated: 1626349711821,
     // },
-    {
-      bibleVersion: "NLT",
-      translationName: "New Living Translation, 2015",
-      info: "http://en.wikipedia.org/wiki/New_Living_Translation",
-      updated: 1635188106109,
-    },
+    // {
+    //   bibleVersion: "NLT",
+    //   translationName: "New Living Translation, 2015",
+    //   info: "http://en.wikipedia.org/wiki/New_Living_Translation",
+    //   updated: 1635188106109,
+    // },
     // {
     //   bibleVersion: "NRSVCE",
     //   translationName: "New Revised Standard Version Catholic Edition, 1993",
