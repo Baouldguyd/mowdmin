@@ -5,7 +5,6 @@ import cryImg from '../../../Assets/cry.jpg';
 import seedImg from '../../../Assets/seed.jpg';
 import { FaBookOpen, } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Spinner from '../../Loader/Spinner';
 
 
 const bookStyle={
@@ -17,17 +16,6 @@ const bookStyle={
 const Books = () => {
   return (
     <div className='aboutpg fade-in appear'>
-
-<div className="dot-spinner">
-    <div className="dot-spinner__dot"></div>
-    <div className="dot-spinner__dot"></div>
-    <div className="dot-spinner__dot"></div>
-    <div className="dot-spinner__dot"></div>
-    <div className="dot-spinner__dot"></div>
-    <div className="dot-spinner__dot"></div>
-    <div className="dot-spinner__dot"></div>
-    <div className="dot-spinner__dot"></div>
-</div>
 
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
@@ -41,7 +29,7 @@ const Books = () => {
 
       </div>
 
-    <Spinner/>
+    
       <div className="booksList">
 
         <div>

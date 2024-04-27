@@ -10,7 +10,7 @@ const contentStyle = {
   lineHeight: "160px",
   textAlign: "center",
   marginTop: "2rem",
-  fontFamily: "sava-pro-semibold, sans-serif",
+  fontFamily: "Mukta, sans-serif",
 };
 
 const sympo = {

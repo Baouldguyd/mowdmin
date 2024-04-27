@@ -2,7 +2,6 @@ import React from 'react'
 import EventsApp from './EventsApp';
 
 
-
 const Eventsdetails = () => {
 
   return (
@@ -15,6 +14,8 @@ const Eventsdetails = () => {
             </div>
             <div className='line'></div>
         </div>
+
+          
 
         <div>
             <EventsApp/>
