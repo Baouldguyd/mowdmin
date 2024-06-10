@@ -227,7 +227,7 @@ const EventsApp = () => (
 
       <button style={{ display: "block", margin: "auto" }}>
         {" "}
-        <a href="https://www.mowdministries.org/our-services">
+        <a href="https://www.mowdministries.org/Gemeinn%C3%BCtzigen-Taten">
           Click Here for Our Charitable Deeds{" "}
         </a>
       </button>
