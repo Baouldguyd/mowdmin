@@ -13,11 +13,13 @@
         width: 100vw;
         border: none;
         border-bottom: 3px solid #583822;
-        color: #583822;
-        padding: 2px;
+        color: white;
+        padding: 5px;
         font-size: 1rem;
+        background-color: white;
         
     }
+    
 
     .message{
         height: 6rem;
@@ -31,15 +33,14 @@
         border-radius: 0.12em;
         box-sizing: border-box;
         text-decoration: none;
-        font-family: "Roboto", sans-serif;
         font-weight: bold;
         color: white;
-        background-color: #583822;
-        width: 9rem;
+        background-color: rgb(13, 15, 54);        width: 9rem;
         text-align: center;
         transition: all 0.2s;
         animation: bn13bouncy 5s infinite linear;
         position: relative;
+        font-family: "Mukta", sans-serif;
       }
       
       .bn13:hover {

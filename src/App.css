@@ -720,7 +720,7 @@
   .contactPg,
   .newsPage {
     background-color: rgb(13, 15, 54);
-    height: 100vh;
+    height: 100svh;
     font-family: "Mukta", sans-serif;
     width: auto;
   }
