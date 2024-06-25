@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const WelcomeScreen = () => {
     const texts = [
-        "Welcome to Mowdministries ( Gospel of Salvation)",
+        "Welcome to Mowdministries",
         "Gospel of Salvation",
         "Bienvenue à Mowdministries",
         "Évangiles du Salut",
