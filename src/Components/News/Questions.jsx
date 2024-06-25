@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import questionImg from '../../Assets/question.jpg'
 import QAform from '../Forms/QAform';
 

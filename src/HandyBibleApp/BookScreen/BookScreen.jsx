@@ -92,7 +92,7 @@ const App = () => {
         <Content
           style={{
             margin: '24px 16px',
-            padding: 24,
+            padding: 3,
             minHeight: 280,
             background: colorBgContainer,
             borderRadius: borderRadiusLG,

@@ -16,7 +16,7 @@ const Intercession = () => {
         </div>
       </div>
 
-      h
+      
 
       <div className="scriptureDiv">
         <Link to="/request">

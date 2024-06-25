@@ -1,8 +1,11 @@
 import React from 'react'
 import prayer from '../../Assets/biblecross.jpg'
+
 const Prayer = () => {
+
   return (
-    <div className='aboutpg fade-in appear'>
+
+  <div className='aboutpg fade-in appear'>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
     </style>

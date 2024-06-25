@@ -74,7 +74,7 @@ const App = () => {
         }}></div>
         <Routes>
         <Route path="/" element={<WelcomeScreen />} />
-        <Route path='/welcome' element={ <WelcomeScreen/> } />
+        {/* <Route path='/welcome' element={ <WelcomeScreen/> } /> */}
         <Route  path="/home" element={<HomePage />} />
         
         

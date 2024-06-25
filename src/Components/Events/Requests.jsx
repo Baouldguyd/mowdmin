@@ -23,7 +23,7 @@ const Requests = () => {
             style={{
                 textAlign: 'center'
             }}
-        >Submit Your Prayer Request</h3>
+        >Submit Your Prayer Requests</h3>
 
             <RequestForm/>
       </div>

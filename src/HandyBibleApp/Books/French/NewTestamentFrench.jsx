@@ -270,4 +270,4 @@ console.log(selectedBook);
   );
 };
 
-export default NewTestamentFrench;;
+export default NewTestamentFrench;

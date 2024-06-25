@@ -3,13 +3,16 @@ import { useForm, ValidationError } from "@formspree/react";
 import styles from "../Events/Baptism/Baptism.module.css";
 
 function QAform() {
+
   const [state, handleSubmit] = useForm("xnqkyaze");
   if (state.succeeded) {
-    return <p>Thanks for your Question, we will get to you shortly!</p>;
+    return <p> Thanks for your Question, we will get to you shortly! </p>;
   }
+
 
   return (
     <form onSubmit={handleSubmit}>
+      
       <input
         type="text"
         id="name"
@@ -61,7 +64,7 @@ function QAform() {
         className={styles.message}
       />
 
-<input
+    <input
         id="address"
         type="text"
         name="address"
